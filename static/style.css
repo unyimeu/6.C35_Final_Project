@@ -1,0 +1,11 @@
+ 
+:root {
+
+  /* Typography */
+  --font-heading: 'League Spartan', sans-serif !important;
+
+}
+
+h1 {
+    font-family: var(--font-heading);
+}
