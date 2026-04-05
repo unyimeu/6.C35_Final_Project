@@ -14,5 +14,8 @@
 		"svelte": "^4.2.20",
 		"vite": "^4.3.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"maplibre-gl": "^5.22.0"
+	}
 }

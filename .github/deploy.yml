@@ -21,7 +21,8 @@ jobs:
         run: npm install
       - name: Install svelte scrolly
         run: npm install svelte-scrolly
-
+      - name: Install map dependency
+        run: npm install maplibre-gl
       - name: Generate loc.csv
         run: npx elocuent -d static,src -o static/loc.csv
 
