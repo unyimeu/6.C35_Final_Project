@@ -206,6 +206,8 @@
     border: 4px solid #111;
     background: white;
     overflow: hidden;
+    margin: 1em;
+
   }
 
   .map-shell.expanded {

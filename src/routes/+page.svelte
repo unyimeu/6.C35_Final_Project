@@ -56,8 +56,16 @@
   </div>
 </section>
 
+<!-- Add animation so it shows up when you scroll -->
+<section class="redlining-def">
+  <p>Redlining is the systematic denial of financial services to residents of certain
+    areas, based on their race or ethnicity
+  </p>
+</section>
+
+<!-- fix overlay so that it is actually on top of map -->
 <section class="timeline-section">
-  <div class="year-tag">1940s</div>
+  <div class="year-tag"><h2>1940s</h2></div>
   <div class="timeline-line"></div>
 
   <div class="grid">
@@ -68,15 +76,18 @@
         on:toggleExpand={() => (expanded = !expanded)}
         on:districtSelect={(e) => {
           selectedDistrict = e.detail;
-          expanded = true;
         }}
       />
+      <div class="text-column">
+        <DistrictPanel district={selectedDistrict} />
+        <p class="source">City Survey Files, 1935–1940</p>
+      </div>
     </div>
-
+<!-- 
     <div class="text-column">
       <DistrictPanel district={selectedDistrict} />
       <p class="source">City Survey Files, 1935–1940</p>
-    </div>
+    </div> -->
   </div>
 </section>
 

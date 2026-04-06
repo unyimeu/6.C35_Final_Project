@@ -12,11 +12,6 @@
       <p><strong>Location:</strong> {district.city}{district.city && district.state ? ', ' : ''}{district.state}</p>
     {/if}
   {:else}
-    <h2>What is redlining?</h2>
-    <p>
-      Redlining is the systematic denial of financial services to residents of
-      certain areas, based on their race or ethnicity.
-    </p>
     <p>Click a district on the map to inspect it.</p>
   {/if}
 </div>
