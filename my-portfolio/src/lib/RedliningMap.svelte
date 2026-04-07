@@ -1,10 +1,10 @@
 <script>
-  import { onMount, createEventDispatcher } from 'svelte';
-  import maplibregl from 'maplibre-gl';
-  import 'maplibre-gl/dist/maplibre-gl.css';
+  import { onMount, createEventDispatcher } from "svelte";
+  import maplibregl from "maplibre-gl";
+  import "maplibre-gl/dist/maplibre-gl.css";
 
   export let expanded = false;
-  export let activeStep = 0;
+  export let activeScene = 1;
 
   const dispatch = createEventDispatcher();
 
@@ -21,13 +21,13 @@
       const geom = feature.geometry;
       if (!geom) continue;
 
-      if (geom.type === 'Polygon') {
+      if (geom.type === "Polygon") {
         for (const ring of geom.coordinates) {
           for (const coord of ring) bounds.extend(coord);
         }
       }
 
-      if (geom.type === 'MultiPolygon') {
+      if (geom.type === "MultiPolygon") {
         for (const polygon of geom.coordinates) {
           for (const ring of polygon) {
             for (const coord of ring) bounds.extend(coord);
@@ -41,31 +41,35 @@
     }
   }
 
-  function updateStepStyling() {
-    if (!map || !map.getLayer('redlining-fill')) return;
+  function updateSceneStyling() {
+    if (!map || !map.getLayer("redlining-fill")) return;
 
-    if (activeStep === 0) {
-      map.setPaintProperty('redlining-fill', 'fill-opacity', 0.65);
-      map.setPaintProperty('redlining-outline', 'line-opacity', 0.9);
-    } else if (activeStep === 1) {
-      map.setPaintProperty('redlining-fill', 'fill-opacity', 0.85);
-      map.setPaintProperty('redlining-outline', 'line-opacity', 1);
-    } else {
-      map.setPaintProperty('redlining-fill', 'fill-opacity', 0.5);
-      map.setPaintProperty('redlining-outline', 'line-opacity', 0.75);
+    if (activeScene === 1) {
+      map.setPaintProperty("redlining-fill", "fill-opacity", 0.75);
+      map.setPaintProperty("redlining-outline", "line-opacity", 1);
+    } else if (activeScene === 2) {
+      map.setPaintProperty("redlining-fill", "fill-opacity", 0.85);
+      map.setPaintProperty("redlining-outline", "line-opacity", 1);
+    } else if (activeScene === 3) {
+      map.setPaintProperty("redlining-fill", "fill-opacity", 0.55);
+      map.setPaintProperty("redlining-outline", "line-opacity", 0.7);
+    } else if (activeScene === 4) {
+      map.setPaintProperty("redlining-fill", "fill-opacity", 0.45);
+      map.setPaintProperty("redlining-outline", "line-opacity", 0.6);
+    } else if (activeScene === 5) {
+      map.setPaintProperty("redlining-fill", "fill-opacity", 0.35);
+      map.setPaintProperty("redlining-outline", "line-opacity", 0.5);
     }
   }
 
   onMount(async () => {
     try {
-      const response = await fetch('/data/redlining.geojson');
+      const response = await fetch("/data/redlining.geojson");
       if (!response.ok) {
         throw new Error(`Failed to fetch GeoJSON: ${response.status}`);
       }
 
       geojsonData = await response.json();
-      console.log('GeoJSON loaded:', geojsonData);
-      console.log('First feature:', geojsonData.features?.[0]);
 
       map = new maplibregl.Map({
         container: mapContainer,
@@ -73,79 +77,77 @@
           version: 8,
           sources: {
             osm: {
-              type: 'raster',
-              tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+              type: "raster",
+              tiles: ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"],
               tileSize: 256,
-              attribution: '&copy; OpenStreetMap contributors'
-            }
+              attribution: "&copy; OpenStreetMap contributors",
+            },
           },
           layers: [
             {
-              id: 'osm',
-              type: 'raster',
-              source: 'osm'
-            }
-          ]
+              id: "osm",
+              type: "raster",
+              source: "osm",
+            },
+          ],
         },
         center: bostonCenter,
-        zoom: 10
+        zoom: 10,
       });
 
-      map.addControl(new maplibregl.NavigationControl(), 'top-right');
+      map.addControl(new maplibregl.NavigationControl(), "top-right");
 
-      map.on('load', () => {
-        console.log('Map loaded');
-
-        map.addSource('redlining', {
-          type: 'geojson',
-          data: geojsonData
+      map.on("load", () => {
+        map.addSource("redlining", {
+          type: "geojson",
+          data: geojsonData,
         });
 
         map.addLayer({
-          id: 'redlining-fill',
-          type: 'fill',
-          source: 'redlining',
+          id: "redlining-fill",
+          type: "fill",
+          source: "redlining",
           paint: {
-            'fill-color': ['coalesce', ['get', 'fill'], '#999999'],
-            'fill-opacity': 0.65
-          }
-        });
-
-        map.addLayer({
-          id: 'redlining-outline',
-          type: 'line',
-          source: 'redlining',
-          paint: {
-            'line-color': '#111111',
-            'line-width': 1.5,
-            'line-opacity': 0.9
-          }
-        });
-
-        map.addLayer({
-          id: 'redlining-highlight',
-          type: 'line',
-          source: 'redlining',
-          paint: {
-            'line-color': '#ffffff',
-            'line-width': 4,
-            'line-opacity': 1
+            "fill-color": ["coalesce", ["get", "fill"], "#999999"],
+            "fill-opacity": 0.75,
           },
-          filter: ['==', ['get', 'area_id'], -1]
+        });
+
+        map.addLayer({
+          id: "redlining-outline",
+          type: "line",
+          source: "redlining",
+          paint: {
+            "line-color": "#111111",
+            "line-width": 1.5,
+            "line-opacity": 1,
+          },
+        });
+
+        map.addLayer({
+          id: "redlining-highlight",
+          type: "line",
+          source: "redlining",
+          paint: {
+            "line-color": "#ffffff",
+            "line-width": 4,
+            "line-opacity": 1,
+          },
+          filter: ["==", ["get", "area_id"], -1],
         });
 
         fitToGeoJSON(geojsonData);
-        updateStepStyling();
+        updateSceneStyling();
 
-        map.on('mouseenter', 'redlining-fill', () => {
-          map.getCanvas().style.cursor = 'pointer';
+        map.on("mouseenter", "redlining-fill", () => {
+          map.getCanvas().style.cursor = "pointer";
         });
 
-        map.on('mouseleave', 'redlining-fill', () => {
-          map.getCanvas().style.cursor = '';
+        map.on("mouseleave", "redlining-fill", () => {
+          map.getCanvas().style.cursor = "";
         });
 
-        map.on('click', 'redlining-fill', (e) => {
+        map.on("click", "redlining-fill", (e) => {
           const feature = e.features?.[0];
           if (!feature) return;
 
@@ -154,30 +156,30 @@
           const district = {
             id: props.area_id,
             neighborhood: props.label || `District ${props.area_id}`,
-            grade: props.grade || 'Unknown',
-            description: `${props.city}, ${props.state} — ${props.category || 'No category'}`,
-            city: props.city || '',
-            state: props.state || '',
-            raw: props
+            grade: props.grade || "Unknown",
+            description: `${props.city}, ${props.state} — ${props.category || "No category"}`,
+            city: props.city || "",
+            state: props.state || "",
+            raw: props,
           };
 
-          map.setFilter('redlining-highlight', [
-            '==',
-            ['get', 'area_id'],
-            props.area_id
+          map.setFilter("redlining-highlight", [
+            "==",
+            ["get", "area_id"],
+            props.area_id,
           ]);
 
-          dispatch('districtSelect', district);
+          dispatch("districtSelect", district);
         });
 
         setTimeout(() => map.resize(), 100);
       });
 
-      map.on('error', (e) => {
-        console.error('MapLibre error:', e);
+      map.on("error", (e) => {
+        console.error("MapLibre error:", e);
       });
     } catch (err) {
-      console.error('Map setup failed:', err);
+      console.error("Map setup failed:", err);
     }
   });
 
@@ -186,28 +188,21 @@
   }
 
   $: if (map && map.isStyleLoaded()) {
-    updateStepStyling();
+    updateSceneStyling();
   }
 </script>
 
 <div class:expanded class="map-shell">
-  <button class="expand-button" on:click={() => dispatch('toggleExpand')}>
-    {expanded ? 'Close map' : 'Expand map'}
-  </button>
   <div bind:this={mapContainer} class="map"></div>
 </div>
 
 <style>
   .map-shell {
     position: relative;
-    width: calc(100% - 100px);
-    height: 420px;
-    min-height: 420px;
-    border: 4px solid #111;
-    background: white;
+    width: 100%;
+    height: 100%;
+    background: #0a0a0a;
     overflow: hidden;
-    margin: 1em;
-
   }
 
   .map-shell.expanded {
@@ -223,20 +218,5 @@
   .map {
     width: 100%;
     height: 100%;
-    min-height: 420px;
-  }
-
-  .expand-button {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    z-index: 2;
-    border: none;
-    background: #001f3a;
-    color: white;
-    padding: 0.7rem 1rem;
-    font: inherit;
-    font-weight: 700;
-    cursor: pointer;
   }
 </style>

@@ -12,7 +12,6 @@
       <div class="flashcard-face flashcard-front">
         <h2>WHAT IS<br />REDLINING?</h2>
       </div>
-
       <div class="flashcard-face flashcard-back">
         <p>
           Redlining is the systematic denial of financial services to residents
@@ -29,8 +28,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #001f3a;
+    background: #e8e0d5;
     padding: 2rem;
+    border-bottom: 3px solid #1a2e3b;
   }
 
   .flashcard {
@@ -59,15 +59,12 @@
     position: absolute;
     inset: 0;
     backface-visibility: hidden;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     padding: 2.5rem 3rem;
-    background: #313c4c;
-    /* border: 5px solid #1e90ff; */
-    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.28);
+    background: #1a2e3b;
+    box-shadow: 0 20px 45px rgba(26, 46, 59, 0.2);
   }
 
   .flashcard-front {
@@ -87,7 +84,6 @@
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #f7f3ee;
-    /* text-shadow: 6px 6px 0 #e3a37b; */
     text-align: left;
     width: 100%;
   }
@@ -111,25 +107,14 @@
   }
 
   .flashcard:focus-visible {
-    outline: 3px solid #e3a37b;
+    outline: 3px solid #c9956b;
     outline-offset: 8px;
   }
 
   @media (max-width: 700px) {
-    .flashcard {
-      height: min(500px, 70vh);
-    }
-
-    .flashcard-face {
-      padding: 1.5rem;
-    }
-
-    .flashcard-front h2 {
-      font-size: clamp(2.8rem, 12vw, 5rem);
-    }
-
-    .flashcard-back p {
-      font-size: clamp(1.1rem, 4vw, 1.5rem);
-    }
+    .flashcard { height: min(500px, 70vh); }
+    .flashcard-face { padding: 1.5rem; }
+    .flashcard-front h2 { font-size: clamp(2.8rem, 12vw, 5rem); }
+    .flashcard-back p { font-size: clamp(1.1rem, 4vw, 1.5rem); }
   }
 </style>
