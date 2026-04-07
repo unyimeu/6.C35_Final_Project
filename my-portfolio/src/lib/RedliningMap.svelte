@@ -200,7 +200,7 @@
 <style>
   .map-shell {
     position: relative;
-    width: 100%;
+    width: calc(100% - 100px);
     height: 420px;
     min-height: 420px;
     border: 4px solid #111;

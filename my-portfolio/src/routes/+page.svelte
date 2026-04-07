@@ -70,6 +70,7 @@
       <div class="timeline-line"></div>
     </div>
   </div>
+
   <div class="grid">
     <div class="map-column">
       <RedliningMap
@@ -80,10 +81,10 @@
           selectedDistrict = e.detail;
         }}
       />
-      <div class="text-column">
+    </div>
+    <div class="text-column">
         <DistrictPanel district={selectedDistrict} />
         <p class="source"><i>City Survey Files, 1935–1940</i></p>
-      </div>
     </div>
 <!-- 
     <div class="text-column">
