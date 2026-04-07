@@ -104,6 +104,46 @@ h1 {
   size: 1em;
 }
 
+.timeline-section{
+  background-color: #e3e3e3;
+}
+.timeline-container {
+  max-width: 100%;
+  margin-right: 3rem;
+  padding: 3rem 2rem 0;
+}
+
+.timeline-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.year-tag {
+  display: inline-block;
+  background: #001f3a;
+  border: 5px solid #111;
+  padding: 0.8rem 1.4rem;
+
+  transform: rotate(-2deg);
+}
+
+.year-tag h2 {
+  margin: 0;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 900;
+  font-size: 4em; 
+  letter-spacing: 0.03em;
+  color: #f7f3ee;
+}
+
+/* controlled line length */
+.timeline-line {
+  flex: 1;
+  height: 5px;
+  background: #e3a37b;
+  max-width: calc(100% - 100px); 
+}
 
 /* Mobile adjustments */
 @media (max-width: 900px) {

@@ -62,9 +62,14 @@
 
 <!-- fix overlay so that it is actually on top of map -->
 <section class="timeline-section">
-  <div class="year-tag"><h2>1940s</h2></div>
-  <div class="timeline-line"></div>
-
+    <div class="timeline-container">
+    <div class="timeline-row">
+      <div class="year-tag">
+        <h2>1940S</h2>
+      </div>
+      <div class="timeline-line"></div>
+    </div>
+  </div>
   <div class="grid">
     <div class="map-column">
       <RedliningMap
