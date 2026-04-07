@@ -2,6 +2,7 @@
   import { onMount } from 'svelte';
   import RedliningMap from '$lib/RedliningMap.svelte';
   import DistrictPanel from '$lib/DistrictPanel.svelte';
+  import Flashcard from '$lib/Flashcard.svelte';
 
   let expanded = false;
   let selectedDistrict = null;
@@ -57,11 +58,7 @@
 </section>
 
 <!-- Add animation so it shows up when you scroll -->
-<section class="redlining-def">
-  <p>Redlining is the systematic denial of financial services to residents of certain
-    areas, based on their race or ethnicity
-  </p>
-</section>
+<Flashcard />
 
 <!-- fix overlay so that it is actually on top of map -->
 <section class="timeline-section">
@@ -80,7 +77,7 @@
       />
       <div class="text-column">
         <DistrictPanel district={selectedDistrict} />
-        <p class="source">City Survey Files, 1935–1940</p>
+        <p class="source"><i>City Survey Files, 1935–1940</i></p>
       </div>
     </div>
 <!-- 

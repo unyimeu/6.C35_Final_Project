@@ -96,10 +96,14 @@ h1 {
   color: var(--body-text);
 }
 
-/* Optional: constrain width of heading lines a bit more */
 .title {
   max-width: 980px;
 }
+
+.source {
+  size: 1em;
+}
+
 
 /* Mobile adjustments */
 @media (max-width: 900px) {

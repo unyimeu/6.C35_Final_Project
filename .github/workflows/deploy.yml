@@ -30,10 +30,6 @@ jobs:
         working-directory: my-portfolio
         run: npm install maplibre-gl
 
-      - name: Generate loc.csv
-        working-directory: my-portfolio
-        run: npx elocuent -d static,src -o static/loc.csv
-
       - name: build
         working-directory: my-portfolio
         env:
