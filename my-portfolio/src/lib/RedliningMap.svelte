@@ -44,28 +44,19 @@
   function updateSceneStyling() {
     if (!map || !map.getLayer("redlining-fill")) return;
 
-    // Scene 1 — The Map Appears: full opacity, map is the star
     if (activeScene === 1) {
       map.setPaintProperty("redlining-fill", "fill-opacity", 0.75);
       map.setPaintProperty("redlining-outline", "line-opacity", 1);
-    }
-    // Scene 2 — FHA locks it in: slightly dimmed, data overlay incoming (placeholder)
-    else if (activeScene === 2) {
+    } else if (activeScene === 2) {
       map.setPaintProperty("redlining-fill", "fill-opacity", 0.85);
       map.setPaintProperty("redlining-outline", "line-opacity", 1);
-    }
-    // Scene 3 — GI Bill builds suburbs: pull back opacity, suburbs are the story
-    else if (activeScene === 3) {
+    } else if (activeScene === 3) {
       map.setPaintProperty("redlining-fill", "fill-opacity", 0.55);
       map.setPaintProperty("redlining-outline", "line-opacity", 0.7);
-    }
-    // Scene 4 — Transit follows money: moderate opacity, transit overlay incoming (placeholder)
-    else if (activeScene === 4) {
+    } else if (activeScene === 4) {
       map.setPaintProperty("redlining-fill", "fill-opacity", 0.45);
       map.setPaintProperty("redlining-outline", "line-opacity", 0.6);
-    }
-    // Scene 5 — Urban renewal: low opacity, highway corridor is the story (placeholder)
-    else if (activeScene === 5) {
+    } else if (activeScene === 5) {
       map.setPaintProperty("redlining-fill", "fill-opacity", 0.35);
       map.setPaintProperty("redlining-outline", "line-opacity", 0.5);
     }
@@ -208,11 +199,9 @@
 <style>
   .map-shell {
     position: relative;
-    width: calc(100% - 100px);
-    height: 420px;
-    min-height: 420px;
-    border: 4px solid #111;
-    background: white;
+    width: 100%;
+    height: 100%;
+    background: #0a0a0a;
     overflow: hidden;
   }
 
