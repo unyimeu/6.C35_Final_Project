@@ -22,7 +22,8 @@
     color: #f7f3ee;
     padding: 2rem;
     border-left: 14px solid #e3a37b;
-    min-height: 220px;
+    /* min-height: 220px; */
+    height: 100%;
   }
 
   h2 {

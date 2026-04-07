@@ -208,9 +208,11 @@
 <style>
   .map-shell {
     position: relative;
-    width: 100%;
-    height: 100%;
-    background: #0a0a0a;
+    width: calc(100% - 100px);
+    height: 420px;
+    min-height: 420px;
+    border: 4px solid #111;
+    background: white;
     overflow: hidden;
   }
 

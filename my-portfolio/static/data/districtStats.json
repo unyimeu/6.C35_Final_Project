@@ -1,0 +1,6242 @@
+[
+  {
+    "area_id": 4918,
+    "label": "D7",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 32421,
+      "pct_non_hispanic_white": 0.5421,
+      "pct_non_hispanic_black": 0.0889,
+      "pct_non_hispanic_asian": 0.2111,
+      "pct_hispanic": 0.1146,
+      "pct_non_hispanic_native": 0.0013,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0056,
+      "pct_non_hispanic_multiracial": 0.0362,
+      "pct_other_combined": 0.0433
+    }
+  },
+  {
+    "area_id": 4919,
+    "label": "D9",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 41011,
+      "pct_non_hispanic_white": 0.1659,
+      "pct_non_hispanic_black": 0.3787,
+      "pct_non_hispanic_asian": 0.0692,
+      "pct_hispanic": 0.2842,
+      "pct_non_hispanic_native": 0.0018,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0277,
+      "pct_non_hispanic_multiracial": 0.0724,
+      "pct_other_combined": 0.102
+    }
+  },
+  {
+    "area_id": 4920,
+    "label": "D8",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 36810,
+      "pct_non_hispanic_white": 0.328,
+      "pct_non_hispanic_black": 0.2091,
+      "pct_non_hispanic_asian": 0.1413,
+      "pct_hispanic": 0.2677,
+      "pct_non_hispanic_native": 0.0015,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0086,
+      "pct_non_hispanic_multiracial": 0.0435,
+      "pct_other_combined": 0.0538
+    }
+  },
+  {
+    "area_id": 4921,
+    "label": "C8",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 43031,
+      "pct_non_hispanic_white": 0.2583,
+      "pct_non_hispanic_black": 0.262,
+      "pct_non_hispanic_asian": 0.1315,
+      "pct_hispanic": 0.1889,
+      "pct_non_hispanic_native": 0.002,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0479,
+      "pct_non_hispanic_multiracial": 0.1092,
+      "pct_other_combined": 0.1593
+    }
+  },
+  {
+    "area_id": 4922,
+    "label": "C12",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 12008,
+      "pct_non_hispanic_white": 0.6528,
+      "pct_non_hispanic_black": 0.0705,
+      "pct_non_hispanic_asian": 0.0794,
+      "pct_hispanic": 0.1391,
+      "pct_non_hispanic_native": 0.0012,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.007,
+      "pct_non_hispanic_multiracial": 0.0498,
+      "pct_other_combined": 0.0583
+    }
+  },
+  {
+    "area_id": 4923,
+    "label": "C13",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 3728,
+      "pct_non_hispanic_white": 0.4914,
+      "pct_non_hispanic_black": 0.1207,
+      "pct_non_hispanic_asian": 0.0785,
+      "pct_hispanic": 0.246,
+      "pct_non_hispanic_native": 0.0013,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0094,
+      "pct_non_hispanic_multiracial": 0.0523,
+      "pct_other_combined": 0.0634
+    }
+  },
+  {
+    "area_id": 4924,
+    "label": "D12",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 7324,
+      "pct_non_hispanic_white": 0.3334,
+      "pct_non_hispanic_black": 0.1711,
+      "pct_non_hispanic_asian": 0.2868,
+      "pct_hispanic": 0.1303,
+      "pct_non_hispanic_native": 0.002,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0187,
+      "pct_non_hispanic_multiracial": 0.0578,
+      "pct_other_combined": 0.0785
+    }
+  },
+  {
+    "area_id": 4925,
+    "label": "C9",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 24790,
+      "pct_non_hispanic_white": 0.2269,
+      "pct_non_hispanic_black": 0.4331,
+      "pct_non_hispanic_asian": 0.0828,
+      "pct_hispanic": 0.1702,
+      "pct_non_hispanic_native": 0.0028,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0191,
+      "pct_non_hispanic_multiracial": 0.0648,
+      "pct_other_combined": 0.087
+    }
+  },
+  {
+    "area_id": 4926,
+    "label": "C10",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 39221,
+      "pct_non_hispanic_white": 0.0379,
+      "pct_non_hispanic_black": 0.5424,
+      "pct_non_hispanic_asian": 0.0205,
+      "pct_hispanic": 0.3169,
+      "pct_non_hispanic_native": 0.0036,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0175,
+      "pct_non_hispanic_multiracial": 0.0611,
+      "pct_other_combined": 0.0824
+    }
+  },
+  {
+    "area_id": 4927,
+    "label": "C11",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 22454,
+      "pct_non_hispanic_white": 0.0401,
+      "pct_non_hispanic_black": 0.704,
+      "pct_non_hispanic_asian": 0.0103,
+      "pct_hispanic": 0.1845,
+      "pct_non_hispanic_native": 0.0023,
+      "pct_non_hispanic_pacific": 0.0005,
+      "pct_non_hispanic_other": 0.0085,
+      "pct_non_hispanic_multiracial": 0.0499,
+      "pct_other_combined": 0.0611
+    }
+  },
+  {
+    "area_id": 4928,
+    "label": "B7",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 585,
+      "pct_non_hispanic_white": 0.064,
+      "pct_non_hispanic_black": 0.655,
+      "pct_non_hispanic_asian": 0.0157,
+      "pct_hispanic": 0.2123,
+      "pct_non_hispanic_native": 0.0018,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0076,
+      "pct_non_hispanic_multiracial": 0.0435,
+      "pct_other_combined": 0.0531
+    }
+  },
+  {
+    "area_id": 4929,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Milton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 396,
+      "pct_non_hispanic_white": 0.7228,
+      "pct_non_hispanic_black": 0.1244,
+      "pct_non_hispanic_asian": 0.0453,
+      "pct_hispanic": 0.0506,
+      "pct_non_hispanic_native": 0.0008,
+      "pct_non_hispanic_pacific": 0.0007,
+      "pct_non_hispanic_other": 0.0076,
+      "pct_non_hispanic_multiracial": 0.0479,
+      "pct_other_combined": 0.057
+    }
+  },
+  {
+    "area_id": 4930,
+    "label": "C17",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 20389,
+      "pct_non_hispanic_white": 0.2402,
+      "pct_non_hispanic_black": 0.4298,
+      "pct_non_hispanic_asian": 0.0207,
+      "pct_hispanic": 0.2554,
+      "pct_non_hispanic_native": 0.0018,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0099,
+      "pct_non_hispanic_multiracial": 0.0417,
+      "pct_other_combined": 0.0538
+    }
+  },
+  {
+    "area_id": 4931,
+    "label": "C18",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2226,
+      "pct_non_hispanic_white": 0.3459,
+      "pct_non_hispanic_black": 0.3295,
+      "pct_non_hispanic_asian": 0.0308,
+      "pct_hispanic": 0.244,
+      "pct_non_hispanic_native": 0.0015,
+      "pct_non_hispanic_pacific": 0.0012,
+      "pct_non_hispanic_other": 0.0103,
+      "pct_non_hispanic_multiracial": 0.0366,
+      "pct_other_combined": 0.0497
+    }
+  },
+  {
+    "area_id": 4932,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Milton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 4897,
+      "pct_non_hispanic_white": 0.5017,
+      "pct_non_hispanic_black": 0.3004,
+      "pct_non_hispanic_asian": 0.0485,
+      "pct_hispanic": 0.0778,
+      "pct_non_hispanic_native": 0.0026,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0119,
+      "pct_non_hispanic_multiracial": 0.057,
+      "pct_other_combined": 0.0716
+    }
+  },
+  {
+    "area_id": 4933,
+    "label": "D2",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Dedham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 3372,
+      "pct_non_hispanic_white": 0.6353,
+      "pct_non_hispanic_black": 0.1127,
+      "pct_non_hispanic_asian": 0.0387,
+      "pct_hispanic": 0.155,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0131,
+      "pct_non_hispanic_multiracial": 0.0445,
+      "pct_other_combined": 0.0583
+    }
+  },
+  {
+    "area_id": 4934,
+    "label": "C2",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Dedham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1174,
+      "pct_non_hispanic_white": 0.631,
+      "pct_non_hispanic_black": 0.1135,
+      "pct_non_hispanic_asian": 0.0388,
+      "pct_hispanic": 0.1579,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0132,
+      "pct_non_hispanic_multiracial": 0.0449,
+      "pct_other_combined": 0.0588
+    }
+  },
+  {
+    "area_id": 4935,
+    "label": "C3",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Dedham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 635,
+      "pct_non_hispanic_white": 0.8055,
+      "pct_non_hispanic_black": 0.0517,
+      "pct_non_hispanic_asian": 0.0381,
+      "pct_hispanic": 0.0669,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0062,
+      "pct_non_hispanic_multiracial": 0.031,
+      "pct_other_combined": 0.0378
+    }
+  },
+  {
+    "area_id": 4936,
+    "label": "B2",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Dedham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 180,
+      "pct_non_hispanic_white": 0.8598,
+      "pct_non_hispanic_black": 0.0426,
+      "pct_non_hispanic_asian": 0.0291,
+      "pct_hispanic": 0.0429,
+      "pct_non_hispanic_native": 0.0012,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0042,
+      "pct_non_hispanic_multiracial": 0.0203,
+      "pct_other_combined": 0.0256
+    }
+  },
+  {
+    "area_id": 4937,
+    "label": "B3",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Dedham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1532,
+      "pct_non_hispanic_white": 0.7811,
+      "pct_non_hispanic_black": 0.0558,
+      "pct_non_hispanic_asian": 0.0421,
+      "pct_hispanic": 0.0777,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0071,
+      "pct_non_hispanic_multiracial": 0.0358,
+      "pct_other_combined": 0.0432
+    }
+  },
+  {
+    "area_id": 4938,
+    "label": "C4",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Dedham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 579,
+      "pct_non_hispanic_white": 0.7811,
+      "pct_non_hispanic_black": 0.0558,
+      "pct_non_hispanic_asian": 0.0421,
+      "pct_hispanic": 0.0777,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0071,
+      "pct_non_hispanic_multiracial": 0.0358,
+      "pct_other_combined": 0.0432
+    }
+  },
+  {
+    "area_id": 4939,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Dedham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 259,
+      "pct_non_hispanic_white": 0.8598,
+      "pct_non_hispanic_black": 0.0426,
+      "pct_non_hispanic_asian": 0.0291,
+      "pct_hispanic": 0.0429,
+      "pct_non_hispanic_native": 0.0012,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0042,
+      "pct_non_hispanic_multiracial": 0.0203,
+      "pct_other_combined": 0.0256
+    }
+  },
+  {
+    "area_id": 4940,
+    "label": "C16",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 9626,
+      "pct_non_hispanic_white": 0.5617,
+      "pct_non_hispanic_black": 0.162,
+      "pct_non_hispanic_asian": 0.0807,
+      "pct_hispanic": 0.1532,
+      "pct_non_hispanic_native": 0.0014,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0066,
+      "pct_non_hispanic_multiracial": 0.0342,
+      "pct_other_combined": 0.0424
+    }
+  },
+  {
+    "area_id": 4941,
+    "label": "D1",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Dedham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 328,
+      "pct_non_hispanic_white": 0.7927,
+      "pct_non_hispanic_black": 0.0448,
+      "pct_non_hispanic_asian": 0.0451,
+      "pct_hispanic": 0.0777,
+      "pct_non_hispanic_native": 0.0003,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.005,
+      "pct_non_hispanic_multiracial": 0.0345,
+      "pct_other_combined": 0.0398
+    }
+  },
+  {
+    "area_id": 4942,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Dedham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 562,
+      "pct_non_hispanic_white": 0.7927,
+      "pct_non_hispanic_black": 0.0448,
+      "pct_non_hispanic_asian": 0.0451,
+      "pct_hispanic": 0.0777,
+      "pct_non_hispanic_native": 0.0003,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.005,
+      "pct_non_hispanic_multiracial": 0.0345,
+      "pct_other_combined": 0.0398
+    }
+  },
+  {
+    "area_id": 4943,
+    "label": "B5",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 10112,
+      "pct_non_hispanic_white": 0.7821,
+      "pct_non_hispanic_black": 0.0368,
+      "pct_non_hispanic_asian": 0.0686,
+      "pct_hispanic": 0.0732,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0061,
+      "pct_non_hispanic_multiracial": 0.0327,
+      "pct_other_combined": 0.0393
+    }
+  },
+  {
+    "area_id": 4944,
+    "label": "C15",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2825,
+      "pct_non_hispanic_white": 0.7647,
+      "pct_non_hispanic_black": 0.0338,
+      "pct_non_hispanic_asian": 0.0862,
+      "pct_hispanic": 0.0707,
+      "pct_non_hispanic_native": 0.0002,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.009,
+      "pct_non_hispanic_multiracial": 0.0354,
+      "pct_other_combined": 0.0446
+    }
+  },
+  {
+    "area_id": 4945,
+    "label": "C14",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 32650,
+      "pct_non_hispanic_white": 0.4786,
+      "pct_non_hispanic_black": 0.1918,
+      "pct_non_hispanic_asian": 0.0402,
+      "pct_hispanic": 0.2366,
+      "pct_non_hispanic_native": 0.0008,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0088,
+      "pct_non_hispanic_multiracial": 0.043,
+      "pct_other_combined": 0.0528
+    }
+  },
+  {
+    "area_id": 4946,
+    "label": "B4",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 4565,
+      "pct_non_hispanic_white": 0.6938,
+      "pct_non_hispanic_black": 0.0615,
+      "pct_non_hispanic_asian": 0.0904,
+      "pct_hispanic": 0.0946,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0057,
+      "pct_non_hispanic_multiracial": 0.0533,
+      "pct_other_combined": 0.0597
+    }
+  },
+  {
+    "area_id": 4947,
+    "label": "C6",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 34546,
+      "pct_non_hispanic_white": 0.5282,
+      "pct_non_hispanic_black": 0.0653,
+      "pct_non_hispanic_asian": 0.2532,
+      "pct_hispanic": 0.1025,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0013,
+      "pct_non_hispanic_other": 0.0077,
+      "pct_non_hispanic_multiracial": 0.041,
+      "pct_other_combined": 0.0507
+    }
+  },
+  {
+    "area_id": 4948,
+    "label": "C5",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 5211,
+      "pct_non_hispanic_white": 0.7508,
+      "pct_non_hispanic_black": 0.0235,
+      "pct_non_hispanic_asian": 0.1098,
+      "pct_hispanic": 0.0689,
+      "pct_non_hispanic_native": 0.0014,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0059,
+      "pct_non_hispanic_multiracial": 0.0396,
+      "pct_other_combined": 0.047
+    }
+  },
+  {
+    "area_id": 4949,
+    "label": "B3",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 7674,
+      "pct_non_hispanic_white": 0.7799,
+      "pct_non_hispanic_black": 0.024,
+      "pct_non_hispanic_asian": 0.0921,
+      "pct_hispanic": 0.0626,
+      "pct_non_hispanic_native": 0.0012,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0058,
+      "pct_non_hispanic_multiracial": 0.0343,
+      "pct_other_combined": 0.0414
+    }
+  },
+  {
+    "area_id": 4950,
+    "label": "C4",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2483,
+      "pct_non_hispanic_white": 0.8157,
+      "pct_non_hispanic_black": 0.024,
+      "pct_non_hispanic_asian": 0.0654,
+      "pct_hispanic": 0.0528,
+      "pct_non_hispanic_native": 0.0001,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0049,
+      "pct_non_hispanic_multiracial": 0.0369,
+      "pct_other_combined": 0.0421
+    }
+  },
+  {
+    "area_id": 4951,
+    "label": "D6",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 5677,
+      "pct_non_hispanic_white": 0.6996,
+      "pct_non_hispanic_black": 0.0401,
+      "pct_non_hispanic_asian": 0.142,
+      "pct_hispanic": 0.0728,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.006,
+      "pct_non_hispanic_multiracial": 0.0389,
+      "pct_other_combined": 0.0455
+    }
+  },
+  {
+    "area_id": 4952,
+    "label": "C5",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Dedham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 3431,
+      "pct_non_hispanic_white": 0.7983,
+      "pct_non_hispanic_black": 0.0541,
+      "pct_non_hispanic_asian": 0.0352,
+      "pct_hispanic": 0.0771,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0006,
+      "pct_non_hispanic_other": 0.0051,
+      "pct_non_hispanic_multiracial": 0.0289,
+      "pct_other_combined": 0.0353
+    }
+  },
+  {
+    "area_id": 4953,
+    "label": "A1",
+    "grade": "A",
+    "category": "Best",
+    "city": "Milton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 5053,
+      "pct_non_hispanic_white": 0.6791,
+      "pct_non_hispanic_black": 0.1575,
+      "pct_non_hispanic_asian": 0.0476,
+      "pct_hispanic": 0.0545,
+      "pct_non_hispanic_native": 0.0014,
+      "pct_non_hispanic_pacific": 0.0005,
+      "pct_non_hispanic_other": 0.0088,
+      "pct_non_hispanic_multiracial": 0.0505,
+      "pct_other_combined": 0.0613
+    }
+  },
+  {
+    "area_id": 4954,
+    "label": "A2",
+    "grade": "A",
+    "category": "Best",
+    "city": "Milton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 4090,
+      "pct_non_hispanic_white": 0.8159,
+      "pct_non_hispanic_black": 0.0411,
+      "pct_non_hispanic_asian": 0.0706,
+      "pct_hispanic": 0.0335,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0043,
+      "pct_non_hispanic_multiracial": 0.0338,
+      "pct_other_combined": 0.039
+    }
+  },
+  {
+    "area_id": 4955,
+    "label": "B3",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Milton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 219,
+      "pct_non_hispanic_white": 0.8131,
+      "pct_non_hispanic_black": 0.0337,
+      "pct_non_hispanic_asian": 0.0778,
+      "pct_hispanic": 0.0298,
+      "pct_non_hispanic_native": 0.0018,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0059,
+      "pct_non_hispanic_multiracial": 0.0376,
+      "pct_other_combined": 0.0455
+    }
+  },
+  {
+    "area_id": 4956,
+    "label": "B2",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Milton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 413,
+      "pct_non_hispanic_white": 0.8488,
+      "pct_non_hispanic_black": 0.0153,
+      "pct_non_hispanic_asian": 0.0755,
+      "pct_hispanic": 0.0277,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0029,
+      "pct_non_hispanic_multiracial": 0.0291,
+      "pct_other_combined": 0.0327
+    }
+  },
+  {
+    "area_id": 4957,
+    "label": "C2",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Milton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 524,
+      "pct_non_hispanic_white": 0.8089,
+      "pct_non_hispanic_black": 0.0353,
+      "pct_non_hispanic_asian": 0.0791,
+      "pct_hispanic": 0.0303,
+      "pct_non_hispanic_native": 0.0019,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0062,
+      "pct_non_hispanic_multiracial": 0.0382,
+      "pct_other_combined": 0.0464
+    }
+  },
+  {
+    "area_id": 4958,
+    "label": "C3",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Quincy",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 26656,
+      "pct_non_hispanic_white": 0.5379,
+      "pct_non_hispanic_black": 0.0742,
+      "pct_non_hispanic_asian": 0.2681,
+      "pct_hispanic": 0.0613,
+      "pct_non_hispanic_native": 0.0013,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0143,
+      "pct_non_hispanic_multiracial": 0.0426,
+      "pct_other_combined": 0.0585
+    }
+  },
+  {
+    "area_id": 4959,
+    "label": "B3",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Quincy",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 4594,
+      "pct_non_hispanic_white": 0.5715,
+      "pct_non_hispanic_black": 0.0506,
+      "pct_non_hispanic_asian": 0.2756,
+      "pct_hispanic": 0.0561,
+      "pct_non_hispanic_native": 0.0013,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.009,
+      "pct_non_hispanic_multiracial": 0.0357,
+      "pct_other_combined": 0.0462
+    }
+  },
+  {
+    "area_id": 4960,
+    "label": "B2",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Quincy",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 967,
+      "pct_non_hispanic_white": 0.7767,
+      "pct_non_hispanic_black": 0.0367,
+      "pct_non_hispanic_asian": 0.1074,
+      "pct_hispanic": 0.0379,
+      "pct_non_hispanic_native": 0.0011,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0095,
+      "pct_non_hispanic_multiracial": 0.0307,
+      "pct_other_combined": 0.0412
+    }
+  },
+  {
+    "area_id": 4961,
+    "label": "B5",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Quincy",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2380,
+      "pct_non_hispanic_white": 0.46,
+      "pct_non_hispanic_black": 0.0658,
+      "pct_non_hispanic_asian": 0.3611,
+      "pct_hispanic": 0.0547,
+      "pct_non_hispanic_native": 0.001,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.013,
+      "pct_non_hispanic_multiracial": 0.0445,
+      "pct_other_combined": 0.0584
+    }
+  },
+  {
+    "area_id": 4962,
+    "label": "B2",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Braintree",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1005,
+      "pct_non_hispanic_white": 0.7153,
+      "pct_non_hispanic_black": 0.0335,
+      "pct_non_hispanic_asian": 0.1502,
+      "pct_hispanic": 0.0484,
+      "pct_non_hispanic_native": 0.0013,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0068,
+      "pct_non_hispanic_multiracial": 0.0445,
+      "pct_other_combined": 0.0526
+    }
+  },
+  {
+    "area_id": 4963,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Braintree",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1347,
+      "pct_non_hispanic_white": 0.7303,
+      "pct_non_hispanic_black": 0.0321,
+      "pct_non_hispanic_asian": 0.137,
+      "pct_hispanic": 0.0481,
+      "pct_non_hispanic_native": 0.0014,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0066,
+      "pct_non_hispanic_multiracial": 0.0446,
+      "pct_other_combined": 0.0525
+    }
+  },
+  {
+    "area_id": 4964,
+    "label": "C2",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Braintree",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 876,
+      "pct_non_hispanic_white": 0.7292,
+      "pct_non_hispanic_black": 0.032,
+      "pct_non_hispanic_asian": 0.1378,
+      "pct_hispanic": 0.0485,
+      "pct_non_hispanic_native": 0.0013,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0066,
+      "pct_non_hispanic_multiracial": 0.0445,
+      "pct_other_combined": 0.0525
+    }
+  },
+  {
+    "area_id": 4965,
+    "label": "B5",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Braintree",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 235,
+      "pct_non_hispanic_white": 0.729,
+      "pct_non_hispanic_black": 0.032,
+      "pct_non_hispanic_asian": 0.1379,
+      "pct_hispanic": 0.0485,
+      "pct_non_hispanic_native": 0.0013,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0066,
+      "pct_non_hispanic_multiracial": 0.0445,
+      "pct_other_combined": 0.0525
+    }
+  },
+  {
+    "area_id": 4966,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Braintree",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 359,
+      "pct_non_hispanic_white": 0.6948,
+      "pct_non_hispanic_black": 0.0279,
+      "pct_non_hispanic_asian": 0.186,
+      "pct_hispanic": 0.0465,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0109,
+      "pct_non_hispanic_multiracial": 0.0337,
+      "pct_other_combined": 0.0447
+    }
+  },
+  {
+    "area_id": 4967,
+    "label": "B3",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Braintree",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 225,
+      "pct_non_hispanic_white": 0.6947,
+      "pct_non_hispanic_black": 0.028,
+      "pct_non_hispanic_asian": 0.1863,
+      "pct_hispanic": 0.0465,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0109,
+      "pct_non_hispanic_multiracial": 0.0337,
+      "pct_other_combined": 0.0446
+    }
+  },
+  {
+    "area_id": 4968,
+    "label": "A1",
+    "grade": "A",
+    "category": "Best",
+    "city": "Braintree",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 537,
+      "pct_non_hispanic_white": 0.6947,
+      "pct_non_hispanic_black": 0.028,
+      "pct_non_hispanic_asian": 0.1863,
+      "pct_hispanic": 0.0465,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0109,
+      "pct_non_hispanic_multiracial": 0.0337,
+      "pct_other_combined": 0.0446
+    }
+  },
+  {
+    "area_id": 4969,
+    "label": "B4",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Braintree",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 281,
+      "pct_non_hispanic_white": 0.6947,
+      "pct_non_hispanic_black": 0.028,
+      "pct_non_hispanic_asian": 0.1863,
+      "pct_hispanic": 0.0465,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0109,
+      "pct_non_hispanic_multiracial": 0.0337,
+      "pct_other_combined": 0.0446
+    }
+  },
+  {
+    "area_id": 4970,
+    "label": "C4",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Quincy",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1006,
+      "pct_non_hispanic_white": 0.8087,
+      "pct_non_hispanic_black": 0.0369,
+      "pct_non_hispanic_asian": 0.0728,
+      "pct_hispanic": 0.0402,
+      "pct_non_hispanic_native": 0.0028,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0098,
+      "pct_non_hispanic_multiracial": 0.0288,
+      "pct_other_combined": 0.0413
+    }
+  },
+  {
+    "area_id": 4971,
+    "label": "D1",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Quincy",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 5602,
+      "pct_non_hispanic_white": 0.7059,
+      "pct_non_hispanic_black": 0.0486,
+      "pct_non_hispanic_asian": 0.1506,
+      "pct_hispanic": 0.0496,
+      "pct_non_hispanic_native": 0.0026,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0096,
+      "pct_non_hispanic_multiracial": 0.0332,
+      "pct_other_combined": 0.0454
+    }
+  },
+  {
+    "area_id": 4972,
+    "label": "B6",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Quincy",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 538,
+      "pct_non_hispanic_white": 0.584,
+      "pct_non_hispanic_black": 0.0213,
+      "pct_non_hispanic_asian": 0.3276,
+      "pct_hispanic": 0.0339,
+      "pct_non_hispanic_native": 0.001,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0033,
+      "pct_non_hispanic_multiracial": 0.0288,
+      "pct_other_combined": 0.0331
+    }
+  },
+  {
+    "area_id": 4973,
+    "label": "C2",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Quincy",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 25772,
+      "pct_non_hispanic_white": 0.4547,
+      "pct_non_hispanic_black": 0.0302,
+      "pct_non_hispanic_asian": 0.444,
+      "pct_hispanic": 0.0397,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0049,
+      "pct_non_hispanic_multiracial": 0.0257,
+      "pct_other_combined": 0.0315
+    }
+  },
+  {
+    "area_id": 4974,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Quincy",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1359,
+      "pct_non_hispanic_white": 0.8829,
+      "pct_non_hispanic_black": 0.0088,
+      "pct_non_hispanic_asian": 0.0501,
+      "pct_hispanic": 0.0303,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0034,
+      "pct_non_hispanic_multiracial": 0.0245,
+      "pct_other_combined": 0.0279
+    }
+  },
+  {
+    "area_id": 4975,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Quincy",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 324,
+      "pct_non_hispanic_white": 0.8863,
+      "pct_non_hispanic_black": 0.0079,
+      "pct_non_hispanic_asian": 0.0478,
+      "pct_hispanic": 0.0301,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0034,
+      "pct_non_hispanic_multiracial": 0.0245,
+      "pct_other_combined": 0.0279
+    }
+  },
+  {
+    "area_id": 4976,
+    "label": "C7",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 11529,
+      "pct_non_hispanic_white": 0.9217,
+      "pct_non_hispanic_black": 0.0057,
+      "pct_non_hispanic_asian": 0.0169,
+      "pct_hispanic": 0.032,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0032,
+      "pct_non_hispanic_multiracial": 0.02,
+      "pct_other_combined": 0.0236
+    }
+  },
+  {
+    "area_id": 4977,
+    "label": "D11",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 10540,
+      "pct_non_hispanic_white": 0.856,
+      "pct_non_hispanic_black": 0.0173,
+      "pct_non_hispanic_asian": 0.0406,
+      "pct_hispanic": 0.056,
+      "pct_non_hispanic_native": 0.0009,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0035,
+      "pct_non_hispanic_multiracial": 0.0255,
+      "pct_other_combined": 0.0301
+    }
+  },
+  {
+    "area_id": 4978,
+    "label": "D10",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 9128,
+      "pct_non_hispanic_white": 0.6294,
+      "pct_non_hispanic_black": 0.0743,
+      "pct_non_hispanic_asian": 0.0772,
+      "pct_hispanic": 0.1747,
+      "pct_non_hispanic_native": 0.0012,
+      "pct_non_hispanic_pacific": 0.0005,
+      "pct_non_hispanic_other": 0.0076,
+      "pct_non_hispanic_multiracial": 0.0351,
+      "pct_other_combined": 0.0444
+    }
+  },
+  {
+    "area_id": 4979,
+    "label": "C2",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Brookline",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 32240,
+      "pct_non_hispanic_white": 0.6539,
+      "pct_non_hispanic_black": 0.0272,
+      "pct_non_hispanic_asian": 0.195,
+      "pct_hispanic": 0.0671,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0058,
+      "pct_non_hispanic_multiracial": 0.0501,
+      "pct_other_combined": 0.0567
+    }
+  },
+  {
+    "area_id": 4980,
+    "label": "B4",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Brookline",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 3629,
+      "pct_non_hispanic_white": 0.7152,
+      "pct_non_hispanic_black": 0.0192,
+      "pct_non_hispanic_asian": 0.1477,
+      "pct_hispanic": 0.0594,
+      "pct_non_hispanic_native": 0.0011,
+      "pct_non_hispanic_pacific": 0.0006,
+      "pct_non_hispanic_other": 0.0067,
+      "pct_non_hispanic_multiracial": 0.0502,
+      "pct_other_combined": 0.0586
+    }
+  },
+  {
+    "area_id": 4981,
+    "label": "B2",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Brookline",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 546,
+      "pct_non_hispanic_white": 0.7036,
+      "pct_non_hispanic_black": 0.0142,
+      "pct_non_hispanic_asian": 0.1596,
+      "pct_hispanic": 0.0629,
+      "pct_non_hispanic_native": 0.0001,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0041,
+      "pct_non_hispanic_multiracial": 0.0553,
+      "pct_other_combined": 0.0597
+    }
+  },
+  {
+    "area_id": 4982,
+    "label": "C3",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Brookline",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1989,
+      "pct_non_hispanic_white": 0.7057,
+      "pct_non_hispanic_black": 0.0139,
+      "pct_non_hispanic_asian": 0.1598,
+      "pct_hispanic": 0.0594,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0036,
+      "pct_non_hispanic_multiracial": 0.0575,
+      "pct_other_combined": 0.0611
+    }
+  },
+  {
+    "area_id": 4983,
+    "label": "C4",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Brookline",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1240,
+      "pct_non_hispanic_white": 0.6188,
+      "pct_non_hispanic_black": 0.0662,
+      "pct_non_hispanic_asian": 0.1631,
+      "pct_hispanic": 0.0879,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0047,
+      "pct_non_hispanic_multiracial": 0.0588,
+      "pct_other_combined": 0.064
+    }
+  },
+  {
+    "area_id": 4984,
+    "label": "D1",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Brookline",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1852,
+      "pct_non_hispanic_white": 0.5423,
+      "pct_non_hispanic_black": 0.0699,
+      "pct_non_hispanic_asian": 0.2439,
+      "pct_hispanic": 0.0831,
+      "pct_non_hispanic_native": 0.0024,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0066,
+      "pct_non_hispanic_multiracial": 0.0518,
+      "pct_other_combined": 0.0608
+    }
+  },
+  {
+    "area_id": 4985,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 49013,
+      "pct_non_hispanic_white": 0.5843,
+      "pct_non_hispanic_black": 0.0455,
+      "pct_non_hispanic_asian": 0.2009,
+      "pct_hispanic": 0.1138,
+      "pct_non_hispanic_native": 0.0008,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0126,
+      "pct_non_hispanic_multiracial": 0.0419,
+      "pct_other_combined": 0.0555
+    }
+  },
+  {
+    "area_id": 4986,
+    "label": "D1",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 8602,
+      "pct_non_hispanic_white": 0.478,
+      "pct_non_hispanic_black": 0.0631,
+      "pct_non_hispanic_asian": 0.2104,
+      "pct_hispanic": 0.162,
+      "pct_non_hispanic_native": 0.0021,
+      "pct_non_hispanic_pacific": 0.0007,
+      "pct_non_hispanic_other": 0.0287,
+      "pct_non_hispanic_multiracial": 0.055,
+      "pct_other_combined": 0.0865
+    }
+  },
+  {
+    "area_id": 4987,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Brookline",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 5469,
+      "pct_non_hispanic_white": 0.6902,
+      "pct_non_hispanic_black": 0.0219,
+      "pct_non_hispanic_asian": 0.1685,
+      "pct_hispanic": 0.0665,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0066,
+      "pct_non_hispanic_multiracial": 0.0456,
+      "pct_other_combined": 0.053
+    }
+  },
+  {
+    "area_id": 4988,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Brookline",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 331,
+      "pct_non_hispanic_white": 0.6831,
+      "pct_non_hispanic_black": 0.0311,
+      "pct_non_hispanic_asian": 0.1664,
+      "pct_hispanic": 0.0638,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0097,
+      "pct_non_hispanic_multiracial": 0.0453,
+      "pct_other_combined": 0.0556
+    }
+  },
+  {
+    "area_id": 4989,
+    "label": "A1",
+    "grade": "A",
+    "category": "Best",
+    "city": "Brookline",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2357,
+      "pct_non_hispanic_white": 0.6178,
+      "pct_non_hispanic_black": 0.0298,
+      "pct_non_hispanic_asian": 0.2345,
+      "pct_hispanic": 0.0604,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0048,
+      "pct_non_hispanic_multiracial": 0.0523,
+      "pct_other_combined": 0.0576
+    }
+  },
+  {
+    "area_id": 4990,
+    "label": "A2",
+    "grade": "A",
+    "category": "Best",
+    "city": "Brookline",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 3448,
+      "pct_non_hispanic_white": 0.6873,
+      "pct_non_hispanic_black": 0.035,
+      "pct_non_hispanic_asian": 0.1587,
+      "pct_hispanic": 0.0622,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0111,
+      "pct_non_hispanic_multiracial": 0.0452,
+      "pct_other_combined": 0.0568
+    }
+  },
+  {
+    "area_id": 4991,
+    "label": "D5",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 5827,
+      "pct_non_hispanic_white": 0.8554,
+      "pct_non_hispanic_black": 0.0135,
+      "pct_non_hispanic_asian": 0.0419,
+      "pct_hispanic": 0.0526,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.004,
+      "pct_non_hispanic_multiracial": 0.0314,
+      "pct_other_combined": 0.0366
+    }
+  },
+  {
+    "area_id": 4992,
+    "label": "D2",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 10764,
+      "pct_non_hispanic_white": 0.7447,
+      "pct_non_hispanic_black": 0.0489,
+      "pct_non_hispanic_asian": 0.0583,
+      "pct_hispanic": 0.1061,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0058,
+      "pct_non_hispanic_multiracial": 0.0354,
+      "pct_other_combined": 0.042
+    }
+  },
+  {
+    "area_id": 4993,
+    "label": "D3",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 12967,
+      "pct_non_hispanic_white": 0.2951,
+      "pct_non_hispanic_black": 0.0287,
+      "pct_non_hispanic_asian": 0.0386,
+      "pct_hispanic": 0.5893,
+      "pct_non_hispanic_native": 0.0014,
+      "pct_non_hispanic_pacific": 0.0006,
+      "pct_non_hispanic_other": 0.0142,
+      "pct_non_hispanic_multiracial": 0.032,
+      "pct_other_combined": 0.0482
+    }
+  },
+  {
+    "area_id": 4994,
+    "label": "C2",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1197,
+      "pct_non_hispanic_white": 0.3843,
+      "pct_non_hispanic_black": 0.0262,
+      "pct_non_hispanic_asian": 0.0314,
+      "pct_hispanic": 0.5052,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.018,
+      "pct_non_hispanic_multiracial": 0.0343,
+      "pct_other_combined": 0.0528
+    }
+  },
+  {
+    "area_id": 4995,
+    "label": "D4",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 9670,
+      "pct_non_hispanic_white": 0.3585,
+      "pct_non_hispanic_black": 0.0293,
+      "pct_non_hispanic_asian": 0.0435,
+      "pct_hispanic": 0.5106,
+      "pct_non_hispanic_native": 0.0015,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0205,
+      "pct_non_hispanic_multiracial": 0.0358,
+      "pct_other_combined": 0.058
+    }
+  },
+  {
+    "area_id": 4996,
+    "label": "C3",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 4877,
+      "pct_non_hispanic_white": 0.4247,
+      "pct_non_hispanic_black": 0.042,
+      "pct_non_hispanic_asian": 0.0479,
+      "pct_hispanic": 0.437,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0105,
+      "pct_non_hispanic_multiracial": 0.0374,
+      "pct_other_combined": 0.0483
+    }
+  },
+  {
+    "area_id": 4997,
+    "label": "C2",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Winthrop",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 5834,
+      "pct_non_hispanic_white": 0.7894,
+      "pct_non_hispanic_black": 0.022,
+      "pct_non_hispanic_asian": 0.0148,
+      "pct_hispanic": 0.1284,
+      "pct_non_hispanic_native": 0.0008,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0095,
+      "pct_non_hispanic_multiracial": 0.0349,
+      "pct_other_combined": 0.0453
+    }
+  },
+  {
+    "area_id": 4998,
+    "label": "B3",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Winthrop",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1382,
+      "pct_non_hispanic_white": 0.7755,
+      "pct_non_hispanic_black": 0.0227,
+      "pct_non_hispanic_asian": 0.0186,
+      "pct_hispanic": 0.1366,
+      "pct_non_hispanic_native": 0.0003,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0117,
+      "pct_non_hispanic_multiracial": 0.0345,
+      "pct_other_combined": 0.0465
+    }
+  },
+  {
+    "area_id": 4999,
+    "label": "D1",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Winthrop",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1274,
+      "pct_non_hispanic_white": 0.758,
+      "pct_non_hispanic_black": 0.0235,
+      "pct_non_hispanic_asian": 0.0156,
+      "pct_hispanic": 0.1384,
+      "pct_non_hispanic_native": 0.0037,
+      "pct_non_hispanic_pacific": 0.0009,
+      "pct_non_hispanic_other": 0.0111,
+      "pct_non_hispanic_multiracial": 0.0488,
+      "pct_other_combined": 0.0645
+    }
+  },
+  {
+    "area_id": 5000,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Winthrop",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2073,
+      "pct_non_hispanic_white": 0.7564,
+      "pct_non_hispanic_black": 0.0232,
+      "pct_non_hispanic_asian": 0.0157,
+      "pct_hispanic": 0.1394,
+      "pct_non_hispanic_native": 0.0039,
+      "pct_non_hispanic_pacific": 0.001,
+      "pct_non_hispanic_other": 0.011,
+      "pct_non_hispanic_multiracial": 0.0494,
+      "pct_other_combined": 0.0653
+    }
+  },
+  {
+    "area_id": 5001,
+    "label": "B2",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Winthrop",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 477,
+      "pct_non_hispanic_white": 0.808,
+      "pct_non_hispanic_black": 0.0362,
+      "pct_non_hispanic_asian": 0.0084,
+      "pct_hispanic": 0.0909,
+      "pct_non_hispanic_native": 0.001,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0148,
+      "pct_non_hispanic_multiracial": 0.0406,
+      "pct_other_combined": 0.0564
+    }
+  },
+  {
+    "area_id": 5002,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Winthrop",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2388,
+      "pct_non_hispanic_white": 0.8519,
+      "pct_non_hispanic_black": 0.0089,
+      "pct_non_hispanic_asian": 0.0115,
+      "pct_hispanic": 0.0882,
+      "pct_non_hispanic_native": 0.0001,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0092,
+      "pct_non_hispanic_multiracial": 0.0302,
+      "pct_other_combined": 0.0395
+    }
+  },
+  {
+    "area_id": 5003,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Needham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2802,
+      "pct_non_hispanic_white": 0.8323,
+      "pct_non_hispanic_black": 0.0076,
+      "pct_non_hispanic_asian": 0.0854,
+      "pct_hispanic": 0.0342,
+      "pct_non_hispanic_native": 0.0002,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0051,
+      "pct_non_hispanic_multiracial": 0.0351,
+      "pct_other_combined": 0.0405
+    }
+  },
+  {
+    "area_id": 5004,
+    "label": "B2",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Needham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1227,
+      "pct_non_hispanic_white": 0.8343,
+      "pct_non_hispanic_black": 0.0074,
+      "pct_non_hispanic_asian": 0.0837,
+      "pct_hispanic": 0.033,
+      "pct_non_hispanic_native": 0.0003,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0056,
+      "pct_non_hispanic_multiracial": 0.0356,
+      "pct_other_combined": 0.0416
+    }
+  },
+  {
+    "area_id": 5005,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Needham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 3169,
+      "pct_non_hispanic_white": 0.8242,
+      "pct_non_hispanic_black": 0.011,
+      "pct_non_hispanic_asian": 0.0873,
+      "pct_hispanic": 0.0346,
+      "pct_non_hispanic_native": 0.0003,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0067,
+      "pct_non_hispanic_multiracial": 0.0358,
+      "pct_other_combined": 0.043
+    }
+  },
+  {
+    "area_id": 5006,
+    "label": "D1",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Needham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1902,
+      "pct_non_hispanic_white": 0.7474,
+      "pct_non_hispanic_black": 0.025,
+      "pct_non_hispanic_asian": 0.1387,
+      "pct_hispanic": 0.0461,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0059,
+      "pct_non_hispanic_multiracial": 0.0362,
+      "pct_other_combined": 0.0428
+    }
+  },
+  {
+    "area_id": 5007,
+    "label": "B3",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Needham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 158,
+      "pct_non_hispanic_white": 0.8151,
+      "pct_non_hispanic_black": 0.0161,
+      "pct_non_hispanic_asian": 0.0869,
+      "pct_hispanic": 0.0369,
+      "pct_non_hispanic_native": 0.0002,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0087,
+      "pct_non_hispanic_multiracial": 0.0361,
+      "pct_other_combined": 0.045
+    }
+  },
+  {
+    "area_id": 5008,
+    "label": "B4",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Needham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 99,
+      "pct_non_hispanic_white": 0.8443,
+      "pct_non_hispanic_black": 0.0106,
+      "pct_non_hispanic_asian": 0.063,
+      "pct_hispanic": 0.0377,
+      "pct_non_hispanic_native": 0.0002,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0038,
+      "pct_non_hispanic_multiracial": 0.0404,
+      "pct_other_combined": 0.0445
+    }
+  },
+  {
+    "area_id": 5009,
+    "label": "D2",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Newton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1152,
+      "pct_non_hispanic_white": 0.5821,
+      "pct_non_hispanic_black": 0.0469,
+      "pct_non_hispanic_asian": 0.2675,
+      "pct_hispanic": 0.0475,
+      "pct_non_hispanic_native": 0.0012,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.006,
+      "pct_non_hispanic_multiracial": 0.0487,
+      "pct_other_combined": 0.056
+    }
+  },
+  {
+    "area_id": 5010,
+    "label": "C2",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Newton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 3427,
+      "pct_non_hispanic_white": 0.5955,
+      "pct_non_hispanic_black": 0.0438,
+      "pct_non_hispanic_asian": 0.2568,
+      "pct_hispanic": 0.048,
+      "pct_non_hispanic_native": 0.0012,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0058,
+      "pct_non_hispanic_multiracial": 0.0488,
+      "pct_other_combined": 0.0558
+    }
+  },
+  {
+    "area_id": 5011,
+    "label": "A3",
+    "grade": "A",
+    "category": "Best",
+    "city": "Newton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1892,
+      "pct_non_hispanic_white": 0.6666,
+      "pct_non_hispanic_black": 0.0215,
+      "pct_non_hispanic_asian": 0.2209,
+      "pct_hispanic": 0.0454,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0042,
+      "pct_non_hispanic_multiracial": 0.0405,
+      "pct_other_combined": 0.0455
+    }
+  },
+  {
+    "area_id": 5012,
+    "label": "B7",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Newton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 4137,
+      "pct_non_hispanic_white": 0.7377,
+      "pct_non_hispanic_black": 0.0149,
+      "pct_non_hispanic_asian": 0.1437,
+      "pct_hispanic": 0.0485,
+      "pct_non_hispanic_native": 0.0008,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.005,
+      "pct_non_hispanic_multiracial": 0.0495,
+      "pct_other_combined": 0.0552
+    }
+  },
+  {
+    "area_id": 5013,
+    "label": "B4",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Newton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 16083,
+      "pct_non_hispanic_white": 0.7268,
+      "pct_non_hispanic_black": 0.0244,
+      "pct_non_hispanic_asian": 0.1463,
+      "pct_hispanic": 0.0439,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0092,
+      "pct_non_hispanic_multiracial": 0.0485,
+      "pct_other_combined": 0.0586
+    }
+  },
+  {
+    "area_id": 5014,
+    "label": "C3",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Newton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 567,
+      "pct_non_hispanic_white": 0.6845,
+      "pct_non_hispanic_black": 0.0251,
+      "pct_non_hispanic_asian": 0.1929,
+      "pct_hispanic": 0.0486,
+      "pct_non_hispanic_native": 0.001,
+      "pct_non_hispanic_pacific": 0.001,
+      "pct_non_hispanic_other": 0.0061,
+      "pct_non_hispanic_multiracial": 0.0407,
+      "pct_other_combined": 0.0488
+    }
+  },
+  {
+    "area_id": 5015,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2312,
+      "pct_non_hispanic_white": 0.6855,
+      "pct_non_hispanic_black": 0.0344,
+      "pct_non_hispanic_asian": 0.1511,
+      "pct_hispanic": 0.0804,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0006,
+      "pct_non_hispanic_other": 0.0129,
+      "pct_non_hispanic_multiracial": 0.0351,
+      "pct_other_combined": 0.0486
+    }
+  },
+  {
+    "area_id": 5016,
+    "label": "A2",
+    "grade": "A",
+    "category": "Best",
+    "city": "Newton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 3606,
+      "pct_non_hispanic_white": 0.7373,
+      "pct_non_hispanic_black": 0.0489,
+      "pct_non_hispanic_asian": 0.1349,
+      "pct_hispanic": 0.0301,
+      "pct_non_hispanic_native": 0.0003,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0123,
+      "pct_non_hispanic_multiracial": 0.0363,
+      "pct_other_combined": 0.0489
+    }
+  },
+  {
+    "area_id": 5017,
+    "label": "B5",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Newton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 454,
+      "pct_non_hispanic_white": 0.7533,
+      "pct_non_hispanic_black": 0.0394,
+      "pct_non_hispanic_asian": 0.1272,
+      "pct_hispanic": 0.028,
+      "pct_non_hispanic_native": 0.0003,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0117,
+      "pct_non_hispanic_multiracial": 0.04,
+      "pct_other_combined": 0.052
+    }
+  },
+  {
+    "area_id": 5018,
+    "label": "B6",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Newton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1561,
+      "pct_non_hispanic_white": 0.6825,
+      "pct_non_hispanic_black": 0.0812,
+      "pct_non_hispanic_asian": 0.1608,
+      "pct_hispanic": 0.0375,
+      "pct_non_hispanic_native": 0.0002,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0142,
+      "pct_non_hispanic_multiracial": 0.0236,
+      "pct_other_combined": 0.038
+    }
+  },
+  {
+    "area_id": 5019,
+    "label": "B3",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Newton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2188,
+      "pct_non_hispanic_white": 0.7111,
+      "pct_non_hispanic_black": 0.0331,
+      "pct_non_hispanic_asian": 0.1471,
+      "pct_hispanic": 0.0548,
+      "pct_non_hispanic_native": 0.0003,
+      "pct_non_hispanic_pacific": 0.0009,
+      "pct_non_hispanic_other": 0.0083,
+      "pct_non_hispanic_multiracial": 0.0445,
+      "pct_other_combined": 0.0539
+    }
+  },
+  {
+    "area_id": 5020,
+    "label": "A1",
+    "grade": "A",
+    "category": "Best",
+    "city": "Newton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 5055,
+      "pct_non_hispanic_white": 0.7623,
+      "pct_non_hispanic_black": 0.0127,
+      "pct_non_hispanic_asian": 0.1309,
+      "pct_hispanic": 0.037,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0081,
+      "pct_non_hispanic_multiracial": 0.0483,
+      "pct_other_combined": 0.0571
+    }
+  },
+  {
+    "area_id": 5021,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Newton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 17928,
+      "pct_non_hispanic_white": 0.6941,
+      "pct_non_hispanic_black": 0.0266,
+      "pct_non_hispanic_asian": 0.1545,
+      "pct_hispanic": 0.0652,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0097,
+      "pct_non_hispanic_multiracial": 0.0492,
+      "pct_other_combined": 0.0595
+    }
+  },
+  {
+    "area_id": 5022,
+    "label": "C2",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Watertown",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1781,
+      "pct_non_hispanic_white": 0.6985,
+      "pct_non_hispanic_black": 0.0328,
+      "pct_non_hispanic_asian": 0.1334,
+      "pct_hispanic": 0.0657,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0135,
+      "pct_non_hispanic_multiracial": 0.0556,
+      "pct_other_combined": 0.0696
+    }
+  },
+  {
+    "area_id": 5023,
+    "label": "D1",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Newton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1380,
+      "pct_non_hispanic_white": 0.64,
+      "pct_non_hispanic_black": 0.0269,
+      "pct_non_hispanic_asian": 0.1741,
+      "pct_hispanic": 0.089,
+      "pct_non_hispanic_native": 0.0008,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0159,
+      "pct_non_hispanic_multiracial": 0.0532,
+      "pct_other_combined": 0.07
+    }
+  },
+  {
+    "area_id": 5024,
+    "label": "B2",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Newton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2414,
+      "pct_non_hispanic_white": 0.7052,
+      "pct_non_hispanic_black": 0.0305,
+      "pct_non_hispanic_asian": 0.146,
+      "pct_hispanic": 0.0618,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0099,
+      "pct_non_hispanic_multiracial": 0.0461,
+      "pct_other_combined": 0.0566
+    }
+  },
+  {
+    "area_id": 5025,
+    "label": "D1",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Waltham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1953,
+      "pct_non_hispanic_white": 0.4701,
+      "pct_non_hispanic_black": 0.0709,
+      "pct_non_hispanic_asian": 0.1136,
+      "pct_hispanic": 0.2952,
+      "pct_non_hispanic_native": 0.0021,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0123,
+      "pct_non_hispanic_multiracial": 0.0356,
+      "pct_other_combined": 0.0503
+    }
+  },
+  {
+    "area_id": 5026,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Newton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 277,
+      "pct_non_hispanic_white": 0.668,
+      "pct_non_hispanic_black": 0.025,
+      "pct_non_hispanic_asian": 0.188,
+      "pct_hispanic": 0.0643,
+      "pct_non_hispanic_native": 0.0013,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.008,
+      "pct_non_hispanic_multiracial": 0.0454,
+      "pct_other_combined": 0.0548
+    }
+  },
+  {
+    "area_id": 5027,
+    "label": "B6",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1066,
+      "pct_non_hispanic_white": 0.4928,
+      "pct_non_hispanic_black": 0.1515,
+      "pct_non_hispanic_asian": 0.0446,
+      "pct_hispanic": 0.2591,
+      "pct_non_hispanic_native": 0.0001,
+      "pct_non_hispanic_pacific": 0.0012,
+      "pct_non_hispanic_other": 0.0091,
+      "pct_non_hispanic_multiracial": 0.0417,
+      "pct_other_combined": 0.052
+    }
+  },
+  {
+    "area_id": 5028,
+    "label": "C5",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Cambridge",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1218,
+      "pct_non_hispanic_white": 0.5666,
+      "pct_non_hispanic_black": 0.0797,
+      "pct_non_hispanic_asian": 0.2136,
+      "pct_hispanic": 0.08,
+      "pct_non_hispanic_native": 0.0011,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0058,
+      "pct_non_hispanic_multiracial": 0.053,
+      "pct_other_combined": 0.0601
+    }
+  },
+  {
+    "area_id": 5029,
+    "label": "D1",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Cambridge",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 34708,
+      "pct_non_hispanic_white": 0.5782,
+      "pct_non_hispanic_black": 0.0712,
+      "pct_non_hispanic_asian": 0.1484,
+      "pct_hispanic": 0.1227,
+      "pct_non_hispanic_native": 0.001,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0171,
+      "pct_non_hispanic_multiracial": 0.0611,
+      "pct_other_combined": 0.0794
+    }
+  },
+  {
+    "area_id": 5030,
+    "label": "C4",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Cambridge",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 11397,
+      "pct_non_hispanic_white": 0.6186,
+      "pct_non_hispanic_black": 0.0592,
+      "pct_non_hispanic_asian": 0.1721,
+      "pct_hispanic": 0.0835,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.001,
+      "pct_non_hispanic_other": 0.007,
+      "pct_non_hispanic_multiracial": 0.0578,
+      "pct_other_combined": 0.0665
+    }
+  },
+  {
+    "area_id": 5031,
+    "label": "B2",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Cambridge",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 965,
+      "pct_non_hispanic_white": 0.6194,
+      "pct_non_hispanic_black": 0.0568,
+      "pct_non_hispanic_asian": 0.1829,
+      "pct_hispanic": 0.0801,
+      "pct_non_hispanic_native": 0.0008,
+      "pct_non_hispanic_pacific": 0.0006,
+      "pct_non_hispanic_other": 0.0115,
+      "pct_non_hispanic_multiracial": 0.0479,
+      "pct_other_combined": 0.0608
+    }
+  },
+  {
+    "area_id": 5032,
+    "label": "D2",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Cambridge",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 14816,
+      "pct_non_hispanic_white": 0.5358,
+      "pct_non_hispanic_black": 0.1262,
+      "pct_non_hispanic_asian": 0.1542,
+      "pct_hispanic": 0.1125,
+      "pct_non_hispanic_native": 0.0015,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0118,
+      "pct_non_hispanic_multiracial": 0.0577,
+      "pct_other_combined": 0.0713
+    }
+  },
+  {
+    "area_id": 5034,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Cambridge",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 8652,
+      "pct_non_hispanic_white": 0.7418,
+      "pct_non_hispanic_black": 0.0253,
+      "pct_non_hispanic_asian": 0.1136,
+      "pct_hispanic": 0.0624,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0071,
+      "pct_non_hispanic_multiracial": 0.0489,
+      "pct_other_combined": 0.0568
+    }
+  },
+  {
+    "area_id": 5035,
+    "label": "C3",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Cambridge",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 3862,
+      "pct_non_hispanic_white": 0.635,
+      "pct_non_hispanic_black": 0.0515,
+      "pct_non_hispanic_asian": 0.1779,
+      "pct_hispanic": 0.0758,
+      "pct_non_hispanic_native": 0.0011,
+      "pct_non_hispanic_pacific": 0.0007,
+      "pct_non_hispanic_other": 0.0096,
+      "pct_non_hispanic_multiracial": 0.0484,
+      "pct_other_combined": 0.0598
+    }
+  },
+  {
+    "area_id": 5036,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Cambridge",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1784,
+      "pct_non_hispanic_white": 0.7003,
+      "pct_non_hispanic_black": 0.0399,
+      "pct_non_hispanic_asian": 0.1319,
+      "pct_hispanic": 0.0612,
+      "pct_non_hispanic_native": 0.0022,
+      "pct_non_hispanic_pacific": 0.0006,
+      "pct_non_hispanic_other": 0.0065,
+      "pct_non_hispanic_multiracial": 0.0574,
+      "pct_other_combined": 0.0667
+    }
+  },
+  {
+    "area_id": 5037,
+    "label": "B3",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Cambridge",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2691,
+      "pct_non_hispanic_white": 0.6795,
+      "pct_non_hispanic_black": 0.0466,
+      "pct_non_hispanic_asian": 0.147,
+      "pct_hispanic": 0.0724,
+      "pct_non_hispanic_native": 0.0015,
+      "pct_non_hispanic_pacific": 0.0006,
+      "pct_non_hispanic_other": 0.0079,
+      "pct_non_hispanic_multiracial": 0.0445,
+      "pct_other_combined": 0.0545
+    }
+  },
+  {
+    "area_id": 5038,
+    "label": "B4",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Cambridge",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 772,
+      "pct_non_hispanic_white": 0.7875,
+      "pct_non_hispanic_black": 0.0267,
+      "pct_non_hispanic_asian": 0.0751,
+      "pct_hispanic": 0.0481,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0079,
+      "pct_non_hispanic_multiracial": 0.054,
+      "pct_other_combined": 0.0626
+    }
+  },
+  {
+    "area_id": 5039,
+    "label": "B5",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Cambridge",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 221,
+      "pct_non_hispanic_white": 0.7945,
+      "pct_non_hispanic_black": 0.0246,
+      "pct_non_hispanic_asian": 0.0721,
+      "pct_hispanic": 0.0452,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0076,
+      "pct_non_hispanic_multiracial": 0.0552,
+      "pct_other_combined": 0.0635
+    }
+  },
+  {
+    "area_id": 5040,
+    "label": "A1",
+    "grade": "A",
+    "category": "Best",
+    "city": "Cambridge",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 254,
+      "pct_non_hispanic_white": 0.7945,
+      "pct_non_hispanic_black": 0.0246,
+      "pct_non_hispanic_asian": 0.0721,
+      "pct_hispanic": 0.0452,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0076,
+      "pct_non_hispanic_multiracial": 0.0552,
+      "pct_other_combined": 0.0635
+    }
+  },
+  {
+    "area_id": 5041,
+    "label": "B6",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Cambridge",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 284,
+      "pct_non_hispanic_white": 0.7874,
+      "pct_non_hispanic_black": 0.0258,
+      "pct_non_hispanic_asian": 0.073,
+      "pct_hispanic": 0.0493,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0085,
+      "pct_non_hispanic_multiracial": 0.0554,
+      "pct_other_combined": 0.0645
+    }
+  },
+  {
+    "area_id": 5042,
+    "label": "C6",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Cambridge",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 649,
+      "pct_non_hispanic_white": 0.7076,
+      "pct_non_hispanic_black": 0.053,
+      "pct_non_hispanic_asian": 0.1129,
+      "pct_hispanic": 0.078,
+      "pct_non_hispanic_native": 0.0016,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0091,
+      "pct_non_hispanic_multiracial": 0.0375,
+      "pct_other_combined": 0.0485
+    }
+  },
+  {
+    "area_id": 5043,
+    "label": "B7",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Cambridge",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 455,
+      "pct_non_hispanic_white": 0.5611,
+      "pct_non_hispanic_black": 0.0703,
+      "pct_non_hispanic_asian": 0.2164,
+      "pct_hispanic": 0.0895,
+      "pct_non_hispanic_native": 0.0017,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0086,
+      "pct_non_hispanic_multiracial": 0.052,
+      "pct_other_combined": 0.0627
+    }
+  },
+  {
+    "area_id": 5044,
+    "label": "C2",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Cambridge",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 7677,
+      "pct_non_hispanic_white": 0.636,
+      "pct_non_hispanic_black": 0.1179,
+      "pct_non_hispanic_asian": 0.1126,
+      "pct_hispanic": 0.0683,
+      "pct_non_hispanic_native": 0.0011,
+      "pct_non_hispanic_pacific": 0.0005,
+      "pct_non_hispanic_other": 0.0065,
+      "pct_non_hispanic_multiracial": 0.0571,
+      "pct_other_combined": 0.0652
+    }
+  },
+  {
+    "area_id": 5045,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Somerville",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 9426,
+      "pct_non_hispanic_white": 0.6003,
+      "pct_non_hispanic_black": 0.1298,
+      "pct_non_hispanic_asian": 0.1397,
+      "pct_hispanic": 0.07,
+      "pct_non_hispanic_native": 0.0009,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0078,
+      "pct_non_hispanic_multiracial": 0.0513,
+      "pct_other_combined": 0.0602
+    }
+  },
+  {
+    "area_id": 5046,
+    "label": "C4",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Somerville",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 28563,
+      "pct_non_hispanic_white": 0.6615,
+      "pct_non_hispanic_black": 0.0556,
+      "pct_non_hispanic_asian": 0.0876,
+      "pct_hispanic": 0.1152,
+      "pct_non_hispanic_native": 0.001,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.017,
+      "pct_non_hispanic_multiracial": 0.062,
+      "pct_other_combined": 0.0802
+    }
+  },
+  {
+    "area_id": 5047,
+    "label": "C2",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Somerville",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2191,
+      "pct_non_hispanic_white": 0.7921,
+      "pct_non_hispanic_black": 0.021,
+      "pct_non_hispanic_asian": 0.0801,
+      "pct_hispanic": 0.0484,
+      "pct_non_hispanic_native": 0.0015,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0047,
+      "pct_non_hispanic_multiracial": 0.0521,
+      "pct_other_combined": 0.0583
+    }
+  },
+  {
+    "area_id": 5048,
+    "label": "C3",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Somerville",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 881,
+      "pct_non_hispanic_white": 0.6553,
+      "pct_non_hispanic_black": 0.0452,
+      "pct_non_hispanic_asian": 0.0718,
+      "pct_hispanic": 0.128,
+      "pct_non_hispanic_native": 0.0025,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0313,
+      "pct_non_hispanic_multiracial": 0.0657,
+      "pct_other_combined": 0.0997
+    }
+  },
+  {
+    "area_id": 5049,
+    "label": "C7",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Somerville",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 5802,
+      "pct_non_hispanic_white": 0.6594,
+      "pct_non_hispanic_black": 0.0854,
+      "pct_non_hispanic_asian": 0.1033,
+      "pct_hispanic": 0.0721,
+      "pct_non_hispanic_native": 0.001,
+      "pct_non_hispanic_pacific": 0.0006,
+      "pct_non_hispanic_other": 0.0225,
+      "pct_non_hispanic_multiracial": 0.0558,
+      "pct_other_combined": 0.0798
+    }
+  },
+  {
+    "area_id": 5050,
+    "label": "C8",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Somerville",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 4311,
+      "pct_non_hispanic_white": 0.6725,
+      "pct_non_hispanic_black": 0.062,
+      "pct_non_hispanic_asian": 0.1131,
+      "pct_hispanic": 0.0727,
+      "pct_non_hispanic_native": 0.0009,
+      "pct_non_hispanic_pacific": 0.001,
+      "pct_non_hispanic_other": 0.019,
+      "pct_non_hispanic_multiracial": 0.0588,
+      "pct_other_combined": 0.0798
+    }
+  },
+  {
+    "area_id": 5051,
+    "label": "B4",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Somerville",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 4897,
+      "pct_non_hispanic_white": 0.6928,
+      "pct_non_hispanic_black": 0.0641,
+      "pct_non_hispanic_asian": 0.1075,
+      "pct_hispanic": 0.0633,
+      "pct_non_hispanic_native": 0.0009,
+      "pct_non_hispanic_pacific": 0.0005,
+      "pct_non_hispanic_other": 0.015,
+      "pct_non_hispanic_multiracial": 0.0559,
+      "pct_other_combined": 0.0723
+    }
+  },
+  {
+    "area_id": 5052,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Somerville",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 9887,
+      "pct_non_hispanic_white": 0.7009,
+      "pct_non_hispanic_black": 0.0477,
+      "pct_non_hispanic_asian": 0.1174,
+      "pct_hispanic": 0.0782,
+      "pct_non_hispanic_native": 0.0012,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0047,
+      "pct_non_hispanic_multiracial": 0.0497,
+      "pct_other_combined": 0.0558
+    }
+  },
+  {
+    "area_id": 5053,
+    "label": "C6",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Medford",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 933,
+      "pct_non_hispanic_white": 0.5309,
+      "pct_non_hispanic_black": 0.0624,
+      "pct_non_hispanic_asian": 0.2401,
+      "pct_hispanic": 0.0652,
+      "pct_non_hispanic_native": 0.0017,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0398,
+      "pct_non_hispanic_multiracial": 0.0599,
+      "pct_other_combined": 0.1014
+    }
+  },
+  {
+    "area_id": 5054,
+    "label": "C5",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Medford",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1357,
+      "pct_non_hispanic_white": 0.544,
+      "pct_non_hispanic_black": 0.0879,
+      "pct_non_hispanic_asian": 0.172,
+      "pct_hispanic": 0.0666,
+      "pct_non_hispanic_native": 0.0017,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0531,
+      "pct_non_hispanic_multiracial": 0.0748,
+      "pct_other_combined": 0.1295
+    }
+  },
+  {
+    "area_id": 5055,
+    "label": "C4",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Medford",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 11010,
+      "pct_non_hispanic_white": 0.6291,
+      "pct_non_hispanic_black": 0.0937,
+      "pct_non_hispanic_asian": 0.1137,
+      "pct_hispanic": 0.0783,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0247,
+      "pct_non_hispanic_multiracial": 0.0596,
+      "pct_other_combined": 0.0851
+    }
+  },
+  {
+    "area_id": 5056,
+    "label": "B3",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Medford",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1767,
+      "pct_non_hispanic_white": 0.7468,
+      "pct_non_hispanic_black": 0.0614,
+      "pct_non_hispanic_asian": 0.0832,
+      "pct_hispanic": 0.0517,
+      "pct_non_hispanic_native": 0.0002,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0114,
+      "pct_non_hispanic_multiracial": 0.045,
+      "pct_other_combined": 0.057
+    }
+  },
+  {
+    "area_id": 5057,
+    "label": "C3",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Medford",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 5503,
+      "pct_non_hispanic_white": 0.6983,
+      "pct_non_hispanic_black": 0.0582,
+      "pct_non_hispanic_asian": 0.1291,
+      "pct_hispanic": 0.0521,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0008,
+      "pct_non_hispanic_other": 0.0144,
+      "pct_non_hispanic_multiracial": 0.0464,
+      "pct_other_combined": 0.0623
+    }
+  },
+  {
+    "area_id": 5058,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Malden",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1389,
+      "pct_non_hispanic_white": 0.476,
+      "pct_non_hispanic_black": 0.0774,
+      "pct_non_hispanic_asian": 0.2948,
+      "pct_hispanic": 0.07,
+      "pct_non_hispanic_native": 0.0009,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.017,
+      "pct_non_hispanic_multiracial": 0.0635,
+      "pct_other_combined": 0.0817
+    }
+  },
+  {
+    "area_id": 5059,
+    "label": "A2",
+    "grade": "A",
+    "category": "Best",
+    "city": "Medford",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1262,
+      "pct_non_hispanic_white": 0.7719,
+      "pct_non_hispanic_black": 0.0557,
+      "pct_non_hispanic_asian": 0.0711,
+      "pct_hispanic": 0.0489,
+      "pct_non_hispanic_native": 0.0001,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0088,
+      "pct_non_hispanic_multiracial": 0.0432,
+      "pct_other_combined": 0.0523
+    }
+  },
+  {
+    "area_id": 5060,
+    "label": "B2",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Medford",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1852,
+      "pct_non_hispanic_white": 0.8383,
+      "pct_non_hispanic_black": 0.0405,
+      "pct_non_hispanic_asian": 0.0398,
+      "pct_hispanic": 0.0358,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0065,
+      "pct_non_hispanic_multiracial": 0.0385,
+      "pct_other_combined": 0.0456
+    }
+  },
+  {
+    "area_id": 5061,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Medford",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 490,
+      "pct_non_hispanic_white": 0.8566,
+      "pct_non_hispanic_black": 0.0266,
+      "pct_non_hispanic_asian": 0.0386,
+      "pct_hispanic": 0.0353,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0062,
+      "pct_non_hispanic_multiracial": 0.0362,
+      "pct_other_combined": 0.0429
+    }
+  },
+  {
+    "area_id": 5062,
+    "label": "A1",
+    "grade": "A",
+    "category": "Best",
+    "city": "Medford",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 267,
+      "pct_non_hispanic_white": 0.8586,
+      "pct_non_hispanic_black": 0.0251,
+      "pct_non_hispanic_asian": 0.0384,
+      "pct_hispanic": 0.0353,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0061,
+      "pct_non_hispanic_multiracial": 0.036,
+      "pct_other_combined": 0.0426
+    }
+  },
+  {
+    "area_id": 5063,
+    "label": "C2",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Medford",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1718,
+      "pct_non_hispanic_white": 0.591,
+      "pct_non_hispanic_black": 0.2285,
+      "pct_non_hispanic_asian": 0.057,
+      "pct_hispanic": 0.0423,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0114,
+      "pct_non_hispanic_multiracial": 0.0697,
+      "pct_other_combined": 0.0812
+    }
+  },
+  {
+    "area_id": 5064,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Medford",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 745,
+      "pct_non_hispanic_white": 0.5781,
+      "pct_non_hispanic_black": 0.2386,
+      "pct_non_hispanic_asian": 0.0578,
+      "pct_hispanic": 0.0425,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0117,
+      "pct_non_hispanic_multiracial": 0.0714,
+      "pct_other_combined": 0.0831
+    }
+  },
+  {
+    "area_id": 5065,
+    "label": "B3",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Arlington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 452,
+      "pct_non_hispanic_white": 0.7125,
+      "pct_non_hispanic_black": 0.035,
+      "pct_non_hispanic_asian": 0.1427,
+      "pct_hispanic": 0.0519,
+      "pct_non_hispanic_native": 0.0002,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0079,
+      "pct_non_hispanic_multiracial": 0.0497,
+      "pct_other_combined": 0.0579
+    }
+  },
+  {
+    "area_id": 5066,
+    "label": "B4",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Arlington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2215,
+      "pct_non_hispanic_white": 0.6764,
+      "pct_non_hispanic_black": 0.0445,
+      "pct_non_hispanic_asian": 0.1593,
+      "pct_hispanic": 0.0574,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.009,
+      "pct_non_hispanic_multiracial": 0.0534,
+      "pct_other_combined": 0.0624
+    }
+  },
+  {
+    "area_id": 5067,
+    "label": "C3",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Arlington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1778,
+      "pct_non_hispanic_white": 0.6735,
+      "pct_non_hispanic_black": 0.0452,
+      "pct_non_hispanic_asian": 0.1607,
+      "pct_hispanic": 0.0578,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0092,
+      "pct_non_hispanic_multiracial": 0.0536,
+      "pct_other_combined": 0.0628
+    }
+  },
+  {
+    "area_id": 5068,
+    "label": "B6",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Arlington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 3143,
+      "pct_non_hispanic_white": 0.751,
+      "pct_non_hispanic_black": 0.0271,
+      "pct_non_hispanic_asian": 0.1222,
+      "pct_hispanic": 0.0479,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0036,
+      "pct_non_hispanic_multiracial": 0.0479,
+      "pct_other_combined": 0.0519
+    }
+  },
+  {
+    "area_id": 5069,
+    "label": "B5",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Arlington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1263,
+      "pct_non_hispanic_white": 0.7601,
+      "pct_non_hispanic_black": 0.0249,
+      "pct_non_hispanic_asian": 0.1176,
+      "pct_hispanic": 0.0467,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0029,
+      "pct_non_hispanic_multiracial": 0.0472,
+      "pct_other_combined": 0.0506
+    }
+  },
+  {
+    "area_id": 5070,
+    "label": "B7",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Arlington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2177,
+      "pct_non_hispanic_white": 0.7593,
+      "pct_non_hispanic_black": 0.0191,
+      "pct_non_hispanic_asian": 0.1165,
+      "pct_hispanic": 0.0448,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0046,
+      "pct_non_hispanic_multiracial": 0.0552,
+      "pct_other_combined": 0.0603
+    }
+  },
+  {
+    "area_id": 5071,
+    "label": "B8",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Arlington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2308,
+      "pct_non_hispanic_white": 0.7246,
+      "pct_non_hispanic_black": 0.0266,
+      "pct_non_hispanic_asian": 0.1329,
+      "pct_hispanic": 0.0539,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0059,
+      "pct_non_hispanic_multiracial": 0.0555,
+      "pct_other_combined": 0.062
+    }
+  },
+  {
+    "area_id": 5072,
+    "label": "B10",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Arlington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1262,
+      "pct_non_hispanic_white": 0.7147,
+      "pct_non_hispanic_black": 0.0322,
+      "pct_non_hispanic_asian": 0.138,
+      "pct_hispanic": 0.0523,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.007,
+      "pct_non_hispanic_multiracial": 0.0552,
+      "pct_other_combined": 0.0628
+    }
+  },
+  {
+    "area_id": 5073,
+    "label": "A3",
+    "grade": "A",
+    "category": "Best",
+    "city": "Arlington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 529,
+      "pct_non_hispanic_white": 0.757,
+      "pct_non_hispanic_black": 0.0181,
+      "pct_non_hispanic_asian": 0.1181,
+      "pct_hispanic": 0.0452,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0048,
+      "pct_non_hispanic_multiracial": 0.0562,
+      "pct_other_combined": 0.0615
+    }
+  },
+  {
+    "area_id": 5074,
+    "label": "A2",
+    "grade": "A",
+    "category": "Best",
+    "city": "Belmont",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1113,
+      "pct_non_hispanic_white": 0.6594,
+      "pct_non_hispanic_black": 0.0145,
+      "pct_non_hispanic_asian": 0.2405,
+      "pct_hispanic": 0.0363,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0064,
+      "pct_non_hispanic_multiracial": 0.0424,
+      "pct_other_combined": 0.0493
+    }
+  },
+  {
+    "area_id": 5075,
+    "label": "C3",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Belmont",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 147,
+      "pct_non_hispanic_white": 0.7107,
+      "pct_non_hispanic_black": 0.0309,
+      "pct_non_hispanic_asian": 0.1485,
+      "pct_hispanic": 0.052,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0055,
+      "pct_non_hispanic_multiracial": 0.0519,
+      "pct_other_combined": 0.0578
+    }
+  },
+  {
+    "area_id": 5076,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Belmont",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2052,
+      "pct_non_hispanic_white": 0.655,
+      "pct_non_hispanic_black": 0.0145,
+      "pct_non_hispanic_asian": 0.2472,
+      "pct_hispanic": 0.0348,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0065,
+      "pct_non_hispanic_multiracial": 0.0415,
+      "pct_other_combined": 0.0485
+    }
+  },
+  {
+    "area_id": 5077,
+    "label": "A1",
+    "grade": "A",
+    "category": "Best",
+    "city": "Belmont",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2433,
+      "pct_non_hispanic_white": 0.6964,
+      "pct_non_hispanic_black": 0.0226,
+      "pct_non_hispanic_asian": 0.1831,
+      "pct_hispanic": 0.0476,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0039,
+      "pct_non_hispanic_multiracial": 0.0459,
+      "pct_other_combined": 0.0503
+    }
+  },
+  {
+    "area_id": 5078,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Belmont",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 3155,
+      "pct_non_hispanic_white": 0.6663,
+      "pct_non_hispanic_black": 0.0253,
+      "pct_non_hispanic_asian": 0.1968,
+      "pct_hispanic": 0.0551,
+      "pct_non_hispanic_native": 0.0009,
+      "pct_non_hispanic_pacific": 0.0005,
+      "pct_non_hispanic_other": 0.0077,
+      "pct_non_hispanic_multiracial": 0.0474,
+      "pct_other_combined": 0.0565
+    }
+  },
+  {
+    "area_id": 5079,
+    "label": "C2",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Belmont",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1119,
+      "pct_non_hispanic_white": 0.6447,
+      "pct_non_hispanic_black": 0.0249,
+      "pct_non_hispanic_asian": 0.2136,
+      "pct_hispanic": 0.0571,
+      "pct_non_hispanic_native": 0.0011,
+      "pct_non_hispanic_pacific": 0.0007,
+      "pct_non_hispanic_other": 0.0096,
+      "pct_non_hispanic_multiracial": 0.0482,
+      "pct_other_combined": 0.0596
+    }
+  },
+  {
+    "area_id": 5080,
+    "label": "B2",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Belmont",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 199,
+      "pct_non_hispanic_white": 0.719,
+      "pct_non_hispanic_black": 0.0214,
+      "pct_non_hispanic_asian": 0.1609,
+      "pct_hispanic": 0.047,
+      "pct_non_hispanic_native": 0.0003,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0046,
+      "pct_non_hispanic_multiracial": 0.0467,
+      "pct_other_combined": 0.0515
+    }
+  },
+  {
+    "area_id": 5081,
+    "label": "B3",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Belmont",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 905,
+      "pct_non_hispanic_white": 0.7305,
+      "pct_non_hispanic_black": 0.018,
+      "pct_non_hispanic_asian": 0.1527,
+      "pct_hispanic": 0.044,
+      "pct_non_hispanic_native": 0.0002,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0076,
+      "pct_non_hispanic_multiracial": 0.0469,
+      "pct_other_combined": 0.0548
+    }
+  },
+  {
+    "area_id": 5082,
+    "label": "A3",
+    "grade": "A",
+    "category": "Best",
+    "city": "Belmont",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 891,
+      "pct_non_hispanic_white": 0.7343,
+      "pct_non_hispanic_black": 0.0158,
+      "pct_non_hispanic_asian": 0.1539,
+      "pct_hispanic": 0.0407,
+      "pct_non_hispanic_native": 0.0002,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0083,
+      "pct_non_hispanic_multiracial": 0.0468,
+      "pct_other_combined": 0.0553
+    }
+  },
+  {
+    "area_id": 5083,
+    "label": "B5",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Belmont",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2561,
+      "pct_non_hispanic_white": 0.72,
+      "pct_non_hispanic_black": 0.0169,
+      "pct_non_hispanic_asian": 0.1487,
+      "pct_hispanic": 0.0516,
+      "pct_non_hispanic_native": 0.0003,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.008,
+      "pct_non_hispanic_multiracial": 0.0542,
+      "pct_other_combined": 0.0629
+    }
+  },
+  {
+    "area_id": 5084,
+    "label": "C4",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Belmont",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 126,
+      "pct_non_hispanic_white": 0.7379,
+      "pct_non_hispanic_black": 0.0117,
+      "pct_non_hispanic_asian": 0.1594,
+      "pct_hispanic": 0.0342,
+      "pct_non_hispanic_native": 0.0003,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0099,
+      "pct_non_hispanic_multiracial": 0.0466,
+      "pct_other_combined": 0.0567
+    }
+  },
+  {
+    "area_id": 5085,
+    "label": "D1",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Belmont",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 453,
+      "pct_non_hispanic_white": 0.6895,
+      "pct_non_hispanic_black": 0.0324,
+      "pct_non_hispanic_asian": 0.1795,
+      "pct_hispanic": 0.0486,
+      "pct_non_hispanic_native": 0.0002,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0069,
+      "pct_non_hispanic_multiracial": 0.0429,
+      "pct_other_combined": 0.05
+    }
+  },
+  {
+    "area_id": 5086,
+    "label": "B7",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Belmont",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1317,
+      "pct_non_hispanic_white": 0.711,
+      "pct_non_hispanic_black": 0.0201,
+      "pct_non_hispanic_asian": 0.1421,
+      "pct_hispanic": 0.0607,
+      "pct_non_hispanic_native": 0.0003,
+      "pct_non_hispanic_pacific": 0.0006,
+      "pct_non_hispanic_other": 0.0072,
+      "pct_non_hispanic_multiracial": 0.0579,
+      "pct_other_combined": 0.0661
+    }
+  },
+  {
+    "area_id": 5087,
+    "label": "B6",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Belmont",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1326,
+      "pct_non_hispanic_white": 0.7647,
+      "pct_non_hispanic_black": 0.0075,
+      "pct_non_hispanic_asian": 0.1355,
+      "pct_hispanic": 0.0405,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0059,
+      "pct_non_hispanic_multiracial": 0.0458,
+      "pct_other_combined": 0.0517
+    }
+  },
+  {
+    "area_id": 5088,
+    "label": "A4",
+    "grade": "A",
+    "category": "Best",
+    "city": "Belmont",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 155,
+      "pct_non_hispanic_white": 0.7652,
+      "pct_non_hispanic_black": 0.0072,
+      "pct_non_hispanic_asian": 0.1362,
+      "pct_hispanic": 0.0401,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0059,
+      "pct_non_hispanic_multiracial": 0.0455,
+      "pct_other_combined": 0.0514
+    }
+  },
+  {
+    "area_id": 5089,
+    "label": "B4",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Belmont",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2573,
+      "pct_non_hispanic_white": 0.7486,
+      "pct_non_hispanic_black": 0.0162,
+      "pct_non_hispanic_asian": 0.1345,
+      "pct_hispanic": 0.0471,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0068,
+      "pct_non_hispanic_multiracial": 0.0467,
+      "pct_other_combined": 0.0535
+    }
+  },
+  {
+    "area_id": 5090,
+    "label": "D1",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Watertown",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 723,
+      "pct_non_hispanic_white": 0.7067,
+      "pct_non_hispanic_black": 0.0327,
+      "pct_non_hispanic_asian": 0.0989,
+      "pct_hispanic": 0.0912,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0198,
+      "pct_non_hispanic_multiracial": 0.0501,
+      "pct_other_combined": 0.0705
+    }
+  },
+  {
+    "area_id": 5091,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Watertown",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 6747,
+      "pct_non_hispanic_white": 0.8017,
+      "pct_non_hispanic_black": 0.0254,
+      "pct_non_hispanic_asian": 0.0563,
+      "pct_hispanic": 0.0593,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0101,
+      "pct_non_hispanic_multiracial": 0.0464,
+      "pct_other_combined": 0.0572
+    }
+  },
+  {
+    "area_id": 5092,
+    "label": "C3",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Watertown",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2388,
+      "pct_non_hispanic_white": 0.7048,
+      "pct_non_hispanic_black": 0.0406,
+      "pct_non_hispanic_asian": 0.099,
+      "pct_hispanic": 0.0852,
+      "pct_non_hispanic_native": 0.0008,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0165,
+      "pct_non_hispanic_multiracial": 0.0531,
+      "pct_other_combined": 0.0704
+    }
+  },
+  {
+    "area_id": 5093,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Watertown",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 17867,
+      "pct_non_hispanic_white": 0.7195,
+      "pct_non_hispanic_black": 0.037,
+      "pct_non_hispanic_asian": 0.1025,
+      "pct_hispanic": 0.0803,
+      "pct_non_hispanic_native": 0.0013,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0148,
+      "pct_non_hispanic_multiracial": 0.0446,
+      "pct_other_combined": 0.0607
+    }
+  },
+  {
+    "area_id": 5094,
+    "label": "B4",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Waltham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 883,
+      "pct_non_hispanic_white": 0.6837,
+      "pct_non_hispanic_black": 0.0458,
+      "pct_non_hispanic_asian": 0.092,
+      "pct_hispanic": 0.1332,
+      "pct_non_hispanic_native": 0.0011,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0089,
+      "pct_non_hispanic_multiracial": 0.0349,
+      "pct_other_combined": 0.0453
+    }
+  },
+  {
+    "area_id": 5095,
+    "label": "B3",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Waltham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 759,
+      "pct_non_hispanic_white": 0.3808,
+      "pct_non_hispanic_black": 0.1736,
+      "pct_non_hispanic_asian": 0.1065,
+      "pct_hispanic": 0.2839,
+      "pct_non_hispanic_native": 0.0008,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0165,
+      "pct_non_hispanic_multiracial": 0.0379,
+      "pct_other_combined": 0.0553
+    }
+  },
+  {
+    "area_id": 5096,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Waltham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 675,
+      "pct_non_hispanic_white": 0.6049,
+      "pct_non_hispanic_black": 0.074,
+      "pct_non_hispanic_asian": 0.1087,
+      "pct_hispanic": 0.1735,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0079,
+      "pct_non_hispanic_multiracial": 0.0305,
+      "pct_other_combined": 0.039
+    }
+  },
+  {
+    "area_id": 5097,
+    "label": "A1",
+    "grade": "A",
+    "category": "Best",
+    "city": "Waltham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 466,
+      "pct_non_hispanic_white": 0.5858,
+      "pct_non_hispanic_black": 0.075,
+      "pct_non_hispanic_asian": 0.1762,
+      "pct_hispanic": 0.1202,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0005,
+      "pct_non_hispanic_other": 0.0073,
+      "pct_non_hispanic_multiracial": 0.0346,
+      "pct_other_combined": 0.0428
+    }
+  },
+  {
+    "area_id": 5098,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Waltham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 12220,
+      "pct_non_hispanic_white": 0.518,
+      "pct_non_hispanic_black": 0.0706,
+      "pct_non_hispanic_asian": 0.1058,
+      "pct_hispanic": 0.2593,
+      "pct_non_hispanic_native": 0.0018,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0099,
+      "pct_non_hispanic_multiracial": 0.0343,
+      "pct_other_combined": 0.0463
+    }
+  },
+  {
+    "area_id": 5099,
+    "label": "B2",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Waltham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 624,
+      "pct_non_hispanic_white": 0.631,
+      "pct_non_hispanic_black": 0.0768,
+      "pct_non_hispanic_asian": 0.1027,
+      "pct_hispanic": 0.1529,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0071,
+      "pct_non_hispanic_multiracial": 0.029,
+      "pct_other_combined": 0.0366
+    }
+  },
+  {
+    "area_id": 5100,
+    "label": "C2",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Waltham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2747,
+      "pct_non_hispanic_white": 0.6875,
+      "pct_non_hispanic_black": 0.055,
+      "pct_non_hispanic_asian": 0.15,
+      "pct_hispanic": 0.0704,
+      "pct_non_hispanic_native": 0.0012,
+      "pct_non_hispanic_pacific": 0.0005,
+      "pct_non_hispanic_other": 0.0068,
+      "pct_non_hispanic_multiracial": 0.0285,
+      "pct_other_combined": 0.0371
+    }
+  },
+  {
+    "area_id": 5101,
+    "label": "B9",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Arlington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 5668,
+      "pct_non_hispanic_white": 0.768,
+      "pct_non_hispanic_black": 0.0214,
+      "pct_non_hispanic_asian": 0.1138,
+      "pct_hispanic": 0.0392,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0086,
+      "pct_non_hispanic_multiracial": 0.048,
+      "pct_other_combined": 0.0576
+    }
+  },
+  {
+    "area_id": 5102,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Arlington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1695,
+      "pct_non_hispanic_white": 0.7598,
+      "pct_non_hispanic_black": 0.0156,
+      "pct_non_hispanic_asian": 0.1253,
+      "pct_hispanic": 0.0429,
+      "pct_non_hispanic_native": 0.0016,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0079,
+      "pct_non_hispanic_multiracial": 0.0467,
+      "pct_other_combined": 0.0564
+    }
+  },
+  {
+    "area_id": 5103,
+    "label": "C2",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Arlington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 6677,
+      "pct_non_hispanic_white": 0.7494,
+      "pct_non_hispanic_black": 0.021,
+      "pct_non_hispanic_asian": 0.1255,
+      "pct_hispanic": 0.0455,
+      "pct_non_hispanic_native": 0.0011,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0073,
+      "pct_non_hispanic_multiracial": 0.05,
+      "pct_other_combined": 0.0586
+    }
+  },
+  {
+    "area_id": 5104,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Arlington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 3706,
+      "pct_non_hispanic_white": 0.7823,
+      "pct_non_hispanic_black": 0.0166,
+      "pct_non_hispanic_asian": 0.11,
+      "pct_hispanic": 0.0414,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0055,
+      "pct_non_hispanic_multiracial": 0.0432,
+      "pct_other_combined": 0.0497
+    }
+  },
+  {
+    "area_id": 5105,
+    "label": "A2",
+    "grade": "A",
+    "category": "Best",
+    "city": "Arlington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 844,
+      "pct_non_hispanic_white": 0.7911,
+      "pct_non_hispanic_black": 0.0144,
+      "pct_non_hispanic_asian": 0.1063,
+      "pct_hispanic": 0.04,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0053,
+      "pct_non_hispanic_multiracial": 0.0419,
+      "pct_other_combined": 0.0481
+    }
+  },
+  {
+    "area_id": 5106,
+    "label": "A1",
+    "grade": "A",
+    "category": "Best",
+    "city": "Arlington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1434,
+      "pct_non_hispanic_white": 0.7912,
+      "pct_non_hispanic_black": 0.0144,
+      "pct_non_hispanic_asian": 0.1063,
+      "pct_hispanic": 0.0401,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0053,
+      "pct_non_hispanic_multiracial": 0.0418,
+      "pct_other_combined": 0.0481
+    }
+  },
+  {
+    "area_id": 5107,
+    "label": "B2",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Arlington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 336,
+      "pct_non_hispanic_white": 0.7911,
+      "pct_non_hispanic_black": 0.0144,
+      "pct_non_hispanic_asian": 0.1063,
+      "pct_hispanic": 0.04,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0053,
+      "pct_non_hispanic_multiracial": 0.0419,
+      "pct_other_combined": 0.0482
+    }
+  },
+  {
+    "area_id": 5108,
+    "label": "C5",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Lexington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 363,
+      "pct_non_hispanic_white": 0.6261,
+      "pct_non_hispanic_black": 0.0134,
+      "pct_non_hispanic_asian": 0.2639,
+      "pct_hispanic": 0.0369,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0057,
+      "pct_non_hispanic_multiracial": 0.0536,
+      "pct_other_combined": 0.0596
+    }
+  },
+  {
+    "area_id": 5110,
+    "label": "A4",
+    "grade": "A",
+    "category": "Best",
+    "city": "Lexington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 385,
+      "pct_non_hispanic_white": 0.626,
+      "pct_non_hispanic_black": 0.0134,
+      "pct_non_hispanic_asian": 0.264,
+      "pct_hispanic": 0.0369,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0057,
+      "pct_non_hispanic_multiracial": 0.0536,
+      "pct_other_combined": 0.0596
+    }
+  },
+  {
+    "area_id": 5111,
+    "label": "A3",
+    "grade": "A",
+    "category": "Best",
+    "city": "Lexington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 378,
+      "pct_non_hispanic_white": 0.6045,
+      "pct_non_hispanic_black": 0.0096,
+      "pct_non_hispanic_asian": 0.2957,
+      "pct_hispanic": 0.0344,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0066,
+      "pct_non_hispanic_multiracial": 0.0486,
+      "pct_other_combined": 0.0556
+    }
+  },
+  {
+    "area_id": 5112,
+    "label": "B3",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Lexington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 198,
+      "pct_non_hispanic_white": 0.6041,
+      "pct_non_hispanic_black": 0.0097,
+      "pct_non_hispanic_asian": 0.2962,
+      "pct_hispanic": 0.0344,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0066,
+      "pct_non_hispanic_multiracial": 0.0487,
+      "pct_other_combined": 0.0557
+    }
+  },
+  {
+    "area_id": 5113,
+    "label": "A2",
+    "grade": "A",
+    "category": "Best",
+    "city": "Lexington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 181,
+      "pct_non_hispanic_white": 0.5886,
+      "pct_non_hispanic_black": 0.0105,
+      "pct_non_hispanic_asian": 0.3117,
+      "pct_hispanic": 0.0322,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0065,
+      "pct_non_hispanic_multiracial": 0.0501,
+      "pct_other_combined": 0.057
+    }
+  },
+  {
+    "area_id": 5114,
+    "label": "B4",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Lexington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 598,
+      "pct_non_hispanic_white": 0.5522,
+      "pct_non_hispanic_black": 0.0181,
+      "pct_non_hispanic_asian": 0.3383,
+      "pct_hispanic": 0.0395,
+      "pct_non_hispanic_native": 0.0003,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.007,
+      "pct_non_hispanic_multiracial": 0.0446,
+      "pct_other_combined": 0.0519
+    }
+  },
+  {
+    "area_id": 5115,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Lexington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 630,
+      "pct_non_hispanic_white": 0.5586,
+      "pct_non_hispanic_black": 0.012,
+      "pct_non_hispanic_asian": 0.3416,
+      "pct_hispanic": 0.0284,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0065,
+      "pct_non_hispanic_multiracial": 0.0523,
+      "pct_other_combined": 0.0594
+    }
+  },
+  {
+    "area_id": 5116,
+    "label": "A1",
+    "grade": "A",
+    "category": "Best",
+    "city": "Lexington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 945,
+      "pct_non_hispanic_white": 0.5638,
+      "pct_non_hispanic_black": 0.01,
+      "pct_non_hispanic_asian": 0.3368,
+      "pct_hispanic": 0.0321,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0096,
+      "pct_non_hispanic_multiracial": 0.0473,
+      "pct_other_combined": 0.0572
+    }
+  },
+  {
+    "area_id": 5117,
+    "label": "B2",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Lexington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 362,
+      "pct_non_hispanic_white": 0.558,
+      "pct_non_hispanic_black": 0.0122,
+      "pct_non_hispanic_asian": 0.3421,
+      "pct_hispanic": 0.028,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0062,
+      "pct_non_hispanic_multiracial": 0.0529,
+      "pct_other_combined": 0.0597
+    }
+  },
+  {
+    "area_id": 5118,
+    "label": "C2",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Lexington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 670,
+      "pct_non_hispanic_white": 0.5735,
+      "pct_non_hispanic_black": 0.0113,
+      "pct_non_hispanic_asian": 0.3267,
+      "pct_hispanic": 0.0301,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0063,
+      "pct_non_hispanic_multiracial": 0.0515,
+      "pct_other_combined": 0.0583
+    }
+  },
+  {
+    "area_id": 5119,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Lexington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1320,
+      "pct_non_hispanic_white": 0.559,
+      "pct_non_hispanic_black": 0.0118,
+      "pct_non_hispanic_asian": 0.3413,
+      "pct_hispanic": 0.0287,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0067,
+      "pct_non_hispanic_multiracial": 0.0519,
+      "pct_other_combined": 0.0593
+    }
+  },
+  {
+    "area_id": 5120,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Winchester",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 317,
+      "pct_non_hispanic_white": 0.8233,
+      "pct_non_hispanic_black": 0.0086,
+      "pct_non_hispanic_asian": 0.0836,
+      "pct_hispanic": 0.0337,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0063,
+      "pct_non_hispanic_multiracial": 0.0444,
+      "pct_other_combined": 0.0507
+    }
+  },
+  {
+    "area_id": 5121,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Winchester",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 3772,
+      "pct_non_hispanic_white": 0.6315,
+      "pct_non_hispanic_black": 0.02,
+      "pct_non_hispanic_asian": 0.2559,
+      "pct_hispanic": 0.0362,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0109,
+      "pct_non_hispanic_multiracial": 0.0451,
+      "pct_other_combined": 0.0564
+    }
+  },
+  {
+    "area_id": 5122,
+    "label": "B2",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Winchester",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1714,
+      "pct_non_hispanic_white": 0.7105,
+      "pct_non_hispanic_black": 0.0102,
+      "pct_non_hispanic_asian": 0.1829,
+      "pct_hispanic": 0.0398,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0069,
+      "pct_non_hispanic_multiracial": 0.0494,
+      "pct_other_combined": 0.0566
+    }
+  },
+  {
+    "area_id": 5123,
+    "label": "B3",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Winchester",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 259,
+      "pct_non_hispanic_white": 0.6805,
+      "pct_non_hispanic_black": 0.0103,
+      "pct_non_hispanic_asian": 0.2051,
+      "pct_hispanic": 0.0437,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.006,
+      "pct_non_hispanic_multiracial": 0.0541,
+      "pct_other_combined": 0.0604
+    }
+  },
+  {
+    "area_id": 5124,
+    "label": "B5",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Winchester",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1375,
+      "pct_non_hispanic_white": 0.8138,
+      "pct_non_hispanic_black": 0.0058,
+      "pct_non_hispanic_asian": 0.0997,
+      "pct_hispanic": 0.0326,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0005,
+      "pct_non_hispanic_other": 0.0072,
+      "pct_non_hispanic_multiracial": 0.0405,
+      "pct_other_combined": 0.0481
+    }
+  },
+  {
+    "area_id": 5125,
+    "label": "B4",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Winchester",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 999,
+      "pct_non_hispanic_white": 0.8138,
+      "pct_non_hispanic_black": 0.0059,
+      "pct_non_hispanic_asian": 0.0995,
+      "pct_hispanic": 0.0326,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0005,
+      "pct_non_hispanic_other": 0.0072,
+      "pct_non_hispanic_multiracial": 0.0404,
+      "pct_other_combined": 0.0481
+    }
+  },
+  {
+    "area_id": 5126,
+    "label": "A1",
+    "grade": "A",
+    "category": "Best",
+    "city": "Winchester",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1738,
+      "pct_non_hispanic_white": 0.7916,
+      "pct_non_hispanic_black": 0.0045,
+      "pct_non_hispanic_asian": 0.1282,
+      "pct_hispanic": 0.0301,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.005,
+      "pct_non_hispanic_multiracial": 0.04,
+      "pct_other_combined": 0.0455
+    }
+  },
+  {
+    "area_id": 5127,
+    "label": "B6",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Winchester",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1707,
+      "pct_non_hispanic_white": 0.8091,
+      "pct_non_hispanic_black": 0.0068,
+      "pct_non_hispanic_asian": 0.1036,
+      "pct_hispanic": 0.0321,
+      "pct_non_hispanic_native": 0.0002,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0058,
+      "pct_non_hispanic_multiracial": 0.0424,
+      "pct_other_combined": 0.0484
+    }
+  },
+  {
+    "area_id": 5128,
+    "label": "D1",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Malden",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 5630,
+      "pct_non_hispanic_white": 0.3786,
+      "pct_non_hispanic_black": 0.1071,
+      "pct_non_hispanic_asian": 0.3423,
+      "pct_hispanic": 0.0841,
+      "pct_non_hispanic_native": 0.0003,
+      "pct_non_hispanic_pacific": 0.0005,
+      "pct_non_hispanic_other": 0.0295,
+      "pct_non_hispanic_multiracial": 0.0575,
+      "pct_other_combined": 0.0879
+    }
+  },
+  {
+    "area_id": 5129,
+    "label": "C3",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Malden",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 6912,
+      "pct_non_hispanic_white": 0.3412,
+      "pct_non_hispanic_black": 0.1704,
+      "pct_non_hispanic_asian": 0.2391,
+      "pct_hispanic": 0.1293,
+      "pct_non_hispanic_native": 0.0015,
+      "pct_non_hispanic_pacific": 0.0008,
+      "pct_non_hispanic_other": 0.0368,
+      "pct_non_hispanic_multiracial": 0.0812,
+      "pct_other_combined": 0.1201
+    }
+  },
+  {
+    "area_id": 5130,
+    "label": "D2",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Everett",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 3264,
+      "pct_non_hispanic_white": 0.3514,
+      "pct_non_hispanic_black": 0.1325,
+      "pct_non_hispanic_asian": 0.0838,
+      "pct_hispanic": 0.2694,
+      "pct_non_hispanic_native": 0.0011,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0688,
+      "pct_non_hispanic_multiracial": 0.0929,
+      "pct_other_combined": 0.163
+    }
+  },
+  {
+    "area_id": 5131,
+    "label": "D3",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Everett",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 8231,
+      "pct_non_hispanic_white": 0.3142,
+      "pct_non_hispanic_black": 0.1352,
+      "pct_non_hispanic_asian": 0.0692,
+      "pct_hispanic": 0.3086,
+      "pct_non_hispanic_native": 0.0011,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0674,
+      "pct_non_hispanic_multiracial": 0.104,
+      "pct_other_combined": 0.1728
+    }
+  },
+  {
+    "area_id": 5132,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Malden",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 11992,
+      "pct_non_hispanic_white": 0.43,
+      "pct_non_hispanic_black": 0.1065,
+      "pct_non_hispanic_asian": 0.3113,
+      "pct_hispanic": 0.0749,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0197,
+      "pct_non_hispanic_multiracial": 0.0567,
+      "pct_other_combined": 0.0774
+    }
+  },
+  {
+    "area_id": 5133,
+    "label": "C2",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Malden",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 13848,
+      "pct_non_hispanic_white": 0.456,
+      "pct_non_hispanic_black": 0.1514,
+      "pct_non_hispanic_asian": 0.1884,
+      "pct_hispanic": 0.1095,
+      "pct_non_hispanic_native": 0.0012,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0272,
+      "pct_non_hispanic_multiracial": 0.0662,
+      "pct_other_combined": 0.0947
+    }
+  },
+  {
+    "area_id": 5134,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Melrose",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 14285,
+      "pct_non_hispanic_white": 0.7854,
+      "pct_non_hispanic_black": 0.0352,
+      "pct_non_hispanic_asian": 0.0766,
+      "pct_hispanic": 0.0483,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0082,
+      "pct_non_hispanic_multiracial": 0.0455,
+      "pct_other_combined": 0.0545
+    }
+  },
+  {
+    "area_id": 5135,
+    "label": "B4",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Melrose",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2789,
+      "pct_non_hispanic_white": 0.8524,
+      "pct_non_hispanic_black": 0.014,
+      "pct_non_hispanic_asian": 0.0531,
+      "pct_hispanic": 0.0341,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0056,
+      "pct_non_hispanic_multiracial": 0.0402,
+      "pct_other_combined": 0.0464
+    }
+  },
+  {
+    "area_id": 5136,
+    "label": "A2",
+    "grade": "A",
+    "category": "Best",
+    "city": "Melrose",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2857,
+      "pct_non_hispanic_white": 0.869,
+      "pct_non_hispanic_black": 0.0101,
+      "pct_non_hispanic_asian": 0.0427,
+      "pct_hispanic": 0.032,
+      "pct_non_hispanic_native": 0.0003,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0048,
+      "pct_non_hispanic_multiracial": 0.0412,
+      "pct_other_combined": 0.0463
+    }
+  },
+  {
+    "area_id": 5137,
+    "label": "A1",
+    "grade": "A",
+    "category": "Best",
+    "city": "Melrose",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 899,
+      "pct_non_hispanic_white": 0.8804,
+      "pct_non_hispanic_black": 0.009,
+      "pct_non_hispanic_asian": 0.0346,
+      "pct_hispanic": 0.0341,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0053,
+      "pct_non_hispanic_multiracial": 0.0359,
+      "pct_other_combined": 0.0419
+    }
+  },
+  {
+    "area_id": 5138,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Melrose",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 380,
+      "pct_non_hispanic_white": 0.8344,
+      "pct_non_hispanic_black": 0.0234,
+      "pct_non_hispanic_asian": 0.0529,
+      "pct_hispanic": 0.0422,
+      "pct_non_hispanic_native": 0.0002,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0055,
+      "pct_non_hispanic_multiracial": 0.0411,
+      "pct_other_combined": 0.047
+    }
+  },
+  {
+    "area_id": 5139,
+    "label": "A3",
+    "grade": "A",
+    "category": "Best",
+    "city": "Melrose",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 231,
+      "pct_non_hispanic_white": 0.7781,
+      "pct_non_hispanic_black": 0.0397,
+      "pct_non_hispanic_asian": 0.0668,
+      "pct_hispanic": 0.0544,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0076,
+      "pct_non_hispanic_multiracial": 0.0531,
+      "pct_other_combined": 0.0611
+    }
+  },
+  {
+    "area_id": 5140,
+    "label": "B2",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Melrose",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1820,
+      "pct_non_hispanic_white": 0.8199,
+      "pct_non_hispanic_black": 0.0277,
+      "pct_non_hispanic_asian": 0.0566,
+      "pct_hispanic": 0.0452,
+      "pct_non_hispanic_native": 0.0002,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0061,
+      "pct_non_hispanic_multiracial": 0.0442,
+      "pct_other_combined": 0.0506
+    }
+  },
+  {
+    "area_id": 5141,
+    "label": "B3",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Melrose",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 710,
+      "pct_non_hispanic_white": 0.8341,
+      "pct_non_hispanic_black": 0.0236,
+      "pct_non_hispanic_asian": 0.0531,
+      "pct_hispanic": 0.042,
+      "pct_non_hispanic_native": 0.0002,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0056,
+      "pct_non_hispanic_multiracial": 0.0412,
+      "pct_other_combined": 0.0471
+    }
+  },
+  {
+    "area_id": 5142,
+    "label": "D1",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Everett",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 4073,
+      "pct_non_hispanic_white": 0.3308,
+      "pct_non_hispanic_black": 0.1667,
+      "pct_non_hispanic_asian": 0.0863,
+      "pct_hispanic": 0.2628,
+      "pct_non_hispanic_native": 0.0009,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0606,
+      "pct_non_hispanic_multiracial": 0.0917,
+      "pct_other_combined": 0.1534
+    }
+  },
+  {
+    "area_id": 5143,
+    "label": "D2",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Malden",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 19681,
+      "pct_non_hispanic_white": 0.3654,
+      "pct_non_hispanic_black": 0.1804,
+      "pct_non_hispanic_asian": 0.2158,
+      "pct_hispanic": 0.1313,
+      "pct_non_hispanic_native": 0.0016,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0324,
+      "pct_non_hispanic_multiracial": 0.0731,
+      "pct_other_combined": 0.1071
+    }
+  },
+  {
+    "area_id": 5144,
+    "label": "D1",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Revere",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 17504,
+      "pct_non_hispanic_white": 0.5207,
+      "pct_non_hispanic_black": 0.0478,
+      "pct_non_hispanic_asian": 0.0592,
+      "pct_hispanic": 0.2921,
+      "pct_non_hispanic_native": 0.001,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0238,
+      "pct_non_hispanic_multiracial": 0.0551,
+      "pct_other_combined": 0.0802
+    }
+  },
+  {
+    "area_id": 5145,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Everett",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 26845,
+      "pct_non_hispanic_white": 0.3374,
+      "pct_non_hispanic_black": 0.1441,
+      "pct_non_hispanic_asian": 0.0704,
+      "pct_hispanic": 0.2904,
+      "pct_non_hispanic_native": 0.0011,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.065,
+      "pct_non_hispanic_multiracial": 0.0914,
+      "pct_other_combined": 0.1576
+    }
+  },
+  {
+    "area_id": 5146,
+    "label": "C3",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Revere",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 12366,
+      "pct_non_hispanic_white": 0.413,
+      "pct_non_hispanic_black": 0.0475,
+      "pct_non_hispanic_asian": 0.0453,
+      "pct_hispanic": 0.4211,
+      "pct_non_hispanic_native": 0.0013,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0275,
+      "pct_non_hispanic_multiracial": 0.044,
+      "pct_other_combined": 0.0732
+    }
+  },
+  {
+    "area_id": 5147,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Revere",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1445,
+      "pct_non_hispanic_white": 0.4096,
+      "pct_non_hispanic_black": 0.0288,
+      "pct_non_hispanic_asian": 0.0368,
+      "pct_hispanic": 0.4589,
+      "pct_non_hispanic_native": 0.0003,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0275,
+      "pct_non_hispanic_multiracial": 0.0379,
+      "pct_other_combined": 0.0658
+    }
+  },
+  {
+    "area_id": 5148,
+    "label": "C2",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Revere",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 9484,
+      "pct_non_hispanic_white": 0.2841,
+      "pct_non_hispanic_black": 0.0458,
+      "pct_non_hispanic_asian": 0.0756,
+      "pct_hispanic": 0.5309,
+      "pct_non_hispanic_native": 0.0003,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.027,
+      "pct_non_hispanic_multiracial": 0.0361,
+      "pct_other_combined": 0.0636
+    }
+  },
+  {
+    "area_id": 5149,
+    "label": "C3",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Chelsea",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 9726,
+      "pct_non_hispanic_white": 0.2036,
+      "pct_non_hispanic_black": 0.0684,
+      "pct_non_hispanic_asian": 0.0324,
+      "pct_hispanic": 0.6484,
+      "pct_non_hispanic_native": 0.0015,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0181,
+      "pct_non_hispanic_multiracial": 0.0272,
+      "pct_other_combined": 0.0472
+    }
+  },
+  {
+    "area_id": 5150,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Chelsea",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2694,
+      "pct_non_hispanic_white": 0.2622,
+      "pct_non_hispanic_black": 0.0926,
+      "pct_non_hispanic_asian": 0.0437,
+      "pct_hispanic": 0.5388,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0284,
+      "pct_non_hispanic_multiracial": 0.0334,
+      "pct_other_combined": 0.0626
+    }
+  },
+  {
+    "area_id": 5151,
+    "label": "C2",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Chelsea",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1873,
+      "pct_non_hispanic_white": 0.1391,
+      "pct_non_hispanic_black": 0.0494,
+      "pct_non_hispanic_asian": 0.0223,
+      "pct_hispanic": 0.7559,
+      "pct_non_hispanic_native": 0.0022,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0125,
+      "pct_non_hispanic_multiracial": 0.0183,
+      "pct_other_combined": 0.0333
+    }
+  },
+  {
+    "area_id": 5152,
+    "label": "D1",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Chelsea",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 10631,
+      "pct_non_hispanic_white": 0.1519,
+      "pct_non_hispanic_black": 0.0528,
+      "pct_non_hispanic_asian": 0.0245,
+      "pct_hispanic": 0.7388,
+      "pct_non_hispanic_native": 0.0015,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0116,
+      "pct_non_hispanic_multiracial": 0.0188,
+      "pct_other_combined": 0.032
+    }
+  },
+  {
+    "area_id": 5153,
+    "label": "C4",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Chelsea",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 3418,
+      "pct_non_hispanic_white": 0.0995,
+      "pct_non_hispanic_black": 0.0772,
+      "pct_non_hispanic_asian": 0.0212,
+      "pct_hispanic": 0.7536,
+      "pct_non_hispanic_native": 0.0034,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0218,
+      "pct_non_hispanic_multiracial": 0.0233,
+      "pct_other_combined": 0.0486
+    }
+  },
+  {
+    "area_id": 5154,
+    "label": "D2",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Revere",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 4717,
+      "pct_non_hispanic_white": 0.465,
+      "pct_non_hispanic_black": 0.033,
+      "pct_non_hispanic_asian": 0.0294,
+      "pct_hispanic": 0.4096,
+      "pct_non_hispanic_native": 0.0012,
+      "pct_non_hispanic_pacific": 0.0005,
+      "pct_non_hispanic_other": 0.0194,
+      "pct_non_hispanic_multiracial": 0.0419,
+      "pct_other_combined": 0.063
+    }
+  },
+  {
+    "area_id": 5155,
+    "label": "D1",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Saugus",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1361,
+      "pct_non_hispanic_white": 0.7543,
+      "pct_non_hispanic_black": 0.0413,
+      "pct_non_hispanic_asian": 0.0426,
+      "pct_hispanic": 0.0888,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0232,
+      "pct_non_hispanic_multiracial": 0.049,
+      "pct_other_combined": 0.073
+    }
+  },
+  {
+    "area_id": 5156,
+    "label": "B2",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Saugus",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 575,
+      "pct_non_hispanic_white": 0.7041,
+      "pct_non_hispanic_black": 0.05,
+      "pct_non_hispanic_asian": 0.0408,
+      "pct_hispanic": 0.1327,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0222,
+      "pct_non_hispanic_multiracial": 0.0501,
+      "pct_other_combined": 0.0724
+    }
+  },
+  {
+    "area_id": 5157,
+    "label": "C1",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Saugus",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 6654,
+      "pct_non_hispanic_white": 0.7453,
+      "pct_non_hispanic_black": 0.0421,
+      "pct_non_hispanic_asian": 0.0389,
+      "pct_hispanic": 0.1008,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0227,
+      "pct_non_hispanic_multiracial": 0.0496,
+      "pct_other_combined": 0.0729
+    }
+  },
+  {
+    "area_id": 5158,
+    "label": "D2",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Saugus",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 979,
+      "pct_non_hispanic_white": 0.7018,
+      "pct_non_hispanic_black": 0.0516,
+      "pct_non_hispanic_asian": 0.0453,
+      "pct_hispanic": 0.1297,
+      "pct_non_hispanic_native": 0.0001,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0224,
+      "pct_non_hispanic_multiracial": 0.0491,
+      "pct_other_combined": 0.0716
+    }
+  },
+  {
+    "area_id": 5159,
+    "label": "B1",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Saugus",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 315,
+      "pct_non_hispanic_white": 0.7933,
+      "pct_non_hispanic_black": 0.0229,
+      "pct_non_hispanic_asian": 0.0558,
+      "pct_hispanic": 0.0667,
+      "pct_non_hispanic_native": 0.0018,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0126,
+      "pct_non_hispanic_multiracial": 0.0465,
+      "pct_other_combined": 0.0613
+    }
+  },
+  {
+    "area_id": 5160,
+    "label": "D3",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Saugus",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2017,
+      "pct_non_hispanic_white": 0.7735,
+      "pct_non_hispanic_black": 0.0359,
+      "pct_non_hispanic_asian": 0.0428,
+      "pct_hispanic": 0.085,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0192,
+      "pct_non_hispanic_multiracial": 0.0429,
+      "pct_other_combined": 0.0629
+    }
+  },
+  {
+    "area_id": 5161,
+    "label": "C4",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Arlington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 3183,
+      "pct_non_hispanic_white": 0.7598,
+      "pct_non_hispanic_black": 0.0153,
+      "pct_non_hispanic_asian": 0.1088,
+      "pct_hispanic": 0.0516,
+      "pct_non_hispanic_native": 0.0002,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0026,
+      "pct_non_hispanic_multiracial": 0.0617,
+      "pct_other_combined": 0.0645
+    }
+  },
+  {
+    "area_id": 5162,
+    "label": "C3",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Lexington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 964,
+      "pct_non_hispanic_white": 0.5806,
+      "pct_non_hispanic_black": 0.0124,
+      "pct_non_hispanic_asian": 0.3179,
+      "pct_hispanic": 0.0347,
+      "pct_non_hispanic_native": 0.0008,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0063,
+      "pct_non_hispanic_multiracial": 0.0473,
+      "pct_other_combined": 0.0544
+    }
+  },
+  {
+    "area_id": 5163,
+    "label": "C4",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Lexington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 227,
+      "pct_non_hispanic_white": 0.6261,
+      "pct_non_hispanic_black": 0.0134,
+      "pct_non_hispanic_asian": 0.2639,
+      "pct_hispanic": 0.0369,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0057,
+      "pct_non_hispanic_multiracial": 0.0536,
+      "pct_other_combined": 0.0596
+    }
+  },
+  {
+    "area_id": 5650,
+    "label": "B8",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 4321,
+      "pct_non_hispanic_white": 0.2062,
+      "pct_non_hispanic_black": 0.4992,
+      "pct_non_hispanic_asian": 0.0778,
+      "pct_hispanic": 0.1339,
+      "pct_non_hispanic_native": 0.0021,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0176,
+      "pct_non_hispanic_multiracial": 0.0629,
+      "pct_other_combined": 0.0828
+    }
+  },
+  {
+    "area_id": 8023,
+    "label": "B3",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Brookline",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 5441,
+      "pct_non_hispanic_white": 0.6066,
+      "pct_non_hispanic_black": 0.046,
+      "pct_non_hispanic_asian": 0.2083,
+      "pct_hispanic": 0.0814,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0053,
+      "pct_non_hispanic_multiracial": 0.0518,
+      "pct_other_combined": 0.0577
+    }
+  },
+  {
+    "area_id": 8024,
+    "label": "B5",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Brookline",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1201,
+      "pct_non_hispanic_white": 0.6236,
+      "pct_non_hispanic_black": 0.0297,
+      "pct_non_hispanic_asian": 0.2292,
+      "pct_hispanic": 0.0605,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0049,
+      "pct_non_hispanic_multiracial": 0.0517,
+      "pct_other_combined": 0.0569
+    }
+  },
+  {
+    "area_id": 9543,
+    "label": "A1",
+    "grade": "A",
+    "category": "Best",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 3102,
+      "pct_non_hispanic_white": 0.7726,
+      "pct_non_hispanic_black": 0.041,
+      "pct_non_hispanic_asian": 0.0648,
+      "pct_hispanic": 0.0662,
+      "pct_non_hispanic_native": 0.0015,
+      "pct_non_hispanic_pacific": 0.0009,
+      "pct_non_hispanic_other": 0.0045,
+      "pct_non_hispanic_multiracial": 0.0484,
+      "pct_other_combined": 0.0554
+    }
+  },
+  {
+    "area_id": 9545,
+    "label": "B2",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 4519,
+      "pct_non_hispanic_white": 0.6484,
+      "pct_non_hispanic_black": 0.0293,
+      "pct_non_hispanic_asian": 0.2009,
+      "pct_hispanic": 0.0729,
+      "pct_non_hispanic_native": 0.001,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0094,
+      "pct_non_hispanic_multiracial": 0.0377,
+      "pct_other_combined": 0.0485
+    }
+  },
+  {
+    "area_id": 9550,
+    "label": "B4",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Quincy",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1532,
+      "pct_non_hispanic_white": 0.5038,
+      "pct_non_hispanic_black": 0.0663,
+      "pct_non_hispanic_asian": 0.288,
+      "pct_hispanic": 0.0685,
+      "pct_non_hispanic_native": 0.0011,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0199,
+      "pct_non_hispanic_multiracial": 0.0522,
+      "pct_other_combined": 0.0734
+    }
+  },
+  {
+    "area_id": 10592,
+    "label": "Business & Industrial",
+    "grade": NaN,
+    "category": "Business and Industrial",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 9165,
+      "pct_non_hispanic_white": 0.2531,
+      "pct_non_hispanic_black": 0.1336,
+      "pct_non_hispanic_asian": 0.0651,
+      "pct_hispanic": 0.5068,
+      "pct_non_hispanic_native": 0.0014,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0116,
+      "pct_non_hispanic_multiracial": 0.0282,
+      "pct_other_combined": 0.0414
+    }
+  },
+  {
+    "area_id": 10593,
+    "label": "5",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 16345,
+      "pct_non_hispanic_white": 0.4688,
+      "pct_non_hispanic_black": 0.0853,
+      "pct_non_hispanic_asian": 0.0592,
+      "pct_hispanic": 0.3403,
+      "pct_non_hispanic_native": 0.0009,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0091,
+      "pct_non_hispanic_multiracial": 0.036,
+      "pct_other_combined": 0.0464
+    }
+  },
+  {
+    "area_id": 10594,
+    "label": "4",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 4888,
+      "pct_non_hispanic_white": 0.2128,
+      "pct_non_hispanic_black": 0.1214,
+      "pct_non_hispanic_asian": 0.0735,
+      "pct_hispanic": 0.555,
+      "pct_non_hispanic_native": 0.001,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.01,
+      "pct_non_hispanic_multiracial": 0.0264,
+      "pct_other_combined": 0.0373
+    }
+  },
+  {
+    "area_id": 10595,
+    "label": "7",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 3412,
+      "pct_non_hispanic_white": 0.181,
+      "pct_non_hispanic_black": 0.1055,
+      "pct_non_hispanic_asian": 0.0591,
+      "pct_hispanic": 0.6131,
+      "pct_non_hispanic_native": 0.0009,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0137,
+      "pct_non_hispanic_multiracial": 0.0266,
+      "pct_other_combined": 0.0413
+    }
+  },
+  {
+    "area_id": 10596,
+    "label": "Still Desirable",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 614,
+      "pct_non_hispanic_white": 0.4186,
+      "pct_non_hispanic_black": 0.0836,
+      "pct_non_hispanic_asian": 0.088,
+      "pct_hispanic": 0.359,
+      "pct_non_hispanic_native": 0.0018,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0115,
+      "pct_non_hispanic_multiracial": 0.0375,
+      "pct_other_combined": 0.0508
+    }
+  },
+  {
+    "area_id": 10597,
+    "label": "Still Desirable",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1107,
+      "pct_non_hispanic_white": 0.4625,
+      "pct_non_hispanic_black": 0.072,
+      "pct_non_hispanic_asian": 0.0909,
+      "pct_hispanic": 0.3219,
+      "pct_non_hispanic_native": 0.002,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0122,
+      "pct_non_hispanic_multiracial": 0.0385,
+      "pct_other_combined": 0.0526
+    }
+  },
+  {
+    "area_id": 10598,
+    "label": "3",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 5004,
+      "pct_non_hispanic_white": 0.4013,
+      "pct_non_hispanic_black": 0.1124,
+      "pct_non_hispanic_asian": 0.0561,
+      "pct_hispanic": 0.3744,
+      "pct_non_hispanic_native": 0.0003,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0138,
+      "pct_non_hispanic_multiracial": 0.0414,
+      "pct_other_combined": 0.0558
+    }
+  },
+  {
+    "area_id": 10599,
+    "label": "1",
+    "grade": "A",
+    "category": "Best",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 950,
+      "pct_non_hispanic_white": 0.78,
+      "pct_non_hispanic_black": 0.0366,
+      "pct_non_hispanic_asian": 0.0314,
+      "pct_hispanic": 0.0985,
+      "pct_non_hispanic_native": 0.002,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0072,
+      "pct_non_hispanic_multiracial": 0.044,
+      "pct_other_combined": 0.0535
+    }
+  },
+  {
+    "area_id": 10600,
+    "label": "Best",
+    "grade": "A",
+    "category": "Best",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 252,
+      "pct_non_hispanic_white": 0.5414,
+      "pct_non_hispanic_black": 0.0855,
+      "pct_non_hispanic_asian": 0.0615,
+      "pct_hispanic": 0.264,
+      "pct_non_hispanic_native": 0.0008,
+      "pct_non_hispanic_pacific": 0.0007,
+      "pct_non_hispanic_other": 0.0077,
+      "pct_non_hispanic_multiracial": 0.0383,
+      "pct_other_combined": 0.0475
+    }
+  },
+  {
+    "area_id": 10601,
+    "label": "Best",
+    "grade": "A",
+    "category": "Best",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 297,
+      "pct_non_hispanic_white": 0.4407,
+      "pct_non_hispanic_black": 0.0856,
+      "pct_non_hispanic_asian": 0.0765,
+      "pct_hispanic": 0.3529,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0005,
+      "pct_non_hispanic_other": 0.007,
+      "pct_non_hispanic_multiracial": 0.0362,
+      "pct_other_combined": 0.0444
+    }
+  },
+  {
+    "area_id": 10602,
+    "label": "Best",
+    "grade": "A",
+    "category": "Best",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 338,
+      "pct_non_hispanic_white": 0.3979,
+      "pct_non_hispanic_black": 0.0856,
+      "pct_non_hispanic_asian": 0.0828,
+      "pct_hispanic": 0.3906,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0005,
+      "pct_non_hispanic_other": 0.0068,
+      "pct_non_hispanic_multiracial": 0.0353,
+      "pct_other_combined": 0.043
+    }
+  },
+  {
+    "area_id": 10603,
+    "label": "2",
+    "grade": "A",
+    "category": "Best",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 4025,
+      "pct_non_hispanic_white": 0.4015,
+      "pct_non_hispanic_black": 0.1057,
+      "pct_non_hispanic_asian": 0.0575,
+      "pct_hispanic": 0.3831,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0127,
+      "pct_non_hispanic_multiracial": 0.0386,
+      "pct_other_combined": 0.0521
+    }
+  },
+  {
+    "area_id": 10604,
+    "label": "8",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1212,
+      "pct_non_hispanic_white": 0.5414,
+      "pct_non_hispanic_black": 0.0855,
+      "pct_non_hispanic_asian": 0.0615,
+      "pct_hispanic": 0.264,
+      "pct_non_hispanic_native": 0.0008,
+      "pct_non_hispanic_pacific": 0.0007,
+      "pct_non_hispanic_other": 0.0077,
+      "pct_non_hispanic_multiracial": 0.0383,
+      "pct_other_combined": 0.0475
+    }
+  },
+  {
+    "area_id": 10605,
+    "label": "9",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1179,
+      "pct_non_hispanic_white": 0.4465,
+      "pct_non_hispanic_black": 0.0955,
+      "pct_non_hispanic_asian": 0.0611,
+      "pct_hispanic": 0.349,
+      "pct_non_hispanic_native": 0.0008,
+      "pct_non_hispanic_pacific": 0.0005,
+      "pct_non_hispanic_other": 0.0096,
+      "pct_non_hispanic_multiracial": 0.0371,
+      "pct_other_combined": 0.048
+    }
+  },
+  {
+    "area_id": 10606,
+    "label": "10",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 12685,
+      "pct_non_hispanic_white": 0.2224,
+      "pct_non_hispanic_black": 0.1195,
+      "pct_non_hispanic_asian": 0.0614,
+      "pct_hispanic": 0.551,
+      "pct_non_hispanic_native": 0.0011,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0124,
+      "pct_non_hispanic_multiracial": 0.032,
+      "pct_other_combined": 0.0457
+    }
+  },
+  {
+    "area_id": 10607,
+    "label": "13",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 4368,
+      "pct_non_hispanic_white": 0.2294,
+      "pct_non_hispanic_black": 0.1192,
+      "pct_non_hispanic_asian": 0.0696,
+      "pct_hispanic": 0.5442,
+      "pct_non_hispanic_native": 0.0009,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0098,
+      "pct_non_hispanic_multiracial": 0.0269,
+      "pct_other_combined": 0.0376
+    }
+  },
+  {
+    "area_id": 10608,
+    "label": "12",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1416,
+      "pct_non_hispanic_white": 0.1711,
+      "pct_non_hispanic_black": 0.116,
+      "pct_non_hispanic_asian": 0.1054,
+      "pct_hispanic": 0.5633,
+      "pct_non_hispanic_native": 0.0019,
+      "pct_non_hispanic_pacific": 0.0006,
+      "pct_non_hispanic_other": 0.0161,
+      "pct_non_hispanic_multiracial": 0.0256,
+      "pct_other_combined": 0.0442
+    }
+  },
+  {
+    "area_id": 10609,
+    "label": "11",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 11121,
+      "pct_non_hispanic_white": 0.3481,
+      "pct_non_hispanic_black": 0.1149,
+      "pct_non_hispanic_asian": 0.072,
+      "pct_hispanic": 0.4185,
+      "pct_non_hispanic_native": 0.0018,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0091,
+      "pct_non_hispanic_multiracial": 0.0355,
+      "pct_other_combined": 0.0464
+    }
+  },
+  {
+    "area_id": 10610,
+    "label": "14",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 6178,
+      "pct_non_hispanic_white": 0.1724,
+      "pct_non_hispanic_black": 0.0978,
+      "pct_non_hispanic_asian": 0.1202,
+      "pct_hispanic": 0.5664,
+      "pct_non_hispanic_native": 0.001,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0125,
+      "pct_non_hispanic_multiracial": 0.0292,
+      "pct_other_combined": 0.0432
+    }
+  },
+  {
+    "area_id": 10611,
+    "label": "16",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1060,
+      "pct_non_hispanic_white": 0.3545,
+      "pct_non_hispanic_black": 0.19,
+      "pct_non_hispanic_asian": 0.0341,
+      "pct_hispanic": 0.3769,
+      "pct_non_hispanic_native": 0.0012,
+      "pct_non_hispanic_pacific": 0.0008,
+      "pct_non_hispanic_other": 0.0106,
+      "pct_non_hispanic_multiracial": 0.0319,
+      "pct_other_combined": 0.0445
+    }
+  },
+  {
+    "area_id": 10612,
+    "label": "15",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Lynn",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1211,
+      "pct_non_hispanic_white": 0.1906,
+      "pct_non_hispanic_black": 0.1187,
+      "pct_non_hispanic_asian": 0.0774,
+      "pct_hispanic": 0.5638,
+      "pct_non_hispanic_native": 0.0008,
+      "pct_non_hispanic_pacific": 0.0006,
+      "pct_non_hispanic_other": 0.0111,
+      "pct_non_hispanic_multiracial": 0.0369,
+      "pct_other_combined": 0.0494
+    }
+  },
+  {
+    "area_id": 11041,
+    "label": "1",
+    "grade": "A",
+    "category": "Best",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 148,
+      "pct_non_hispanic_white": 0.7703,
+      "pct_non_hispanic_black": 0.0227,
+      "pct_non_hispanic_asian": 0.0168,
+      "pct_hispanic": 0.1291,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0117,
+      "pct_non_hispanic_multiracial": 0.0484,
+      "pct_other_combined": 0.0611
+    }
+  },
+  {
+    "area_id": 11042,
+    "label": "2",
+    "grade": "A",
+    "category": "Best",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1184,
+      "pct_non_hispanic_white": 0.742,
+      "pct_non_hispanic_black": 0.0514,
+      "pct_non_hispanic_asian": 0.0234,
+      "pct_hispanic": 0.1372,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0009,
+      "pct_non_hispanic_other": 0.0033,
+      "pct_non_hispanic_multiracial": 0.0413,
+      "pct_other_combined": 0.046
+    }
+  },
+  {
+    "area_id": 11043,
+    "label": "3",
+    "grade": "A",
+    "category": "Best",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1233,
+      "pct_non_hispanic_white": 0.6979,
+      "pct_non_hispanic_black": 0.047,
+      "pct_non_hispanic_asian": 0.0264,
+      "pct_hispanic": 0.178,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0049,
+      "pct_non_hispanic_multiracial": 0.0452,
+      "pct_other_combined": 0.0508
+    }
+  },
+  {
+    "area_id": 11044,
+    "label": "4",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 618,
+      "pct_non_hispanic_white": 0.59,
+      "pct_non_hispanic_black": 0.0469,
+      "pct_non_hispanic_asian": 0.0346,
+      "pct_hispanic": 0.2158,
+      "pct_non_hispanic_native": 0.0011,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0428,
+      "pct_non_hispanic_multiracial": 0.0685,
+      "pct_other_combined": 0.1127
+    }
+  },
+  {
+    "area_id": 11045,
+    "label": "5",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 920,
+      "pct_non_hispanic_white": 0.7703,
+      "pct_non_hispanic_black": 0.0228,
+      "pct_non_hispanic_asian": 0.0167,
+      "pct_hispanic": 0.129,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0118,
+      "pct_non_hispanic_multiracial": 0.0485,
+      "pct_other_combined": 0.0612
+    }
+  },
+  {
+    "area_id": 11046,
+    "label": "6",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 291,
+      "pct_non_hispanic_white": 0.6238,
+      "pct_non_hispanic_black": 0.0589,
+      "pct_non_hispanic_asian": 0.0492,
+      "pct_hispanic": 0.2215,
+      "pct_non_hispanic_native": 0.0014,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0095,
+      "pct_non_hispanic_multiracial": 0.0354,
+      "pct_other_combined": 0.0465
+    }
+  },
+  {
+    "area_id": 11047,
+    "label": "7",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2460,
+      "pct_non_hispanic_white": 0.6948,
+      "pct_non_hispanic_black": 0.0324,
+      "pct_non_hispanic_asian": 0.0213,
+      "pct_hispanic": 0.2024,
+      "pct_non_hispanic_native": 0.0036,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0066,
+      "pct_non_hispanic_multiracial": 0.0387,
+      "pct_other_combined": 0.0491
+    }
+  },
+  {
+    "area_id": 11048,
+    "label": "8",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 562,
+      "pct_non_hispanic_white": 0.8523,
+      "pct_non_hispanic_black": 0.0111,
+      "pct_non_hispanic_asian": 0.0139,
+      "pct_hispanic": 0.0792,
+      "pct_non_hispanic_native": 0.0008,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0068,
+      "pct_non_hispanic_multiracial": 0.0359,
+      "pct_other_combined": 0.0435
+    }
+  },
+  {
+    "area_id": 11049,
+    "label": "12",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 291,
+      "pct_non_hispanic_white": 0.8619,
+      "pct_non_hispanic_black": 0.01,
+      "pct_non_hispanic_asian": 0.0135,
+      "pct_hispanic": 0.0714,
+      "pct_non_hispanic_native": 0.0009,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0069,
+      "pct_non_hispanic_multiracial": 0.0355,
+      "pct_other_combined": 0.0433
+    }
+  },
+  {
+    "area_id": 11050,
+    "label": "9",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 316,
+      "pct_non_hispanic_white": 0.7393,
+      "pct_non_hispanic_black": 0.0522,
+      "pct_non_hispanic_asian": 0.0235,
+      "pct_hispanic": 0.1389,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0009,
+      "pct_non_hispanic_other": 0.0032,
+      "pct_non_hispanic_multiracial": 0.0415,
+      "pct_other_combined": 0.0461
+    }
+  },
+  {
+    "area_id": 11051,
+    "label": "10",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1948,
+      "pct_non_hispanic_white": 0.6928,
+      "pct_non_hispanic_black": 0.0406,
+      "pct_non_hispanic_asian": 0.0227,
+      "pct_hispanic": 0.1941,
+      "pct_non_hispanic_native": 0.0022,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0056,
+      "pct_non_hispanic_multiracial": 0.042,
+      "pct_other_combined": 0.0498
+    }
+  },
+  {
+    "area_id": 11052,
+    "label": "11",
+    "grade": "B",
+    "category": "Still Desirable",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 514,
+      "pct_non_hispanic_white": 0.6962,
+      "pct_non_hispanic_black": 0.0448,
+      "pct_non_hispanic_asian": 0.0251,
+      "pct_hispanic": 0.1834,
+      "pct_non_hispanic_native": 0.0012,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0051,
+      "pct_non_hispanic_multiracial": 0.0441,
+      "pct_other_combined": 0.0505
+    }
+  },
+  {
+    "area_id": 11053,
+    "label": "13",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1139,
+      "pct_non_hispanic_white": 0.6435,
+      "pct_non_hispanic_black": 0.0544,
+      "pct_non_hispanic_asian": 0.0558,
+      "pct_hispanic": 0.1818,
+      "pct_non_hispanic_native": 0.0007,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0178,
+      "pct_non_hispanic_multiracial": 0.0455,
+      "pct_other_combined": 0.0644
+    }
+  },
+  {
+    "area_id": 11054,
+    "label": "14",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 331,
+      "pct_non_hispanic_white": 0.7703,
+      "pct_non_hispanic_black": 0.0227,
+      "pct_non_hispanic_asian": 0.0168,
+      "pct_hispanic": 0.1291,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0117,
+      "pct_non_hispanic_multiracial": 0.0484,
+      "pct_other_combined": 0.0611
+    }
+  },
+  {
+    "area_id": 11055,
+    "label": "15",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 89,
+      "pct_non_hispanic_white": 0.7703,
+      "pct_non_hispanic_black": 0.0227,
+      "pct_non_hispanic_asian": 0.0168,
+      "pct_hispanic": 0.1291,
+      "pct_non_hispanic_native": 0.0006,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0117,
+      "pct_non_hispanic_multiracial": 0.0484,
+      "pct_other_combined": 0.0611
+    }
+  },
+  {
+    "area_id": 11056,
+    "label": "16",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 793,
+      "pct_non_hispanic_white": 0.6801,
+      "pct_non_hispanic_black": 0.0531,
+      "pct_non_hispanic_asian": 0.0299,
+      "pct_hispanic": 0.1908,
+      "pct_non_hispanic_native": 0.001,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0051,
+      "pct_non_hispanic_multiracial": 0.0397,
+      "pct_other_combined": 0.046
+    }
+  },
+  {
+    "area_id": 11057,
+    "label": "17",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 2883,
+      "pct_non_hispanic_white": 0.5862,
+      "pct_non_hispanic_black": 0.0403,
+      "pct_non_hispanic_asian": 0.0189,
+      "pct_hispanic": 0.3118,
+      "pct_non_hispanic_native": 0.0022,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.0065,
+      "pct_non_hispanic_multiracial": 0.034,
+      "pct_other_combined": 0.0428
+    }
+  },
+  {
+    "area_id": 11058,
+    "label": "18",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 342,
+      "pct_non_hispanic_white": 0.7853,
+      "pct_non_hispanic_black": 0.0239,
+      "pct_non_hispanic_asian": 0.023,
+      "pct_hispanic": 0.1169,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0041,
+      "pct_non_hispanic_multiracial": 0.0469,
+      "pct_other_combined": 0.051
+    }
+  },
+  {
+    "area_id": 11059,
+    "label": "19",
+    "grade": "C",
+    "category": "Definitely Declining",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1077,
+      "pct_non_hispanic_white": 0.585,
+      "pct_non_hispanic_black": 0.031,
+      "pct_non_hispanic_asian": 0.0144,
+      "pct_hispanic": 0.3333,
+      "pct_non_hispanic_native": 0.0012,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0073,
+      "pct_non_hispanic_multiracial": 0.0278,
+      "pct_other_combined": 0.0364
+    }
+  },
+  {
+    "area_id": 11060,
+    "label": "20",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 271,
+      "pct_non_hispanic_white": 0.6309,
+      "pct_non_hispanic_black": 0.0534,
+      "pct_non_hispanic_asian": 0.034,
+      "pct_hispanic": 0.2383,
+      "pct_non_hispanic_native": 0.0022,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0067,
+      "pct_non_hispanic_multiracial": 0.0345,
+      "pct_other_combined": 0.0434
+    }
+  },
+  {
+    "area_id": 11061,
+    "label": "21",
+    "grade": "D",
+    "category": "Hazardous",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1071,
+      "pct_non_hispanic_white": 0.7812,
+      "pct_non_hispanic_black": 0.0246,
+      "pct_non_hispanic_asian": 0.0235,
+      "pct_hispanic": 0.1193,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.004,
+      "pct_non_hispanic_multiracial": 0.0475,
+      "pct_other_combined": 0.0515
+    }
+  },
+  {
+    "area_id": 11062,
+    "label": "Business and Industrial",
+    "grade": NaN,
+    "category": "Business and Industrial",
+    "city": "Salem",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 5842,
+      "pct_non_hispanic_white": 0.6179,
+      "pct_non_hispanic_black": 0.0387,
+      "pct_non_hispanic_asian": 0.023,
+      "pct_hispanic": 0.2735,
+      "pct_non_hispanic_native": 0.0016,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.008,
+      "pct_non_hispanic_multiracial": 0.0371,
+      "pct_other_combined": 0.0469
+    }
+  },
+  {
+    "area_id": 11412,
+    "label": "Commercial",
+    "grade": NaN,
+    "category": "Commercial",
+    "city": "Braintree",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 39,
+      "pct_non_hispanic_white": 0.6947,
+      "pct_non_hispanic_black": 0.028,
+      "pct_non_hispanic_asian": 0.1863,
+      "pct_hispanic": 0.0465,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0109,
+      "pct_non_hispanic_multiracial": 0.0337,
+      "pct_other_combined": 0.0446
+    }
+  },
+  {
+    "area_id": 11581,
+    "label": "Commercial",
+    "grade": NaN,
+    "category": "Commercial",
+    "city": "Arlington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 289,
+      "pct_non_hispanic_white": 0.7477,
+      "pct_non_hispanic_black": 0.024,
+      "pct_non_hispanic_asian": 0.1229,
+      "pct_hispanic": 0.0467,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0049,
+      "pct_non_hispanic_multiracial": 0.0534,
+      "pct_other_combined": 0.0588
+    }
+  },
+  {
+    "area_id": 11582,
+    "label": "Commercial",
+    "grade": NaN,
+    "category": "Commercial",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 22431,
+      "pct_non_hispanic_white": 0.5978,
+      "pct_non_hispanic_black": 0.0529,
+      "pct_non_hispanic_asian": 0.2224,
+      "pct_hispanic": 0.0852,
+      "pct_non_hispanic_native": 0.0015,
+      "pct_non_hispanic_pacific": 0.0006,
+      "pct_non_hispanic_other": 0.0064,
+      "pct_non_hispanic_multiracial": 0.0332,
+      "pct_other_combined": 0.0417
+    }
+  },
+  {
+    "area_id": 11583,
+    "label": "Industrial",
+    "grade": NaN,
+    "category": "Industrial",
+    "city": "Boston",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 42591,
+      "pct_non_hispanic_white": 0.6384,
+      "pct_non_hispanic_black": 0.0541,
+      "pct_non_hispanic_asian": 0.1129,
+      "pct_hispanic": 0.1454,
+      "pct_non_hispanic_native": 0.0009,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0095,
+      "pct_non_hispanic_multiracial": 0.0385,
+      "pct_other_combined": 0.0492
+    }
+  },
+  {
+    "area_id": 11584,
+    "label": "Industrial",
+    "grade": NaN,
+    "category": "Industrial",
+    "city": "Cambridge",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 18588,
+      "pct_non_hispanic_white": 0.4887,
+      "pct_non_hispanic_black": 0.1055,
+      "pct_non_hispanic_asian": 0.2308,
+      "pct_hispanic": 0.1156,
+      "pct_non_hispanic_native": 0.0016,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0094,
+      "pct_non_hispanic_multiracial": 0.048,
+      "pct_other_combined": 0.0594
+    }
+  },
+  {
+    "area_id": 11585,
+    "label": "Industrial",
+    "grade": NaN,
+    "category": "Industrial",
+    "city": "Chelsea",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 3061,
+      "pct_non_hispanic_white": 0.2955,
+      "pct_non_hispanic_black": 0.0689,
+      "pct_non_hispanic_asian": 0.0414,
+      "pct_hispanic": 0.5545,
+      "pct_non_hispanic_native": 0.0012,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0123,
+      "pct_non_hispanic_multiracial": 0.0262,
+      "pct_other_combined": 0.0397
+    }
+  },
+  {
+    "area_id": 11586,
+    "label": "Industrial",
+    "grade": NaN,
+    "category": "Industrial",
+    "city": "Everett",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 992,
+      "pct_non_hispanic_white": 0.3844,
+      "pct_non_hispanic_black": 0.1042,
+      "pct_non_hispanic_asian": 0.1096,
+      "pct_hispanic": 0.2909,
+      "pct_non_hispanic_native": 0.001,
+      "pct_non_hispanic_pacific": 0.0004,
+      "pct_non_hispanic_other": 0.0408,
+      "pct_non_hispanic_multiracial": 0.0688,
+      "pct_other_combined": 0.1109
+    }
+  },
+  {
+    "area_id": 11587,
+    "label": "Commercial",
+    "grade": NaN,
+    "category": "Commercial",
+    "city": "Lexington",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 54,
+      "pct_non_hispanic_white": 0.6028,
+      "pct_non_hispanic_black": 0.0097,
+      "pct_non_hispanic_asian": 0.2975,
+      "pct_hispanic": 0.0343,
+      "pct_non_hispanic_native": 0.0004,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0068,
+      "pct_non_hispanic_multiracial": 0.0486,
+      "pct_other_combined": 0.0557
+    }
+  },
+  {
+    "area_id": 11588,
+    "label": "Commercial",
+    "grade": NaN,
+    "category": "Commercial",
+    "city": "Malden",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 870,
+      "pct_non_hispanic_white": 0.3134,
+      "pct_non_hispanic_black": 0.1004,
+      "pct_non_hispanic_asian": 0.4335,
+      "pct_hispanic": 0.0714,
+      "pct_non_hispanic_native": 0.0011,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.024,
+      "pct_non_hispanic_multiracial": 0.0561,
+      "pct_other_combined": 0.0813
+    }
+  },
+  {
+    "area_id": 11589,
+    "label": "Industrial",
+    "grade": NaN,
+    "category": "Industrial",
+    "city": "Malden",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1211,
+      "pct_non_hispanic_white": 0.3469,
+      "pct_non_hispanic_black": 0.0914,
+      "pct_non_hispanic_asian": 0.4107,
+      "pct_hispanic": 0.0702,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0263,
+      "pct_non_hispanic_multiracial": 0.0539,
+      "pct_other_combined": 0.0809
+    }
+  },
+  {
+    "area_id": 11590,
+    "label": "Industrial",
+    "grade": NaN,
+    "category": "Industrial",
+    "city": "Medford",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 365,
+      "pct_non_hispanic_white": 0.5031,
+      "pct_non_hispanic_black": 0.0357,
+      "pct_non_hispanic_asian": 0.3419,
+      "pct_hispanic": 0.0647,
+      "pct_non_hispanic_native": 0.0015,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0147,
+      "pct_non_hispanic_multiracial": 0.0383,
+      "pct_other_combined": 0.0545
+    }
+  },
+  {
+    "area_id": 11591,
+    "label": "Industrial",
+    "grade": NaN,
+    "category": "Industrial",
+    "city": "Newton",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 968,
+      "pct_non_hispanic_white": 0.6438,
+      "pct_non_hispanic_black": 0.0285,
+      "pct_non_hispanic_asian": 0.1712,
+      "pct_hispanic": 0.0867,
+      "pct_non_hispanic_native": 0.0008,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0156,
+      "pct_non_hispanic_multiracial": 0.0533,
+      "pct_other_combined": 0.0698
+    }
+  },
+  {
+    "area_id": 11592,
+    "label": "Industrial",
+    "grade": NaN,
+    "category": "Industrial",
+    "city": "Somerville",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 4151,
+      "pct_non_hispanic_white": 0.553,
+      "pct_non_hispanic_black": 0.0517,
+      "pct_non_hispanic_asian": 0.1734,
+      "pct_hispanic": 0.1254,
+      "pct_non_hispanic_native": 0.0001,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.022,
+      "pct_non_hispanic_multiracial": 0.0743,
+      "pct_other_combined": 0.0965
+    }
+  },
+  {
+    "area_id": 11593,
+    "label": "Commercial",
+    "grade": NaN,
+    "category": "Commercial",
+    "city": "Waltham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 335,
+      "pct_non_hispanic_white": 0.4879,
+      "pct_non_hispanic_black": 0.0608,
+      "pct_non_hispanic_asian": 0.1404,
+      "pct_hispanic": 0.2697,
+      "pct_non_hispanic_native": 0.0035,
+      "pct_non_hispanic_pacific": 0.0,
+      "pct_non_hispanic_other": 0.0056,
+      "pct_non_hispanic_multiracial": 0.0322,
+      "pct_other_combined": 0.0412
+    }
+  },
+  {
+    "area_id": 11594,
+    "label": "Industrial",
+    "grade": NaN,
+    "category": "Industrial",
+    "city": "Waltham",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1699,
+      "pct_non_hispanic_white": 0.519,
+      "pct_non_hispanic_black": 0.0839,
+      "pct_non_hispanic_asian": 0.1282,
+      "pct_hispanic": 0.2213,
+      "pct_non_hispanic_native": 0.0012,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0109,
+      "pct_non_hispanic_multiracial": 0.0352,
+      "pct_other_combined": 0.0476
+    }
+  },
+  {
+    "area_id": 11595,
+    "label": "Commercial",
+    "grade": NaN,
+    "category": "Commercial",
+    "city": "Watertown",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 86,
+      "pct_non_hispanic_white": 0.7016,
+      "pct_non_hispanic_black": 0.0407,
+      "pct_non_hispanic_asian": 0.0836,
+      "pct_hispanic": 0.0974,
+      "pct_non_hispanic_native": 0.0005,
+      "pct_non_hispanic_pacific": 0.0002,
+      "pct_non_hispanic_other": 0.0186,
+      "pct_non_hispanic_multiracial": 0.0574,
+      "pct_other_combined": 0.0767
+    }
+  },
+  {
+    "area_id": 11596,
+    "label": "Industrial",
+    "grade": NaN,
+    "category": "Industrial",
+    "city": "Watertown",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 1494,
+      "pct_non_hispanic_white": 0.7051,
+      "pct_non_hispanic_black": 0.0397,
+      "pct_non_hispanic_asian": 0.1082,
+      "pct_hispanic": 0.0799,
+      "pct_non_hispanic_native": 0.0009,
+      "pct_non_hispanic_pacific": 0.0001,
+      "pct_non_hispanic_other": 0.016,
+      "pct_non_hispanic_multiracial": 0.0501,
+      "pct_other_combined": 0.0671
+    }
+  },
+  {
+    "area_id": 11597,
+    "label": "Commercial",
+    "grade": NaN,
+    "category": "Commercial",
+    "city": "Winchester",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 158,
+      "pct_non_hispanic_white": 0.8158,
+      "pct_non_hispanic_black": 0.0068,
+      "pct_non_hispanic_asian": 0.0953,
+      "pct_hispanic": 0.033,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0003,
+      "pct_non_hispanic_other": 0.0069,
+      "pct_non_hispanic_multiracial": 0.0418,
+      "pct_other_combined": 0.049
+    }
+  },
+  {
+    "area_id": 11598,
+    "label": "Industrial",
+    "grade": NaN,
+    "category": "Industrial",
+    "city": "Winchester",
+    "state": "MA",
+    "stats": {
+      "total_population_2020": 424,
+      "pct_non_hispanic_white": 0.602,
+      "pct_non_hispanic_black": 0.0235,
+      "pct_non_hispanic_asian": 0.2847,
+      "pct_hispanic": 0.0342,
+      "pct_non_hispanic_native": 0.0,
+      "pct_non_hispanic_pacific": 0.0005,
+      "pct_non_hispanic_other": 0.0125,
+      "pct_non_hispanic_multiracial": 0.0427,
+      "pct_other_combined": 0.0556
+    }
+  }
+]
