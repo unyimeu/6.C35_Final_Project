@@ -2,7 +2,7 @@ export const scenes = [
   {
     id: 1,
     year: "1938",
-    label: "SCENE 01",
+    label: "HISTORICAL EVENT 1",
     title: "The Map Appears",
     policy: "HOLC Residential Security Maps",
     body: "In 1938, federal agents surveyed every Boston neighborhood and assigned it a color: green, blue, yellow, or red. The color determined who could get a loan. Wherever Black families lived, the grade was D: Hazardous.",
@@ -22,7 +22,7 @@ export const scenes = [
   {
     id: 2,
     year: "1934–1950s",
-    label: "SCENE 02",
+    label: "HISTORICAL EVENT 2",
     title: "The Grade Becomes Policy",
     policy: "FHA Underwriting Manual",
     body: "The Federal Housing Administration didn't just observe segregation, it funded it. The FHA refused to insure mortgages in or near Black neighborhoods from day one of its operations. Federally-backed loans flooded green neighborhoods. Red neighborhoods got almost nothing.",
@@ -45,7 +45,7 @@ export const scenes = [
   {
     id: 3,
     year: "1944–1960s",
-    label: "SCENE 03",
+    label: "HISTORICAL EVENT 3",
     title: "The Loans Build the Suburbs",
     policy: "GI Bill Servicemen's Readjustment Act of 1944",
     body: "After WWII, the GI Bill promised every veteran a home. White veterans moved to newly built suburbs, accumulating wealth. Black veterans were turned away by the same maps, locked in the redlined core, denied the postwar boom.",
@@ -68,7 +68,7 @@ export const scenes = [
   {
     id: 4,
     year: "1947–1964",
-    label: "SCENE 04",
+    label: "HISTORICAL EVENT 4",
     title: "Transit Follows the Money",
     policy: "MTA / MBTA Formation",
     body: "Transit expansion followed investment. The MTA and then the MBTA, formed in 1964 to serve 78 municipalities, prioritized the suburbs being built for white families. The redlined urban core received aging infrastructure and bus replacements. The Orange Line elevated through Roxbury was already being eyed for removal.",
@@ -89,7 +89,7 @@ export const scenes = [
   {
     id: 5,
     year: "1950s–1972",
-    label: "SCENE 05",
+    label: "HISTORICAL EVENT 5",
     title: "Urban Renewal and the Highway That Never Came",
     policy: "Federal Urban Renewal Program + I-95 Southwest Corridor",
     body: "What redlining starved, urban renewal demolished. Roxbury was cleared for a highway that was never built. The Orange Line was eventually rerouted away from Dudley Square, the commercial heart of Black Boston, into a corridor carved out by the cancelled freeway.",
