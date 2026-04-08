@@ -2,6 +2,7 @@
   import { onMount, createEventDispatcher } from "svelte";
   import maplibregl from "maplibre-gl";
   import "maplibre-gl/dist/maplibre-gl.css";
+  import { base } from '$app/paths';
 
   export let expanded = false;
   export let activeScene = 1;
@@ -64,7 +65,7 @@
 
   onMount(async () => {
     try {
-      const response = await fetch("/data/redlining.geojson");
+      const response = await fetch(`${base}/data/redlining.geojson`);
       if (!response.ok) {
         throw new Error(`Failed to fetch GeoJSON: ${response.status}`);
       }

@@ -3,6 +3,7 @@
   import RedliningMap from "$lib/RedliningMap.svelte";
   import Flashcard from "$lib/Flashcard.svelte";
   import { scenes } from "$lib/scenes.js";
+  import { base } from '$app/paths';
 
   let activeScene = 1;
   let stepEls = [];
@@ -37,7 +38,7 @@
   }
   onMount(async () => {
     try {
-      const statsRes = await fetch("/data/districtStats.json");
+      const statsRes = await fetch(`${base}/data/districtStats.json`);
 
       if (!statsRes.ok) {
         throw new Error(`Failed to load districtStats.json: ${statsRes.status}`);
