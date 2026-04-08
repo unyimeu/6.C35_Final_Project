@@ -13,6 +13,11 @@ export const scenes = [
       "https://www.bostonpoliticalreview.org/post/redlining-in-boston-how-the-architects-of-the-past-have-shaped-boston-s-future",
     stat: null,
     visual: null, // placeholder: HOLC map hover interaction
+    image: {
+    src: "/static/images/rox_before.png",
+    alt: "HOLC redlining map of Boston",
+    caption: "Boston HOLC residential security map"
+
   },
   {
     id: 2,
