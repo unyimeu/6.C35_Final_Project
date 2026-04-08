@@ -417,7 +417,7 @@
             {/if}
 
             <figure class="scene-visual">
-              <img src={scene.visual.src} alt={scene.visual.alt} />
+              <img src="{base}{scene.visual.src}" alt={scene.visual.alt} />
               {#if scene.visual.caption}
                 <figcaption>{scene.visual.caption}</figcaption>
               {/if}
