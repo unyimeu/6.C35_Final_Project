@@ -117,6 +117,10 @@
       REDLINING ON<br />
       MBTA DEVELOPMENT
     </h1>
+    <p class="hero-dek">
+      A historical timeline showing how redlining history still shapes who can
+      ride the T today.
+    </p>
     <p class="authors">
       Isa de Luis &nbsp;&nbsp; Unyi Usua &nbsp;&nbsp; Rodrigo Gallardo
     </p>
@@ -134,6 +138,7 @@
   <div class="map-sticky-wrapper">
     <div class="map-frame">
       <div class="map-label">BOSTON, 1938</div>
+      <h2 class="map-title">HOLC Grades for Greater Boston</h2>
       <div class="map-container">
         <RedliningMap
           {activeScene}
@@ -180,7 +185,43 @@
           }}
         />
       </div>
-      <div class="map-caption">HOLC Residential Security Map</div>
+
+      <div class="map-legend">
+        <div class="legend-title">HOLC Grades</div>
+        <div class="legend-items">
+          <div class="legend-item">
+            <span class="legend-swatch" style="background: #76a865;"></span>
+            <span class="legend-label"><strong>A</strong> — Best</span>
+          </div>
+          <div class="legend-item">
+            <span class="legend-swatch" style="background: #7cb5bd;"></span>
+            <span class="legend-label"
+              ><strong>B</strong> — Still Desirable</span
+            >
+          </div>
+          <div class="legend-item">
+            <span class="legend-swatch" style="background: #ffff00;"></span>
+            <span class="legend-label"
+              ><strong>C</strong> — Definitely Declining</span
+            >
+          </div>
+          <div class="legend-item">
+            <span class="legend-swatch" style="background: #d9534f;"></span>
+            <span class="legend-label"><strong>D</strong> — Hazardous</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="map-caption">
+        HOLC Residential Security Map · Home Owners' Loan Corporation, 1935–1940
+        · Digitized by
+        <a
+          href="https://dsl.richmond.edu/panorama/redlining/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Mapping Inequality, University of Richmond</a
+        >
+      </div>
     </div>
 
     <div class="scene-indicator">
@@ -582,6 +623,69 @@
     letter-spacing: 0.16em;
     text-transform: uppercase;
     color: #b0a898;
+    line-height: 1.6;
+  }
+
+  .map-caption a {
+    color: #8a9ba8;
+    text-decoration: underline;
+    text-decoration-color: rgba(138, 155, 168, 0.4);
+    transition: color 0.2s;
+  }
+
+  .map-caption a:hover {
+    color: #c9956b;
+  }
+
+  .map-legend {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 0.7rem 0.85rem;
+    background: #ede7dc;
+    border: 1px solid #d4cbbf;
+    margin-top: 0.5rem;
+  }
+
+  .legend-title {
+    font-family: "League Spartan", sans-serif;
+    font-size: 0.58rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #1a2e3b;
+    font-weight: 700;
+  }
+
+  .legend-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.35rem 0.85rem;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .legend-swatch {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #1a2e3b;
+    flex-shrink: 0;
+  }
+
+  .legend-label {
+    font-family: system-ui, sans-serif;
+    font-size: 0.75rem;
+    color: #4a5560;
+    line-height: 1.2;
+  }
+
+  .legend-label strong {
+    color: #1a2e3b;
+    margin-right: 0.15rem;
   }
 
   .scene-indicator {
@@ -1095,5 +1199,25 @@
     text-transform: uppercase;
     color: #8a9ba8;
     margin-top: 0.5rem;
+  }
+
+  .hero-dek {
+    font-family: "Georgia", serif;
+    font-size: clamp(1.1rem, 1.6vw, 1.45rem);
+    line-height: 1.4;
+    font-style: italic;
+    color: #4a5560;
+    max-width: 640px;
+    margin: -1rem 0 2.5rem 0;
+  }
+  .map-title {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 900;
+    font-size: clamp(1.4rem, 2vw, 1.9rem);
+    line-height: 1;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #1a2e3b;
+    margin: 0.2rem 0 0.3rem 0;
   }
 </style>
