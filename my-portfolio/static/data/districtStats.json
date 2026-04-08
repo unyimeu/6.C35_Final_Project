@@ -5002,7 +5002,7 @@
   {
     "area_id": 10592,
     "label": "Business & Industrial",
-    "grade": NaN,
+    "grade": null,
     "category": "Business and Industrial",
     "city": "Lynn",
     "state": "MA",
@@ -5842,7 +5842,7 @@
   {
     "area_id": 11062,
     "label": "Business and Industrial",
-    "grade": NaN,
+    "grade": null,
     "category": "Business and Industrial",
     "city": "Salem",
     "state": "MA",
@@ -5862,7 +5862,7 @@
   {
     "area_id": 11412,
     "label": "Commercial",
-    "grade": NaN,
+    "grade": null,
     "category": "Commercial",
     "city": "Braintree",
     "state": "MA",
@@ -5882,7 +5882,7 @@
   {
     "area_id": 11581,
     "label": "Commercial",
-    "grade": NaN,
+    "grade": null,
     "category": "Commercial",
     "city": "Arlington",
     "state": "MA",
@@ -5902,7 +5902,7 @@
   {
     "area_id": 11582,
     "label": "Commercial",
-    "grade": NaN,
+    "grade": null,
     "category": "Commercial",
     "city": "Boston",
     "state": "MA",
@@ -5922,7 +5922,7 @@
   {
     "area_id": 11583,
     "label": "Industrial",
-    "grade": NaN,
+    "grade": null,
     "category": "Industrial",
     "city": "Boston",
     "state": "MA",
@@ -5942,7 +5942,7 @@
   {
     "area_id": 11584,
     "label": "Industrial",
-    "grade": NaN,
+    "grade": null,
     "category": "Industrial",
     "city": "Cambridge",
     "state": "MA",
@@ -5962,7 +5962,7 @@
   {
     "area_id": 11585,
     "label": "Industrial",
-    "grade": NaN,
+    "grade": null,
     "category": "Industrial",
     "city": "Chelsea",
     "state": "MA",
@@ -5982,7 +5982,7 @@
   {
     "area_id": 11586,
     "label": "Industrial",
-    "grade": NaN,
+    "grade": null,
     "category": "Industrial",
     "city": "Everett",
     "state": "MA",
@@ -6002,7 +6002,7 @@
   {
     "area_id": 11587,
     "label": "Commercial",
-    "grade": NaN,
+    "grade": null,
     "category": "Commercial",
     "city": "Lexington",
     "state": "MA",
@@ -6022,7 +6022,7 @@
   {
     "area_id": 11588,
     "label": "Commercial",
-    "grade": NaN,
+    "grade": null,
     "category": "Commercial",
     "city": "Malden",
     "state": "MA",
@@ -6042,7 +6042,7 @@
   {
     "area_id": 11589,
     "label": "Industrial",
-    "grade": NaN,
+    "grade": null,
     "category": "Industrial",
     "city": "Malden",
     "state": "MA",
@@ -6062,7 +6062,7 @@
   {
     "area_id": 11590,
     "label": "Industrial",
-    "grade": NaN,
+    "grade": null,
     "category": "Industrial",
     "city": "Medford",
     "state": "MA",
@@ -6082,7 +6082,7 @@
   {
     "area_id": 11591,
     "label": "Industrial",
-    "grade": NaN,
+    "grade": null,
     "category": "Industrial",
     "city": "Newton",
     "state": "MA",
@@ -6102,7 +6102,7 @@
   {
     "area_id": 11592,
     "label": "Industrial",
-    "grade": NaN,
+    "grade": null,
     "category": "Industrial",
     "city": "Somerville",
     "state": "MA",
@@ -6122,7 +6122,7 @@
   {
     "area_id": 11593,
     "label": "Commercial",
-    "grade": NaN,
+    "grade": null,
     "category": "Commercial",
     "city": "Waltham",
     "state": "MA",
@@ -6142,7 +6142,7 @@
   {
     "area_id": 11594,
     "label": "Industrial",
-    "grade": NaN,
+    "grade": null,
     "category": "Industrial",
     "city": "Waltham",
     "state": "MA",
@@ -6162,7 +6162,7 @@
   {
     "area_id": 11595,
     "label": "Commercial",
-    "grade": NaN,
+    "grade": null,
     "category": "Commercial",
     "city": "Watertown",
     "state": "MA",
@@ -6182,7 +6182,7 @@
   {
     "area_id": 11596,
     "label": "Industrial",
-    "grade": NaN,
+    "grade": null,
     "category": "Industrial",
     "city": "Watertown",
     "state": "MA",
@@ -6202,7 +6202,7 @@
   {
     "area_id": 11597,
     "label": "Commercial",
-    "grade": NaN,
+    "grade": null,
     "category": "Commercial",
     "city": "Winchester",
     "state": "MA",
@@ -6222,7 +6222,7 @@
   {
     "area_id": 11598,
     "label": "Industrial",
-    "grade": NaN,
+    "grade": null,
     "category": "Industrial",
     "city": "Winchester",
     "state": "MA",
