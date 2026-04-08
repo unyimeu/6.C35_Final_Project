@@ -1,9 +1,9 @@
 <script>
-  import { onMount } from "svelte";
+  import { onMount, tick } from "svelte";
   import RedliningMap from "$lib/RedliningMap.svelte";
   import Flashcard from "$lib/Flashcard.svelte";
   import { scenes } from "$lib/scenes.js";
-  import { base } from '$app/paths';
+  import { base } from "$app/paths";
 
   let activeScene = 1;
   let stepEls = [];
@@ -13,13 +13,14 @@
   let selectedDistrict = null;
   let comparisonDistrict = null;
   let compareMode = false;
+  let savedScrollY = 0;
 
   const demographicFields = [
     { key: "pct_non_hispanic_white", label: "Non-Hispanic White" },
     { key: "pct_non_hispanic_black", label: "Non-Hispanic Black" },
     { key: "pct_non_hispanic_asian", label: "Non-Hispanic Asian" },
     { key: "pct_hispanic", label: "Hispanic" },
-    { key: "pct_other_combined", label: "Other / multiracial" }
+    { key: "pct_other_combined", label: "Other / multiracial" },
   ];
 
   function pct(value) {
@@ -36,25 +37,27 @@
     comparisonDistrict = null;
     compareMode = false;
   }
+  let sceneObserver;
+  let animObserver;
+
   onMount(async () => {
     try {
       const statsRes = await fetch(`${base}/data/districtStats.json`);
-
       if (!statsRes.ok) {
-        throw new Error(`Failed to load districtStats.json: ${statsRes.status}`);
+        throw new Error(
+          `Failed to load districtStats.json: ${statsRes.status}`,
+        );
       }
-
       const statsJson = await statsRes.json();
-
       districtStats = Object.fromEntries(
-        statsJson.map((d) => [String(d.area_id), d])
+        statsJson.map((d) => [String(d.area_id), d]),
       );
     } catch (err) {
       console.error("Could not load district stats:", err);
       districtStats = {};
     }
 
-    const sceneObserver = new IntersectionObserver(
+    sceneObserver = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
@@ -62,10 +65,10 @@
           }
         });
       },
-      { threshold: 0.45 }
+      { threshold: 0.45 },
     );
 
-    const animObserver = new IntersectionObserver(
+    animObserver = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           const id = Number(entry.target.dataset.scene);
@@ -77,21 +80,32 @@
           }
         });
       },
-      { threshold: 0.15 }
+      { threshold: 0.15 },
     );
 
-    stepEls.forEach((el) => {
-      if (el) {
-        sceneObserver.observe(el);
-        animObserver.observe(el);
-      }
-    });
-
     return () => {
-      sceneObserver.disconnect();
-      animObserver.disconnect();
+      sceneObserver?.disconnect();
+      animObserver?.disconnect();
     };
   });
+
+  // we want to re-observe the
+  // samme panels whenever they get (re)mounted after returning to timeline
+  $: if (sceneObserver && animObserver && !selectedDistrict) {
+
+    tick().then(() => {
+      stepEls.forEach((el) => {
+        if (el) {
+          sceneObserver.observe(el);
+          animObserver.observe(el);
+        }
+      });
+      if (savedScrollY > 0) {
+        window.scrollTo({ top: savedScrollY, behavior: "instant" });
+        savedScrollY = 0;
+      }
+    });
+  }
 </script>
 
 <!-- HERO -->
@@ -123,44 +137,49 @@
       <div class="map-label">BOSTON, 1938</div>
       <div class="map-container">
         <RedliningMap
-        {activeScene}
-        on:districtSelect={(e) => {
-          const district = e.detail;
-          const statsRecord = districtStats[String(district.id)] ?? null;
+          {activeScene}
+          on:districtSelect={(e) => {
+            // save scroll position before swapping views (only when entering from timeline)
+            if (!selectedDistrict) {
+              savedScrollY = window.scrollY;
+            }
 
-          const hydratedDistrict = {
-            ...district,
-            stats: statsRecord?.stats ?? null
-          };
+            const district = e.detail;
+            const statsRecord = districtStats[String(district.id)] ?? null;
 
-          // normal mode: one selected district only
-          if (!compareMode) {
-            selectedDistrict = hydratedDistrict;
-            comparisonDistrict = null;
-            return;
-          }
+            const hydratedDistrict = {
+              ...district,
+              stats: statsRecord?.stats ?? null,
+            };
 
-          // compare mode: fill first slot if empty
-          if (!selectedDistrict) {
-            selectedDistrict = hydratedDistrict;
-            return;
-          }
+            // normal mode: one selected district only
+            if (!compareMode) {
+              selectedDistrict = hydratedDistrict;
+              comparisonDistrict = null;
+              return;
+            }
 
-          // ignore clicking the same district again
-          if (selectedDistrict.id === hydratedDistrict.id) {
-            return;
-          }
+            // compare mode: fill first slot if empty
+            if (!selectedDistrict) {
+              selectedDistrict = hydratedDistrict;
+              return;
+            }
 
-          // fill second slot if empty
-          if (!comparisonDistrict) {
+            // ignore clicking the same district again
+            if (selectedDistrict.id === hydratedDistrict.id) {
+              return;
+            }
+
+            // fill second slot if empty
+            if (!comparisonDistrict) {
+              comparisonDistrict = hydratedDistrict;
+              return;
+            }
+
+            // if both already filled, replace only the second district
             comparisonDistrict = hydratedDistrict;
-            return;
-          }
-
-          // if both already filled, replace only the second district
-          comparisonDistrict = hydratedDistrict;
-        }}
-      />
+          }}
+        />
       </div>
       <div class="map-caption">HOLC Residential Security Map</div>
     </div>
@@ -178,10 +197,8 @@
     </div>
   </div>
 
-<!-- Right: scrolling panels OR district details -->
+  <!-- Right: scrolling panels OR district details -->
   <div class="scroll-panels">
-    
-
     {#if compareMode && selectedDistrict}
       <div class="panel district-panel-live">
         <div class="panel-inner visible">
@@ -280,14 +297,15 @@
           </div>
         </div>
       </div>
-
     {:else if selectedDistrict}
       <div class="panel district-panel-live">
         <div class="panel-inner visible">
           <div class="panel-header">
             <span class="scene-label">SELECTED DISTRICT</span>
             <span class="scene-divider"></span>
-            <span class="scene-year">{selectedDistrict.city}, {selectedDistrict.state}</span>
+            <span class="scene-year"
+              >{selectedDistrict.city}, {selectedDistrict.state}</span
+            >
           </div>
 
           <div class="policy-tag">HOLC INTERACTIVE VIEW</div>
@@ -295,14 +313,16 @@
           <h2 class="panel-title">{selectedDistrict.neighborhood}</h2>
 
           <p class="panel-body">
-            <strong>HOLC Grade:</strong> {selectedDistrict.grade}
+            <strong>HOLC Grade:</strong>
+            {selectedDistrict.grade}
           </p>
 
           {#if selectedDistrict.stats}
             <div class="single-bars">
               {#if selectedDistrict.stats.total_population_2020 != null}
                 <p class="panel-body">
-                  <strong>Total population:</strong> {comma(selectedDistrict.stats.total_population_2020)}
+                  <strong>Total population:</strong>
+                  {comma(selectedDistrict.stats.total_population_2020)}
                 </p>
               {/if}
 
@@ -322,7 +342,9 @@
               {/each}
             </div>
           {:else}
-            <p class="panel-body">No demographic summary found for this district.</p>
+            <p class="panel-body">
+              No demographic summary found for this district.
+            </p>
           {/if}
 
           <div class="panel-actions">
@@ -349,11 +371,12 @@
           </div>
         </div>
       </div>
-
     {:else}
       {#each scenes as scene, i}
         <div class="panel" bind:this={stepEls[i]} data-scene={scene.id}>
-          <div class="panel-inner {visibleScenes.has(scene.id) ? 'visible' : ''}">
+          <div
+            class="panel-inner {visibleScenes.has(scene.id) ? 'visible' : ''}"
+          >
             <div class="panel-header">
               <span class="scene-label">{scene.label}</span>
               <span class="scene-divider"></span>
@@ -393,7 +416,9 @@
             <div class="visual-placeholder">
               <div class="placeholder-inner">
                 <span class="placeholder-icon">◈</span>
-                <span class="placeholder-text">DATA VISUALIZATION — COMING SOON</span>
+                <span class="placeholder-text"
+                  >DATA VISUALIZATION — COMING SOON</span
+                >
               </div>
             </div>
           </div>
@@ -875,8 +900,8 @@
   }
 
   .district-panel-live {
-  min-height: 100vh;
-}
+    min-height: 100vh;
+  }
 
   .district-stats-card {
     display: flex;
@@ -919,8 +944,8 @@
   }
 
   .district-panel-live .panel-inner > * {
-  opacity: 1;
-  transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 
   .panel-actions {
@@ -951,7 +976,6 @@
     background: rgba(201, 149, 107, 0.08);
   }
 
- 
   .single-bars,
   .compare-bars {
     max-width: 520px;
