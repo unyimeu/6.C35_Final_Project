@@ -88,6 +88,9 @@
           class="indicator-dot {activeScene === scene.id ? 'active' : ''}"
           aria-label="Scene {scene.id}"
         ></button>
+        <span class="scene-year-dot {activeScene === scene.id ? 'active' : ''}"
+          >{scene.year}</span
+        >
       {/each}
     </div>
   </div>
@@ -332,6 +335,11 @@
     transform: scale(1.5);
   }
 
+  .scene-year-dot.active {
+    color: #c9956b;
+    font-weight: 700;
+  }
+
   /* SCROLL PANELS */
   .scroll-panels {
     width: 50%;
@@ -401,17 +409,27 @@
   .panel-header {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: 1rem;
     margin-bottom: 1rem;
   }
 
   .scene-label {
     font-family: "League Spartan", sans-serif;
-    font-size: 0.63rem;
+    font-size: 2rem;
     letter-spacing: 0.3em;
     text-transform: uppercase;
     color: #c9956b;
     font-weight: 700;
+  }
+
+  .scene-year-dot {
+    font-family: "League Spartan", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #8a9ba8;
+
+    transition: color 0.3s ease;
   }
 
   .scene-divider {
