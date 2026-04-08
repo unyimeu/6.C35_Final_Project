@@ -12,9 +12,8 @@ export const scenes = [
     sourceUrl:
       "https://www.bostonpoliticalreview.org/post/redlining-in-boston-how-the-architects-of-the-past-have-shaped-boston-s-future",
     stat: null,
-    visual: null, // placeholder: HOLC map hover interaction
-    image: {
-      src: "/static/images/rox_before.png",
+    visual: {
+      src: "/images/rox_before.png",
       alt: "Roxbury before redlining",
       caption: "Roxbury Before Redlining",
     },
@@ -35,9 +34,8 @@ export const scenes = [
     statSource: "Federal Reserve Bank of Chicago",
     statSourceUrl:
       "https://www.chicagofed.org/research/content-areas/mobility/policy-brief-federal-housing-programs-redlining",
-    visual: null, // placeholder: loan distribution bar chart by district grade
-    image: {
-      src: "/static/images/underwriting_manual.png",
+    visual: {
+      src: "/images/underweriting_manual.png",
       alt: "Underwwriting Manual excerpt",
       caption: "Underwriting Manual excerpt",
     },
@@ -58,9 +56,8 @@ export const scenes = [
     statSource: "Brandeis University Institute for Economic and Racial Equity",
     statSourceUrl:
       "https://heller.brandeis.edu/news/items/releases/2023/impact-report-gi-bill.html",
-    visual: null, // placeholder: wealth gap / population shift animation
-    image: {
-      src: "/static/images/levitown.png",
+    visual: {
+      src: "/images/levittown.png",
       alt: "Levitown suburb",
       caption: "Levitown suburb built with GI Bill loans",
     },
@@ -79,9 +76,8 @@ export const scenes = [
     stat: "The MBTA was voted into law on August 3, 1964, the first combined regional transit system in the U.S., serving 78 municipalities.",
     statSource: "MBTA The History of the T",
     statSourceUrl: "https://www.mbta.com/history",
-    visual: null, // placeholder: transit lines toggle 1940 vs 1964
-    image: {
-      src: "/static/images/mbta.png",
+    visual: {
+      src: "/images/MBTA.png",
       alt: "MBTA transit system",
       caption: "MBTA transit system serving 78 municipalities",
     },
@@ -102,9 +98,8 @@ export const scenes = [
     stat: "Construction of I-95 into Boston was cancelled in 1972, but the land through Roxbury had already been cleared.",
     statSource: "Orange Line Wikipedia",
     statSourceUrl: "https://en.wikipedia.org/wiki/Orange_Line_(MBTA)",
-    visual: null, // placeholder: highway overlay + aerial before/after + Orange Line reroute
-    image: {
-      src: "/static/images/i95.png",
+    visual: {
+      src: "/images/I95.png",
       alt: "I-95 Southwest Corridor",
       caption: "I-95 Southwest Corridor through Roxbury",
     },

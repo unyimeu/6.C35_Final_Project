@@ -92,7 +92,6 @@
   // we want to re-observe the
   // samme panels whenever they get (re)mounted after returning to timeline
   $: if (sceneObserver && animObserver && !selectedDistrict) {
-
     tick().then(() => {
       stepEls.forEach((el) => {
         if (el) {
@@ -390,7 +389,11 @@
             <blockquote class="panel-quote">
               <p>{scene.quote}</p>
               <footer>
-                <a href={scene.sourceUrl} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={scene.sourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   {scene.source} ↗
                 </a>
               </footer>
@@ -413,14 +416,12 @@
               </div>
             {/if}
 
-            <div class="visual-placeholder">
-              <div class="placeholder-inner">
-                <span class="placeholder-icon">◈</span>
-                <span class="placeholder-text"
-                  >DATA VISUALIZATION — COMING SOON</span
-                >
-              </div>
-            </div>
+            <figure class="scene-visual">
+              <img src={scene.visual.src} alt={scene.visual.alt} />
+              {#if scene.visual.caption}
+                <figcaption>{scene.visual.caption}</figcaption>
+              {/if}
+            </figure>
           </div>
         </div>
       {/each}
@@ -1069,5 +1070,30 @@
   .compare-bar-value {
     font-size: 0.85rem;
     color: #4a5560;
+  }
+
+  .panel-inner.visible .scene-visual {
+    animation: floatIn 0.6s ease forwards 0.54s;
+  }
+
+  .scene-visual {
+    margin: 0.5rem 0 0 0;
+    max-width: 360px;
+  }
+
+  .scene-visual img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #c8bfb4;
+  }
+
+  .scene-visual figcaption {
+    font-family: "League Spartan", sans-serif;
+    font-size: 0.58rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #8a9ba8;
+    margin-top: 0.5rem;
   }
 </style>
