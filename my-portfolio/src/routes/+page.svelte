@@ -225,14 +225,17 @@
     </div>
 
     <div class="scene-indicator">
-      {#each scenes as scene}
+      {#each scenes as scene, i}
         <button
-          class="indicator-dot {activeScene === scene.id ? 'active' : ''}"
-          aria-label="Scene {scene.id}"
-        ></button>
-        <span class="scene-year-dot {activeScene === scene.id ? 'active' : ''}"
-          >{scene.year}</span
+          class="scene-step {activeScene === scene.id ? 'active' : ''}"
+          aria-label="Jump to scene {scene.id}: {scene.year}"
+          on:click={() => {
+            stepEls[i]?.scrollIntoView({ behavior: "smooth", block: "center" });
+          }}
         >
+          <span class="indicator-dot"></span>
+          <span class="scene-year-dot">{scene.year}</span>
+        </button>
       {/each}
     </div>
   </div>
@@ -690,29 +693,78 @@
 
   .scene-indicator {
     display: flex;
-    gap: 0.55rem;
+    gap: 0.25rem;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .scene-step {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background: transparent;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    font: inherit;
+    transition:
+      background 0.2s ease,
+      transform 0.2s ease;
+  }
+
+  .scene-step:hover {
+    background: rgba(201, 149, 107, 0.12);
+  }
+
+  .scene-step:hover .indicator-dot {
+    background: #c9956b;
+    transform: scale(1.3);
+  }
+
+  .scene-step:hover .scene-year-dot {
+    color: #1a2e3b;
+  }
+
+  .scene-step:focus-visible {
+    outline: 2px solid #c9956b;
+    outline-offset: 2px;
+  }
+
+  .scene-step.active {
+    background: rgba(201, 149, 107, 0.18);
   }
 
   .indicator-dot {
-    width: 7px;
-    height: 7px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
-    background: #d4cbbf;
-    border: none;
-    padding: 0;
-    cursor: pointer;
+    background: #c8bfb4;
+    border: 2px solid transparent;
     transition:
       background 0.3s ease,
-      transform 0.3s ease;
+      transform 0.3s ease,
+      border-color 0.3s ease;
   }
 
-  .indicator-dot.active {
+  .scene-step.active .indicator-dot {
     background: #c9956b;
-    transform: scale(1.5);
+    transform: scale(1.4);
+    border-color: rgba(201, 149, 107, 0.3);
+    box-shadow: 0 0 0 4px rgba(201, 149, 107, 0.15);
   }
 
-  .scene-year-dot.active {
+  .scene-year-dot {
+    font-family: "League Spartan", sans-serif;
+    font-size: 0.85rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #8a9ba8;
+    transition: color 0.3s ease;
+  }
+
+  .scene-step.active .scene-year-dot {
     color: #c9956b;
     font-weight: 700;
   }
