@@ -19,7 +19,26 @@
     maxLat: 42.34,
   };
 
+  const RAPID_TRANSIT_ORDER = [
+    "Green-B",
+    "Green-C",
+    "Green-D",
+    "Green-E",
+    "Red",
+    "Mattapan",
+    "Blue",
+    "Orange",
+  ];
+
+  const REVEAL_GROUPS = [
+    ["Green-B", "Green-C", "Green-D", "Green-E"],
+    ["Red", "Mattapan"],
+    ["Blue"],
+    ["Orange"],
+  ];
+
   let geojsonData = null;
+  let mbtaData = null;
   let projection = null;
   let pathGenerator = null;
   let selectedId = null;
@@ -29,12 +48,14 @@
   let abGradeIds = new Set();
   let roxburyIds = new Set();
 
+  let mbtaPaths = [];
+
+  let visibleRouteIds = new Set();
 
   const fullViewBox = [0, 0, VIEW_W, VIEW_H];
   let currentViewBox = fullViewBox;
   let roxburyViewBox = fullViewBox;
   let viewBoxStr = `0 0 ${VIEW_W} ${VIEW_H}`;
-
 
   let rafId = null;
 
@@ -104,7 +125,6 @@
     return new Set();
   }
 
-  // Animated viewBox tween using d3-interpolate + requestAnimationFrame.
   function animateViewBox(target, duration = 1200) {
     if (rafId != null) {
       cancelAnimationFrame(rafId);
@@ -135,19 +155,68 @@
     rafId = requestAnimationFrame(frame);
   }
 
+  // Staggered reveal for scene 4: reveal one group at a time, 150ms apart.
+  // Scene 5 keeps all visible. Any earlier scene hides all.
+  let revealTimeouts = [];
+  function updateVisibleRoutes(scene) {
+    // Cancel any in-flight reveal animation from a previous scene change.
+    for (const t of revealTimeouts) clearTimeout(t);
+    revealTimeouts = [];
+
+    if (scene < 4) {
+      visibleRouteIds = new Set();
+      return;
+    }
+
+    if (scene === 5) {
+      visibleRouteIds = new Set(RAPID_TRANSIT_ORDER);
+      return;
+    }
+
+    // Scene 4: progressive reveal.
+    visibleRouteIds = new Set();
+    REVEAL_GROUPS.forEach((group, i) => {
+      const t = setTimeout(() => {
+        visibleRouteIds = new Set([...visibleRouteIds, ...group]);
+      }, i * 200);
+      revealTimeouts.push(t);
+    });
+  }
+
   onMount(async () => {
     try {
-      const response = await fetch(`${base}/data/redlining.geojson`);
-      if (!response.ok) {
-        throw new Error(`Failed to fetch GeoJSON: ${response.status}`);
+      const [holcRes, mbtaRes] = await Promise.all([
+        fetch(`${base}/data/redlining.geojson`),
+        fetch(`${base}/data/mbta_lines.geojson`),
+      ]);
+
+      if (!holcRes.ok) {
+        throw new Error(`Failed to fetch HOLC geojson: ${holcRes.status}`);
       }
-      geojsonData = await response.json();
+      geojsonData = await holcRes.json();
+
+      if (mbtaRes.ok) {
+        const rawMbta = await mbtaRes.json();
+        const allowed = new Set(RAPID_TRANSIT_ORDER);
+        mbtaData = {
+          type: "FeatureCollection",
+          features: rawMbta.features.filter(
+            (f) =>
+              f.properties?.network_id === "rapid_transit" &&
+              allowed.has(f.properties?.route_id),
+          ),
+        };
+      } else {
+        console.warn("MBTA geojson not found — transit overlay disabled.");
+        mbtaData = { type: "FeatureCollection", features: [] };
+      }
 
       projection = geoIdentity()
         .reflectY(true)
         .fitSize([VIEW_W, VIEW_H], geojsonData);
       pathGenerator = geoPath(projection);
 
+      // Precompute HOLC id sets for each scene highlight.
       for (const feature of geojsonData.features) {
         const id = feature.properties.area_id;
         const grade = feature.properties.grade;
@@ -162,17 +231,44 @@
       roxburyViewBox = viewBoxFor(roxburyFeatures, 60);
       currentViewBox = fullViewBox;
       viewBoxStr = `${fullViewBox[0]} ${fullViewBox[1]} ${fullViewBox[2]} ${fullViewBox[3]}`;
+
+      // Precompute MBTA path strings, sorted in RAPID_TRANSIT_ORDER so the
+      // render order is stable (Orange drawn last → on top).
+      const orderIndex = new Map(RAPID_TRANSIT_ORDER.map((id, i) => [id, i]));
+      mbtaPaths = mbtaData.features
+        .slice()
+        .sort(
+          (a, b) =>
+            (orderIndex.get(a.properties.route_id) ?? 999) -
+            (orderIndex.get(b.properties.route_id) ?? 999),
+        )
+        .map((f) => ({
+          route_id: f.properties.route_id,
+          route_name: f.properties.route_long_name,
+          color: f.properties.route_color
+            ? `#${f.properties.route_color.replace(/^#/, "")}`
+            : "#888888",
+          d: pathGenerator(f),
+        }));
+
+      updateVisibleRoutes(activeScene);
     } catch (err) {
       console.error("Map setup failed:", err);
     }
 
     return () => {
       if (rafId != null) cancelAnimationFrame(rafId);
+      for (const t of revealTimeouts) clearTimeout(t);
     };
   });
+
   $: if (pathGenerator) {
     const target = activeScene === 5 ? roxburyViewBox : fullViewBox;
     animateViewBox(target);
+  }
+
+  $: if (pathGenerator) {
+    updateVisibleRoutes(activeScene);
   }
 
   $: highlightIds = sceneHighlightIds(activeScene);
@@ -204,7 +300,7 @@
       role="img"
       aria-label="HOLC redlining map of Greater Boston"
     >
-      <!-- Base layer -->
+      <!-- Base layer: HOLC districts -->
       <g class="districts">
         {#each geojsonData.features as feature (feature.properties.area_id)}
           <path
@@ -232,6 +328,7 @@
         {/each}
       </g>
 
+      <!-- Scene highlight outlines (dark navy) -->
       <g class="scene-highlights" pointer-events="none">
         {#each geojsonData.features.filter( (f) => highlightIds.has(f.properties.area_id), ) as feature (feature.properties.area_id)}
           <path
@@ -245,6 +342,39 @@
         {/each}
       </g>
 
+      <g class="mbta-halos" pointer-events="none">
+        {#each mbtaPaths as line (line.route_id)}
+          <path
+            d={line.d}
+            fill="none"
+            stroke="#ffffff"
+            stroke-width="5"
+            stroke-linejoin="round"
+            stroke-linecap="round"
+            class="mbta-line"
+            class:visible={visibleRouteIds.has(line.route_id)}
+          />
+        {/each}
+      </g>
+
+      <g class="mbta-lines" pointer-events="none">
+        {#each mbtaPaths as line (line.route_id)}
+          <path
+            d={line.d}
+            fill="none"
+            stroke={line.color}
+            stroke-width="2.5"
+            stroke-linejoin="round"
+            stroke-linecap="round"
+            class="mbta-line"
+            class:visible={visibleRouteIds.has(line.route_id)}
+          >
+            <title>{line.route_name}</title>
+          </path>
+        {/each}
+      </g>
+
+      <!-- Selection highlight (on top of everything) -->
       {#if selectedId != null}
         {#each geojsonData.features.filter((f) => f.properties.area_id === selectedId) as feature}
           <path
@@ -306,5 +436,14 @@
 
   .scene-highlight-path {
     transition: opacity 0.6s ease;
+  }
+
+  .mbta-line {
+    opacity: 0;
+    transition: opacity 0.8s ease;
+  }
+
+  .mbta-line.visible {
+    opacity: 1;
   }
 </style>
